@@ -1,0 +1,3482 @@
+FID	IID	POP	REG	myREG	Color	PCH
+0	HG00096	gbr	eur	European	green	16
+0	HG00097	gbr	eur	European	green	16
+0	HG00099	gbr	eur	European	green	16
+0	HG00100	gbr	eur	European	green	16
+0	HG00101	gbr	eur	European	green	16
+0	HG00102	gbr	eur	European	green	16
+0	HG00103	gbr	eur	European	green	16
+0	HG00105	gbr	eur	European	green	16
+0	HG00106	gbr	eur	European	green	16
+0	HG00107	gbr	eur	European	green	16
+0	HG00108	gbr	eur	European	green	16
+0	HG00109	gbr	eur	European	green	16
+0	HG00110	gbr	eur	European	green	16
+0	HG00111	gbr	eur	European	green	16
+0	HG00112	gbr	eur	European	green	16
+0	HG00113	gbr	eur	European	green	16
+0	HG00114	gbr	eur	European	green	16
+0	HG00115	gbr	eur	European	green	16
+0	HG00116	gbr	eur	European	green	16
+0	HG00117	gbr	eur	European	green	16
+0	HG00118	gbr	eur	European	green	16
+0	HG00119	gbr	eur	European	green	16
+0	HG00120	gbr	eur	European	green	16
+0	HG00121	gbr	eur	European	green	16
+0	HG00122	gbr	eur	European	green	16
+0	HG00123	gbr	eur	European	green	16
+0	HG00125	gbr	eur	European	green	16
+0	HG00126	gbr	eur	European	green	16
+0	HG00127	gbr	eur	European	green	16
+0	HG00128	gbr	eur	European	green	16
+0	HG00129	gbr	eur	European	green	16
+0	HG00130	gbr	eur	European	green	16
+0	HG00131	gbr	eur	European	green	16
+0	HG00132	gbr	eur	European	green	16
+0	HG00133	gbr	eur	European	green	16
+0	HG00136	gbr	eur	European	green	16
+0	HG00137	gbr	eur	European	green	16
+0	HG00138	gbr	eur	European	green	16
+0	HG00139	gbr	eur	European	green	16
+0	HG00140	gbr	eur	European	green	16
+0	HG00141	gbr	eur	European	green	16
+0	HG00142	gbr	eur	European	green	16
+0	HG00143	gbr	eur	European	green	16
+0	HG00145	gbr	eur	European	green	16
+0	HG00146	gbr	eur	European	green	16
+0	HG00148	gbr	eur	European	green	16
+0	HG00149	gbr	eur	European	green	16
+0	HG00150	gbr	eur	European	green	16
+0	HG00151	gbr	eur	European	green	16
+0	HG00155	gbr	eur	European	green	16
+0	HG00157	gbr	eur	European	green	16
+0	HG00158	gbr	eur	European	green	16
+0	HG00159	gbr	eur	European	green	16
+0	HG00160	gbr	eur	European	green	16
+0	HG00171	fin	eur	European	green	16
+0	HG00173	fin	eur	European	green	16
+0	HG00174	fin	eur	European	green	16
+0	HG00176	fin	eur	European	green	16
+0	HG00177	fin	eur	European	green	16
+0	HG00178	fin	eur	European	green	16
+0	HG00179	fin	eur	European	green	16
+0	HG00180	fin	eur	European	green	16
+0	HG00182	fin	eur	European	green	16
+0	HG00183	fin	eur	European	green	16
+0	HG00185	fin	eur	European	green	16
+0	HG00186	fin	eur	European	green	16
+0	HG00187	fin	eur	European	green	16
+0	HG00188	fin	eur	European	green	16
+0	HG00189	fin	eur	European	green	16
+0	HG00190	fin	eur	European	green	16
+0	HG00231	gbr	eur	European	green	16
+0	HG00232	gbr	eur	European	green	16
+0	HG00233	gbr	eur	European	green	16
+0	HG00234	gbr	eur	European	green	16
+0	HG00235	gbr	eur	European	green	16
+0	HG00236	gbr	eur	European	green	16
+0	HG00237	gbr	eur	European	green	16
+0	HG00238	gbr	eur	European	green	16
+0	HG00239	gbr	eur	European	green	16
+0	HG00240	gbr	eur	European	green	16
+0	HG00242	gbr	eur	European	green	16
+0	HG00243	gbr	eur	European	green	16
+0	HG00244	gbr	eur	European	green	16
+0	HG00245	gbr	eur	European	green	16
+0	HG00246	gbr	eur	European	green	16
+0	HG00250	gbr	eur	European	green	16
+0	HG00251	gbr	eur	European	green	16
+0	HG00252	gbr	eur	European	green	16
+0	HG00253	gbr	eur	European	green	16
+0	HG00254	gbr	eur	European	green	16
+0	HG00255	gbr	eur	European	green	16
+0	HG00256	gbr	eur	European	green	16
+0	HG00257	gbr	eur	European	green	16
+0	HG00258	gbr	eur	European	green	16
+0	HG00259	gbr	eur	European	green	16
+0	HG00260	gbr	eur	European	green	16
+0	HG00261	gbr	eur	European	green	16
+0	HG00262	gbr	eur	European	green	16
+0	HG00263	gbr	eur	European	green	16
+0	HG00264	gbr	eur	European	green	16
+0	HG00265	gbr	eur	European	green	16
+0	HG00266	fin	eur	European	green	16
+0	HG00267	fin	eur	European	green	16
+0	HG00268	fin	eur	European	green	16
+0	HG00269	fin	eur	European	green	16
+0	HG00271	fin	eur	European	green	16
+0	HG00272	fin	eur	European	green	16
+0	HG00273	fin	eur	European	green	16
+0	HG00274	fin	eur	European	green	16
+0	HG00275	fin	eur	European	green	16
+0	HG00276	fin	eur	European	green	16
+0	HG00278	fin	eur	European	green	16
+0	HG00280	fin	eur	European	green	16
+0	HG00281	fin	eur	European	green	16
+0	HG00282	fin	eur	European	green	16
+0	HG00284	fin	eur	European	green	16
+0	HG00285	fin	eur	European	green	16
+0	HG00288	fin	eur	European	green	16
+0	HG00290	fin	eur	European	green	16
+0	HG00304	fin	eur	European	green	16
+0	HG00306	fin	eur	European	green	16
+0	HG00308	fin	eur	European	green	16
+0	HG00309	fin	eur	European	green	16
+0	HG00310	fin	eur	European	green	16
+0	HG00311	fin	eur	European	green	16
+0	HG00313	fin	eur	European	green	16
+0	HG00315	fin	eur	European	green	16
+0	HG00318	fin	eur	European	green	16
+0	HG00319	fin	eur	European	green	16
+0	HG00320	fin	eur	European	green	16
+0	HG00321	fin	eur	European	green	16
+0	HG00323	fin	eur	European	green	16
+0	HG00324	fin	eur	European	green	16
+0	HG00325	fin	eur	European	green	16
+0	HG00326	fin	eur	European	green	16
+0	HG00327	fin	eur	European	green	16
+0	HG00328	fin	eur	European	green	16
+0	HG00329	fin	eur	European	green	16
+0	HG00330	fin	eur	European	green	16
+0	HG00331	fin	eur	European	green	16
+0	HG00332	fin	eur	European	green	16
+0	HG00334	fin	eur	European	green	16
+0	HG00335	fin	eur	European	green	16
+0	HG00336	fin	eur	European	green	16
+0	HG00337	fin	eur	European	green	16
+0	HG00338	fin	eur	European	green	16
+0	HG00339	fin	eur	European	green	16
+0	HG00342	fin	eur	European	green	16
+0	HG00343	fin	eur	European	green	16
+0	HG00345	fin	eur	European	green	16
+0	HG00346	fin	eur	European	green	16
+0	HG00349	fin	eur	European	green	16
+0	HG00351	fin	eur	European	green	16
+0	HG00353	fin	eur	European	green	16
+0	HG00355	fin	eur	European	green	16
+0	HG00356	fin	eur	European	green	16
+0	HG00357	fin	eur	European	green	16
+0	HG00358	fin	eur	European	green	16
+0	HG00360	fin	eur	European	green	16
+0	HG00362	fin	eur	European	green	16
+0	HG00364	fin	eur	European	green	16
+0	HG00365	fin	eur	European	green	16
+0	HG00366	fin	eur	European	green	16
+0	HG00367	fin	eur	European	green	16
+0	HG00368	fin	eur	European	green	16
+0	HG00369	fin	eur	European	green	16
+0	HG00371	fin	eur	European	green	16
+0	HG00372	fin	eur	European	green	16
+0	HG00373	fin	eur	European	green	16
+0	HG00375	fin	eur	European	green	16
+0	HG00376	fin	eur	European	green	16
+0	HG00378	fin	eur	European	green	16
+0	HG00379	fin	eur	European	green	16
+0	HG00381	fin	eur	European	green	16
+0	HG00382	fin	eur	European	green	16
+0	HG00383	fin	eur	European	green	16
+0	HG00384	fin	eur	European	green	16
+0	HG00404	chs	eas	East Asia	yellow3	16
+0	HG00406	chs	eas	East Asia	yellow3	16
+0	HG00407	chs	eas	East Asia	yellow3	16
+0	HG00408	chs	eas	East Asia	yellow3	16
+0	HG00409	chs	eas	East Asia	yellow3	16
+0	HG00410	chs	eas	East Asia	yellow3	16
+0	HG00418	chs	eas	East Asia	yellow3	16
+0	HG00419	chs	eas	East Asia	yellow3	16
+0	HG00420	chs	eas	East Asia	yellow3	16
+0	HG00421	chs	eas	East Asia	yellow3	16
+0	HG00422	chs	eas	East Asia	yellow3	16
+0	HG00423	chs	eas	East Asia	yellow3	16
+0	HG00427	chs	eas	East Asia	yellow3	16
+0	HG00428	chs	eas	East Asia	yellow3	16
+0	HG00429	chs	eas	East Asia	yellow3	16
+0	HG00436	chs	eas	East Asia	yellow3	16
+0	HG00437	chs	eas	East Asia	yellow3	16
+0	HG00438	chs	eas	East Asia	yellow3	16
+0	HG00442	chs	eas	East Asia	yellow3	16
+0	HG00443	chs	eas	East Asia	yellow3	16
+0	HG00444	chs	eas	East Asia	yellow3	16
+0	HG00445	chs	eas	East Asia	yellow3	16
+0	HG00446	chs	eas	East Asia	yellow3	16
+0	HG00447	chs	eas	East Asia	yellow3	16
+0	HG00448	chs	eas	East Asia	yellow3	16
+0	HG00449	chs	eas	East Asia	yellow3	16
+0	HG00450	chs	eas	East Asia	yellow3	16
+0	HG00457	chs	eas	East Asia	yellow3	16
+0	HG00458	chs	eas	East Asia	yellow3	16
+0	HG00459	chs	eas	East Asia	yellow3	16
+0	HG00463	chs	eas	East Asia	yellow3	16
+0	HG00464	chs	eas	East Asia	yellow3	16
+0	HG00465	chs	eas	East Asia	yellow3	16
+0	HG00472	chs	eas	East Asia	yellow3	16
+0	HG00473	chs	eas	East Asia	yellow3	16
+0	HG00474	chs	eas	East Asia	yellow3	16
+0	HG00475	chs	eas	East Asia	yellow3	16
+0	HG00476	chs	eas	East Asia	yellow3	16
+0	HG00477	chs	eas	East Asia	yellow3	16
+0	HG00478	chs	eas	East Asia	yellow3	16
+0	HG00479	chs	eas	East Asia	yellow3	16
+0	HG00480	chs	eas	East Asia	yellow3	16
+0	HG00500	chs	eas	East Asia	yellow3	16
+0	HG00501	chs	eas	East Asia	yellow3	16
+0	HG00502	chs	eas	East Asia	yellow3	16
+0	HG00524	chs	eas	East Asia	yellow3	16
+0	HG00525	chs	eas	East Asia	yellow3	16
+0	HG00526	chs	eas	East Asia	yellow3	16
+0	HG00530	chs	eas	East Asia	yellow3	16
+0	HG00531	chs	eas	East Asia	yellow3	16
+0	HG00532	chs	eas	East Asia	yellow3	16
+0	HG00533	chs	eas	East Asia	yellow3	16
+0	HG00534	chs	eas	East Asia	yellow3	16
+0	HG00535	chs	eas	East Asia	yellow3	16
+0	HG00536	chs	eas	East Asia	yellow3	16
+0	HG00537	chs	eas	East Asia	yellow3	16
+0	HG00538	chs	eas	East Asia	yellow3	16
+0	HG00542	chs	eas	East Asia	yellow3	16
+0	HG00543	chs	eas	East Asia	yellow3	16
+0	HG00544	chs	eas	East Asia	yellow3	16
+0	HG00556	chs	eas	East Asia	yellow3	16
+0	HG00557	chs	eas	East Asia	yellow3	16
+0	HG00558	chs	eas	East Asia	yellow3	16
+0	HG00559	chs	eas	East Asia	yellow3	16
+0	HG00560	chs	eas	East Asia	yellow3	16
+0	HG00561	chs	eas	East Asia	yellow3	16
+0	HG00565	chs	eas	East Asia	yellow3	16
+0	HG00566	chs	eas	East Asia	yellow3	16
+0	HG00567	chs	eas	East Asia	yellow3	16
+0	HG00577	chs	eas	East Asia	yellow3	16
+0	HG00578	chs	eas	East Asia	yellow3	16
+0	HG00579	chs	eas	East Asia	yellow3	16
+0	HG00580	chs	eas	East Asia	yellow3	16
+0	HG00581	chs	eas	East Asia	yellow3	16
+0	HG00582	chs	eas	East Asia	yellow3	16
+0	HG00583	chs	eas	East Asia	yellow3	16
+0	HG00584	chs	eas	East Asia	yellow3	16
+0	HG00585	chs	eas	East Asia	yellow3	16
+0	HG00589	chs	eas	East Asia	yellow3	16
+0	HG00590	chs	eas	East Asia	yellow3	16
+0	HG00591	chs	eas	East Asia	yellow3	16
+0	HG00592	chs	eas	East Asia	yellow3	16
+0	HG00593	chs	eas	East Asia	yellow3	16
+0	HG00594	chs	eas	East Asia	yellow3	16
+0	HG00595	chs	eas	East Asia	yellow3	16
+0	HG00596	chs	eas	East Asia	yellow3	16
+0	HG00597	chs	eas	East Asia	yellow3	16
+0	HG00598	chs	eas	East Asia	yellow3	16
+0	HG00599	chs	eas	East Asia	yellow3	16
+0	HG00607	chs	eas	East Asia	yellow3	16
+0	HG00608	chs	eas	East Asia	yellow3	16
+0	HG00609	chs	eas	East Asia	yellow3	16
+0	HG00610	chs	eas	East Asia	yellow3	16
+0	HG00611	chs	eas	East Asia	yellow3	16
+0	HG00612	chs	eas	East Asia	yellow3	16
+0	HG00613	chs	eas	East Asia	yellow3	16
+0	HG00614	chs	eas	East Asia	yellow3	16
+0	HG00615	chs	eas	East Asia	yellow3	16
+0	HG00619	chs	eas	East Asia	yellow3	16
+0	HG00620	chs	eas	East Asia	yellow3	16
+0	HG00621	chs	eas	East Asia	yellow3	16
+0	HG00622	chs	eas	East Asia	yellow3	16
+0	HG00623	chs	eas	East Asia	yellow3	16
+0	HG00625	chs	eas	East Asia	yellow3	16
+0	HG00626	chs	eas	East Asia	yellow3	16
+0	HG00627	chs	eas	East Asia	yellow3	16
+0	HG00628	chs	eas	East Asia	yellow3	16
+0	HG00629	chs	eas	East Asia	yellow3	16
+0	HG00630	chs	eas	East Asia	yellow3	16
+0	HG00631	chs	eas	East Asia	yellow3	16
+0	HG00632	chs	eas	East Asia	yellow3	16
+0	HG00634	chs	eas	East Asia	yellow3	16
+0	HG00635	chs	eas	East Asia	yellow3	16
+0	HG00636	chs	eas	East Asia	yellow3	16
+0	HG00650	chs	eas	East Asia	yellow3	16
+0	HG00651	chs	eas	East Asia	yellow3	16
+0	HG00652	chs	eas	East Asia	yellow3	16
+0	HG00653	chs	eas	East Asia	yellow3	16
+0	HG00654	chs	eas	East Asia	yellow3	16
+0	HG00655	chs	eas	East Asia	yellow3	16
+0	HG00656	chs	eas	East Asia	yellow3	16
+0	HG00657	chs	eas	East Asia	yellow3	16
+0	HG00658	chs	eas	East Asia	yellow3	16
+0	HG00662	chs	eas	East Asia	yellow3	16
+0	HG00663	chs	eas	East Asia	yellow3	16
+0	HG00664	chs	eas	East Asia	yellow3	16
+0	HG00671	chs	eas	East Asia	yellow3	16
+0	HG00672	chs	eas	East Asia	yellow3	16
+0	HG00673	chs	eas	East Asia	yellow3	16
+0	HG00674	chs	eas	East Asia	yellow3	16
+0	HG00675	chs	eas	East Asia	yellow3	16
+0	HG00683	chs	eas	East Asia	yellow3	16
+0	HG00684	chs	eas	East Asia	yellow3	16
+0	HG00685	chs	eas	East Asia	yellow3	16
+0	HG00689	chs	eas	East Asia	yellow3	16
+0	HG00690	chs	eas	East Asia	yellow3	16
+0	HG00691	chs	eas	East Asia	yellow3	16
+0	HG00692	chs	eas	East Asia	yellow3	16
+0	HG00693	chs	eas	East Asia	yellow3	16
+0	HG00694	chs	eas	East Asia	yellow3	16
+0	HG00698	chs	eas	East Asia	yellow3	16
+0	HG00699	chs	eas	East Asia	yellow3	16
+0	HG00700	chs	eas	East Asia	yellow3	16
+0	HG00701	chs	eas	East Asia	yellow3	16
+0	HG00702	chs	eas	East Asia	yellow3	16
+0	HG00703	chs	eas	East Asia	yellow3	16
+0	HG00704	chs	eas	East Asia	yellow3	16
+0	HG00705	chs	eas	East Asia	yellow3	16
+0	HG00706	chs	eas	East Asia	yellow3	16
+0	HG00707	chs	eas	East Asia	yellow3	16
+0	HG00708	chs	eas	East Asia	yellow3	16
+0	HG00709	chs	eas	East Asia	yellow3	16
+0	HG00717	chs	eas	East Asia	yellow3	16
+0	HG00728	chs	eas	East Asia	yellow3	16
+0	HG00729	chs	eas	East Asia	yellow3	16
+0	HG00759	cdx	eas	East Asia	yellow3	16
+0	HG00766	cdx	eas	East Asia	yellow3	16
+0	HG00844	cdx	eas	East Asia	yellow3	16
+0	HG00851	cdx	eas	East Asia	yellow3	16
+0	HG00864	cdx	eas	East Asia	yellow3	16
+0	HG00867	cdx	eas	East Asia	yellow3	16
+0	HG00879	cdx	eas	East Asia	yellow3	16
+0	HG00881	cdx	eas	East Asia	yellow3	16
+0	HG00956	cdx	eas	East Asia	yellow3	16
+0	HG00978	cdx	eas	East Asia	yellow3	16
+0	HG00982	cdx	eas	East Asia	yellow3	16
+0	HG01028	cdx	eas	East Asia	yellow3	16
+0	HG01029	cdx	eas	East Asia	yellow3	16
+0	HG01031	cdx	eas	East Asia	yellow3	16
+0	HG01046	cdx	eas	East Asia	yellow3	16
+0	HG01334	gbr	eur	European	green	16
+0	HG01500	ibs	eur	European	green	16
+0	HG01501	ibs	eur	European	green	16
+0	HG01502	ibs	eur	European	green	16
+0	HG01503	ibs	eur	European	green	16
+0	HG01504	ibs	eur	European	green	16
+0	HG01505	ibs	eur	European	green	16
+0	HG01506	ibs	eur	European	green	16
+0	HG01507	ibs	eur	European	green	16
+0	HG01508	ibs	eur	European	green	16
+0	HG01509	ibs	eur	European	green	16
+0	HG01510	ibs	eur	European	green	16
+0	HG01511	ibs	eur	European	green	16
+0	HG01512	ibs	eur	European	green	16
+0	HG01513	ibs	eur	European	green	16
+0	HG01514	ibs	eur	European	green	16
+0	HG01515	ibs	eur	European	green	16
+0	HG01516	ibs	eur	European	green	16
+0	HG01517	ibs	eur	European	green	16
+0	HG01518	ibs	eur	European	green	16
+0	HG01519	ibs	eur	European	green	16
+0	HG01520	ibs	eur	European	green	16
+0	HG01521	ibs	eur	European	green	16
+0	HG01522	ibs	eur	European	green	16
+0	HG01523	ibs	eur	European	green	16
+0	HG01524	ibs	eur	European	green	16
+0	HG01525	ibs	eur	European	green	16
+0	HG01526	ibs	eur	European	green	16
+0	HG01527	ibs	eur	European	green	16
+0	HG01528	ibs	eur	European	green	16
+0	HG01529	ibs	eur	European	green	16
+0	HG01530	ibs	eur	European	green	16
+0	HG01531	ibs	eur	European	green	16
+0	HG01536	ibs	eur	European	green	16
+0	HG01537	ibs	eur	European	green	16
+0	HG01538	ibs	eur	European	green	16
+0	HG01565	pel	amr	American	purple	16
+0	HG01566	pel	amr	American	purple	16
+0	HG01567	pel	amr	American	purple	16
+0	HG01571	pel	amr	American	purple	16
+0	HG01572	pel	amr	American	purple	16
+0	HG01573	pel	amr	American	purple	16
+0	HG01577	pel	amr	American	purple	16
+0	HG01578	pel	amr	American	purple	16
+0	HG01579	pel	amr	American	purple	16
+0	HG01583	pjl	sas	South Asia	tan	16
+0	HG01586	pjl	sas	South Asia	tan	16
+0	HG01589	pjl	sas	South Asia	tan	16
+0	HG01593	pjl	sas	South Asia	tan	16
+0	HG01595	khv	eas	East Asia	yellow3	16
+0	HG01596	khv	eas	East Asia	yellow3	16
+0	HG01597	khv	eas	East Asia	yellow3	16
+0	HG01598	khv	eas	East Asia	yellow3	16
+0	HG01599	khv	eas	East Asia	yellow3	16
+0	HG01600	khv	eas	East Asia	yellow3	16
+0	HG01601	ibs	eur	European	green	16
+0	HG01602	ibs	eur	European	green	16
+0	HG01603	ibs	eur	European	green	16
+0	HG01604	ibs	eur	European	green	16
+0	HG01605	ibs	eur	European	green	16
+0	HG01606	ibs	eur	European	green	16
+0	HG01607	ibs	eur	European	green	16
+0	HG01608	ibs	eur	European	green	16
+0	HG01609	ibs	eur	European	green	16
+0	HG01610	ibs	eur	European	green	16
+0	HG01611	ibs	eur	European	green	16
+0	HG01612	ibs	eur	European	green	16
+0	HG01613	ibs	eur	European	green	16
+0	HG01614	ibs	eur	European	green	16
+0	HG01615	ibs	eur	European	green	16
+0	HG01616	ibs	eur	European	green	16
+0	HG01617	ibs	eur	European	green	16
+0	HG01618	ibs	eur	European	green	16
+0	HG01619	ibs	eur	European	green	16
+0	HG01620	ibs	eur	European	green	16
+0	HG01621	ibs	eur	European	green	16
+0	HG01622	ibs	eur	European	green	16
+0	HG01623	ibs	eur	European	green	16
+0	HG01624	ibs	eur	European	green	16
+0	HG01625	ibs	eur	European	green	16
+0	HG01626	ibs	eur	European	green	16
+0	HG01627	ibs	eur	European	green	16
+0	HG01628	ibs	eur	European	green	16
+0	HG01629	ibs	eur	European	green	16
+0	HG01630	ibs	eur	European	green	16
+0	HG01631	ibs	eur	European	green	16
+0	HG01632	ibs	eur	European	green	16
+0	HG01633	ibs	eur	European	green	16
+0	HG01667	ibs	eur	European	green	16
+0	HG01668	ibs	eur	European	green	16
+0	HG01669	ibs	eur	European	green	16
+0	HG01670	ibs	eur	European	green	16
+0	HG01671	ibs	eur	European	green	16
+0	HG01672	ibs	eur	European	green	16
+0	HG01673	ibs	eur	European	green	16
+0	HG01674	ibs	eur	European	green	16
+0	HG01675	ibs	eur	European	green	16
+0	HG01676	ibs	eur	European	green	16
+0	HG01677	ibs	eur	European	green	16
+0	HG01678	ibs	eur	European	green	16
+0	HG01679	ibs	eur	European	green	16
+0	HG01680	ibs	eur	European	green	16
+0	HG01681	ibs	eur	European	green	16
+0	HG01682	ibs	eur	European	green	16
+0	HG01684	ibs	eur	European	green	16
+0	HG01685	ibs	eur	European	green	16
+0	HG01686	ibs	eur	European	green	16
+0	HG01687	ibs	eur	European	green	16
+0	HG01694	ibs	eur	European	green	16
+0	HG01695	ibs	eur	European	green	16
+0	HG01696	ibs	eur	European	green	16
+0	HG01697	ibs	eur	European	green	16
+0	HG01698	ibs	eur	European	green	16
+0	HG01699	ibs	eur	European	green	16
+0	HG01700	ibs	eur	European	green	16
+0	HG01701	ibs	eur	European	green	16
+0	HG01702	ibs	eur	European	green	16
+0	HG01703	ibs	eur	European	green	16
+0	HG01704	ibs	eur	European	green	16
+0	HG01705	ibs	eur	European	green	16
+0	HG01706	ibs	eur	European	green	16
+0	HG01707	ibs	eur	European	green	16
+0	HG01708	ibs	eur	European	green	16
+0	HG01709	ibs	eur	European	green	16
+0	HG01710	ibs	eur	European	green	16
+0	HG01711	ibs	eur	European	green	16
+0	HG01746	ibs	eur	European	green	16
+0	HG01747	ibs	eur	European	green	16
+0	HG01748	ibs	eur	European	green	16
+0	HG01755	ibs	eur	European	green	16
+0	HG01756	ibs	eur	European	green	16
+0	HG01757	ibs	eur	European	green	16
+0	HG01761	ibs	eur	European	green	16
+0	HG01762	ibs	eur	European	green	16
+0	HG01763	ibs	eur	European	green	16
+0	HG01765	ibs	eur	European	green	16
+0	HG01766	ibs	eur	European	green	16
+0	HG01767	ibs	eur	European	green	16
+0	HG01768	ibs	eur	European	green	16
+0	HG01770	ibs	eur	European	green	16
+0	HG01771	ibs	eur	European	green	16
+0	HG01772	ibs	eur	European	green	16
+0	HG01773	ibs	eur	European	green	16
+0	HG01774	ibs	eur	European	green	16
+0	HG01775	ibs	eur	European	green	16
+0	HG01779	ibs	eur	European	green	16
+0	HG01780	ibs	eur	European	green	16
+0	HG01781	ibs	eur	European	green	16
+0	HG01782	ibs	eur	European	green	16
+0	HG01783	ibs	eur	European	green	16
+0	HG01784	ibs	eur	European	green	16
+0	HG01785	ibs	eur	European	green	16
+0	HG01786	ibs	eur	European	green	16
+0	HG01789	gbr	eur	European	green	16
+0	HG01790	gbr	eur	European	green	16
+0	HG01791	gbr	eur	European	green	16
+0	HG01794	cdx	eas	East Asia	yellow3	16
+0	HG01795	cdx	eas	East Asia	yellow3	16
+0	HG01796	cdx	eas	East Asia	yellow3	16
+0	HG01797	cdx	eas	East Asia	yellow3	16
+0	HG01798	cdx	eas	East Asia	yellow3	16
+0	HG01799	cdx	eas	East Asia	yellow3	16
+0	HG01800	cdx	eas	East Asia	yellow3	16
+0	HG01801	cdx	eas	East Asia	yellow3	16
+0	HG01802	cdx	eas	East Asia	yellow3	16
+0	HG01804	cdx	eas	East Asia	yellow3	16
+0	HG01805	cdx	eas	East Asia	yellow3	16
+0	HG01806	cdx	eas	East Asia	yellow3	16
+0	HG01808	cdx	eas	East Asia	yellow3	16
+0	HG01809	cdx	eas	East Asia	yellow3	16
+0	HG01810	cdx	eas	East Asia	yellow3	16
+0	HG01811	cdx	eas	East Asia	yellow3	16
+0	HG01812	cdx	eas	East Asia	yellow3	16
+0	HG01813	cdx	eas	East Asia	yellow3	16
+0	HG01815	cdx	eas	East Asia	yellow3	16
+0	HG01816	cdx	eas	East Asia	yellow3	16
+0	HG01817	cdx	eas	East Asia	yellow3	16
+0	HG01840	khv	eas	East Asia	yellow3	16
+0	HG01841	khv	eas	East Asia	yellow3	16
+0	HG01842	khv	eas	East Asia	yellow3	16
+0	HG01843	khv	eas	East Asia	yellow3	16
+0	HG01844	khv	eas	East Asia	yellow3	16
+0	HG01845	khv	eas	East Asia	yellow3	16
+0	HG01846	khv	eas	East Asia	yellow3	16
+0	HG01847	khv	eas	East Asia	yellow3	16
+0	HG01848	khv	eas	East Asia	yellow3	16
+0	HG01849	khv	eas	East Asia	yellow3	16
+0	HG01850	khv	eas	East Asia	yellow3	16
+0	HG01851	khv	eas	East Asia	yellow3	16
+0	HG01852	khv	eas	East Asia	yellow3	16
+0	HG01853	khv	eas	East Asia	yellow3	16
+0	HG01855	khv	eas	East Asia	yellow3	16
+0	HG01857	khv	eas	East Asia	yellow3	16
+0	HG01858	khv	eas	East Asia	yellow3	16
+0	HG01859	khv	eas	East Asia	yellow3	16
+0	HG01860	khv	eas	East Asia	yellow3	16
+0	HG01861	khv	eas	East Asia	yellow3	16
+0	HG01862	khv	eas	East Asia	yellow3	16
+0	HG01863	khv	eas	East Asia	yellow3	16
+0	HG01864	khv	eas	East Asia	yellow3	16
+0	HG01865	khv	eas	East Asia	yellow3	16
+0	HG01866	khv	eas	East Asia	yellow3	16
+0	HG01867	khv	eas	East Asia	yellow3	16
+0	HG01868	khv	eas	East Asia	yellow3	16
+0	HG01869	khv	eas	East Asia	yellow3	16
+0	HG01870	khv	eas	East Asia	yellow3	16
+0	HG01871	khv	eas	East Asia	yellow3	16
+0	HG01872	khv	eas	East Asia	yellow3	16
+0	HG01873	khv	eas	East Asia	yellow3	16
+0	HG01874	khv	eas	East Asia	yellow3	16
+0	HG01878	khv	eas	East Asia	yellow3	16
+0	HG01879	acb	afr	Africa	red	16
+0	HG01881	acb	afr	Africa	red	16
+0	HG01882	acb	afr	Africa	red	16
+0	HG01883	acb	afr	Africa	red	16
+0	HG01885	acb	afr	Africa	red	16
+0	HG01886	acb	afr	Africa	red	16
+0	HG01887	acb	afr	Africa	red	16
+0	HG01888	acb	afr	Africa	red	16
+0	HG01892	pel	amr	American	purple	16
+0	HG01893	pel	amr	American	purple	16
+0	HG01894	acb	afr	Africa	red	16
+0	HG01895	acb	afr	Africa	red	16
+0	HG01896	acb	afr	Africa	red	16
+0	HG01897	acb	afr	Africa	red	16
+0	HG01898	pel	amr	American	purple	16
+0	HG01912	acb	afr	Africa	red	16
+0	HG01914	acb	afr	Africa	red	16
+0	HG01915	acb	afr	Africa	red	16
+0	HG01916	acb	afr	Africa	red	16
+0	HG01920	pel	amr	American	purple	16
+0	HG01921	pel	amr	American	purple	16
+0	HG01922	pel	amr	American	purple	16
+0	HG01923	pel	amr	American	purple	16
+0	HG01924	pel	amr	American	purple	16
+0	HG01925	pel	amr	American	purple	16
+0	HG01926	pel	amr	American	purple	16
+0	HG01927	pel	amr	American	purple	16
+0	HG01928	pel	amr	American	purple	16
+0	HG01932	pel	amr	American	purple	16
+0	HG01933	pel	amr	American	purple	16
+0	HG01934	pel	amr	American	purple	16
+0	HG01935	pel	amr	American	purple	16
+0	HG01936	pel	amr	American	purple	16
+0	HG01937	pel	amr	American	purple	16
+0	HG01938	pel	amr	American	purple	16
+0	HG01939	pel	amr	American	purple	16
+0	HG01940	pel	amr	American	purple	16
+0	HG01941	pel	amr	American	purple	16
+0	HG01942	pel	amr	American	purple	16
+0	HG01943	pel	amr	American	purple	16
+0	HG01944	pel	amr	American	purple	16
+0	HG01945	pel	amr	American	purple	16
+0	HG01946	pel	amr	American	purple	16
+0	HG01947	pel	amr	American	purple	16
+0	HG01948	pel	amr	American	purple	16
+0	HG01949	pel	amr	American	purple	16
+0	HG01950	pel	amr	American	purple	16
+0	HG01951	pel	amr	American	purple	16
+0	HG01952	pel	amr	American	purple	16
+0	HG01953	pel	amr	American	purple	16
+0	HG01954	pel	amr	American	purple	16
+0	HG01955	pel	amr	American	purple	16
+0	HG01956	acb	afr	Africa	red	16
+0	HG01958	acb	afr	Africa	red	16
+0	HG01959	acb	afr	Africa	red	16
+0	HG01960	acb	afr	Africa	red	16
+0	HG01961	pel	amr	American	purple	16
+0	HG01965	pel	amr	American	purple	16
+0	HG01967	pel	amr	American	purple	16
+0	HG01968	pel	amr	American	purple	16
+0	HG01969	pel	amr	American	purple	16
+0	HG01970	pel	amr	American	purple	16
+0	HG01971	pel	amr	American	purple	16
+0	HG01972	pel	amr	American	purple	16
+0	HG01973	pel	amr	American	purple	16
+0	HG01974	pel	amr	American	purple	16
+0	HG01975	pel	amr	American	purple	16
+0	HG01976	pel	amr	American	purple	16
+0	HG01977	pel	amr	American	purple	16
+0	HG01978	pel	amr	American	purple	16
+0	HG01979	pel	amr	American	purple	16
+0	HG01980	pel	amr	American	purple	16
+0	HG01981	pel	amr	American	purple	16
+0	HG01982	pel	amr	American	purple	16
+0	HG01983	pel	amr	American	purple	16
+0	HG01984	pel	amr	American	purple	16
+0	HG01985	acb	afr	Africa	red	16
+0	HG01986	acb	afr	Africa	red	16
+0	HG01987	acb	afr	Africa	red	16
+0	HG01988	acb	afr	Africa	red	16
+0	HG01989	acb	afr	Africa	red	16
+0	HG01990	acb	afr	Africa	red	16
+0	HG01991	pel	amr	American	purple	16
+0	HG01992	pel	amr	American	purple	16
+0	HG01993	pel	amr	American	purple	16
+0	HG01997	pel	amr	American	purple	16
+0	HG01998	pel	amr	American	purple	16
+0	HG02002	pel	amr	American	purple	16
+0	HG02003	pel	amr	American	purple	16
+0	HG02004	pel	amr	American	purple	16
+0	HG02006	pel	amr	American	purple	16
+0	HG02008	pel	amr	American	purple	16
+0	HG02009	acb	afr	Africa	red	16
+0	HG02010	acb	afr	Africa	red	16
+0	HG02011	acb	afr	Africa	red	16
+0	HG02012	acb	afr	Africa	red	16
+0	HG02013	acb	afr	Africa	red	16
+0	HG02014	acb	afr	Africa	red	16
+0	HG02015	khv	eas	East Asia	yellow3	16
+0	HG02016	khv	eas	East Asia	yellow3	16
+0	HG02017	khv	eas	East Asia	yellow3	16
+0	HG02018	khv	eas	East Asia	yellow3	16
+0	HG02019	khv	eas	East Asia	yellow3	16
+0	HG02020	khv	eas	East Asia	yellow3	16
+0	HG02023	khv	eas	East Asia	yellow3	16
+0	HG02024	khv	eas	East Asia	yellow3	16
+0	HG02025	khv	eas	East Asia	yellow3	16
+0	HG02026	khv	eas	East Asia	yellow3	16
+0	HG02027	khv	eas	East Asia	yellow3	16
+0	HG02028	khv	eas	East Asia	yellow3	16
+0	HG02029	khv	eas	East Asia	yellow3	16
+0	HG02030	khv	eas	East Asia	yellow3	16
+0	HG02031	khv	eas	East Asia	yellow3	16
+0	HG02032	khv	eas	East Asia	yellow3	16
+0	HG02035	khv	eas	East Asia	yellow3	16
+0	HG02040	khv	eas	East Asia	yellow3	16
+0	HG02047	khv	eas	East Asia	yellow3	16
+0	HG02048	khv	eas	East Asia	yellow3	16
+0	HG02049	khv	eas	East Asia	yellow3	16
+0	HG02050	khv	eas	East Asia	yellow3	16
+0	HG02051	acb	afr	Africa	red	16
+0	HG02052	acb	afr	Africa	red	16
+0	HG02053	acb	afr	Africa	red	16
+0	HG02054	acb	afr	Africa	red	16
+0	HG02055	acb	afr	Africa	red	16
+0	HG02056	khv	eas	East Asia	yellow3	16
+0	HG02057	khv	eas	East Asia	yellow3	16
+0	HG02058	khv	eas	East Asia	yellow3	16
+0	HG02064	khv	eas	East Asia	yellow3	16
+0	HG02067	khv	eas	East Asia	yellow3	16
+0	HG02071	khv	eas	East Asia	yellow3	16
+0	HG02072	khv	eas	East Asia	yellow3	16
+0	HG02073	khv	eas	East Asia	yellow3	16
+0	HG02074	khv	eas	East Asia	yellow3	16
+0	HG02075	khv	eas	East Asia	yellow3	16
+0	HG02076	khv	eas	East Asia	yellow3	16
+0	HG02077	khv	eas	East Asia	yellow3	16
+0	HG02078	khv	eas	East Asia	yellow3	16
+0	HG02079	khv	eas	East Asia	yellow3	16
+0	HG02080	khv	eas	East Asia	yellow3	16
+0	HG02081	khv	eas	East Asia	yellow3	16
+0	HG02082	khv	eas	East Asia	yellow3	16
+0	HG02083	khv	eas	East Asia	yellow3	16
+0	HG02084	khv	eas	East Asia	yellow3	16
+0	HG02085	khv	eas	East Asia	yellow3	16
+0	HG02086	khv	eas	East Asia	yellow3	16
+0	HG02087	khv	eas	East Asia	yellow3	16
+0	HG02088	khv	eas	East Asia	yellow3	16
+0	HG02089	pel	amr	American	purple	16
+0	HG02090	pel	amr	American	purple	16
+0	HG02091	pel	amr	American	purple	16
+0	HG02095	acb	afr	Africa	red	16
+0	HG02102	pel	amr	American	purple	16
+0	HG02104	pel	amr	American	purple	16
+0	HG02105	pel	amr	American	purple	16
+0	HG02106	pel	amr	American	purple	16
+0	HG02107	acb	afr	Africa	red	16
+0	HG02108	acb	afr	Africa	red	16
+0	HG02111	acb	afr	Africa	red	16
+0	HG02113	khv	eas	East Asia	yellow3	16
+0	HG02116	khv	eas	East Asia	yellow3	16
+0	HG02120	khv	eas	East Asia	yellow3	16
+0	HG02121	khv	eas	East Asia	yellow3	16
+0	HG02122	khv	eas	East Asia	yellow3	16
+0	HG02126	khv	eas	East Asia	yellow3	16
+0	HG02127	khv	eas	East Asia	yellow3	16
+0	HG02128	khv	eas	East Asia	yellow3	16
+0	HG02129	khv	eas	East Asia	yellow3	16
+0	HG02130	khv	eas	East Asia	yellow3	16
+0	HG02131	khv	eas	East Asia	yellow3	16
+0	HG02132	khv	eas	East Asia	yellow3	16
+0	HG02133	khv	eas	East Asia	yellow3	16
+0	HG02134	khv	eas	East Asia	yellow3	16
+0	HG02135	khv	eas	East Asia	yellow3	16
+0	HG02136	khv	eas	East Asia	yellow3	16
+0	HG02137	khv	eas	East Asia	yellow3	16
+0	HG02138	khv	eas	East Asia	yellow3	16
+0	HG02139	khv	eas	East Asia	yellow3	16
+0	HG02140	khv	eas	East Asia	yellow3	16
+0	HG02141	khv	eas	East Asia	yellow3	16
+0	HG02142	khv	eas	East Asia	yellow3	16
+0	HG02143	acb	afr	Africa	red	16
+0	HG02144	acb	afr	Africa	red	16
+0	HG02145	acb	afr	Africa	red	16
+0	HG02146	pel	amr	American	purple	16
+0	HG02147	pel	amr	American	purple	16
+0	HG02148	pel	amr	American	purple	16
+0	HG02150	pel	amr	American	purple	16
+0	HG02151	cdx	eas	East Asia	yellow3	16
+0	HG02152	cdx	eas	East Asia	yellow3	16
+0	HG02153	cdx	eas	East Asia	yellow3	16
+0	HG02154	cdx	eas	East Asia	yellow3	16
+0	HG02155	cdx	eas	East Asia	yellow3	16
+0	HG02156	cdx	eas	East Asia	yellow3	16
+0	HG02164	cdx	eas	East Asia	yellow3	16
+0	HG02165	cdx	eas	East Asia	yellow3	16
+0	HG02166	cdx	eas	East Asia	yellow3	16
+0	HG02178	cdx	eas	East Asia	yellow3	16
+0	HG02179	cdx	eas	East Asia	yellow3	16
+0	HG02180	cdx	eas	East Asia	yellow3	16
+0	HG02181	cdx	eas	East Asia	yellow3	16
+0	HG02182	cdx	eas	East Asia	yellow3	16
+0	HG02184	cdx	eas	East Asia	yellow3	16
+0	HG02185	cdx	eas	East Asia	yellow3	16
+0	HG02186	cdx	eas	East Asia	yellow3	16
+0	HG02187	cdx	eas	East Asia	yellow3	16
+0	HG02188	cdx	eas	East Asia	yellow3	16
+0	HG02190	cdx	eas	East Asia	yellow3	16
+0	HG02215	gbr	eur	European	green	16
+0	HG02219	ibs	eur	European	green	16
+0	HG02220	ibs	eur	European	green	16
+0	HG02221	ibs	eur	European	green	16
+0	HG02222	ibs	eur	European	green	16
+0	HG02223	ibs	eur	European	green	16
+0	HG02224	ibs	eur	European	green	16
+0	HG02225	ibs	eur	European	green	16
+0	HG02229	ibs	eur	European	green	16
+0	HG02230	ibs	eur	European	green	16
+0	HG02231	ibs	eur	European	green	16
+0	HG02235	ibs	eur	European	green	16
+0	HG02236	ibs	eur	European	green	16
+0	HG02237	ibs	eur	European	green	16
+0	HG02238	ibs	eur	European	green	16
+0	HG02239	ibs	eur	European	green	16
+0	HG02240	ibs	eur	European	green	16
+0	HG02250	cdx	eas	East Asia	yellow3	16
+0	HG02252	pel	amr	American	purple	16
+0	HG02253	pel	amr	American	purple	16
+0	HG02255	acb	afr	Africa	red	16
+0	HG02256	acb	afr	Africa	red	16
+0	HG02257	acb	afr	Africa	red	16
+0	HG02258	acb	afr	Africa	red	16
+0	HG02262	pel	amr	American	purple	16
+0	HG02265	pel	amr	American	purple	16
+0	HG02266	pel	amr	American	purple	16
+0	HG02271	pel	amr	American	purple	16
+0	HG02272	pel	amr	American	purple	16
+0	HG02273	pel	amr	American	purple	16
+0	HG02274	pel	amr	American	purple	16
+0	HG02275	pel	amr	American	purple	16
+0	HG02277	pel	amr	American	purple	16
+0	HG02278	pel	amr	American	purple	16
+0	HG02279	pel	amr	American	purple	16
+0	HG02280	acb	afr	Africa	red	16
+0	HG02281	acb	afr	Africa	red	16
+0	HG02282	acb	afr	Africa	red	16
+0	HG02284	acb	afr	Africa	red	16
+0	HG02285	pel	amr	American	purple	16
+0	HG02286	pel	amr	American	purple	16
+0	HG02287	pel	amr	American	purple	16
+0	HG02291	pel	amr	American	purple	16
+0	HG02292	pel	amr	American	purple	16
+0	HG02293	pel	amr	American	purple	16
+0	HG02298	pel	amr	American	purple	16
+0	HG02299	pel	amr	American	purple	16
+0	HG02300	pel	amr	American	purple	16
+0	HG02301	pel	amr	American	purple	16
+0	HG02302	pel	amr	American	purple	16
+0	HG02303	pel	amr	American	purple	16
+0	HG02304	pel	amr	American	purple	16
+0	HG02307	acb	afr	Africa	red	16
+0	HG02308	acb	afr	Africa	red	16
+0	HG02309	acb	afr	Africa	red	16
+0	HG02312	pel	amr	American	purple	16
+0	HG02314	acb	afr	Africa	red	16
+0	HG02315	acb	afr	Africa	red	16
+0	HG02316	acb	afr	Africa	red	16
+0	HG02317	acb	afr	Africa	red	16
+0	HG02318	acb	afr	Africa	red	16
+0	HG02321	acb	afr	Africa	red	16
+0	HG02322	acb	afr	Africa	red	16
+0	HG02323	acb	afr	Africa	red	16
+0	HG02325	acb	afr	Africa	red	16
+0	HG02330	acb	afr	Africa	red	16
+0	HG02332	acb	afr	Africa	red	16
+0	HG02334	acb	afr	Africa	red	16
+0	HG02337	acb	afr	Africa	red	16
+0	HG02339	acb	afr	Africa	red	16
+0	HG02343	acb	afr	Africa	red	16
+0	HG02345	pel	amr	American	purple	16
+0	HG02348	pel	amr	American	purple	16
+0	HG02351	cdx	eas	East Asia	yellow3	16
+0	HG02353	cdx	eas	East Asia	yellow3	16
+0	HG02355	cdx	eas	East Asia	yellow3	16
+0	HG02356	cdx	eas	East Asia	yellow3	16
+0	HG02360	cdx	eas	East Asia	yellow3	16
+0	HG02364	cdx	eas	East Asia	yellow3	16
+0	HG02367	cdx	eas	East Asia	yellow3	16
+0	HG02371	cdx	eas	East Asia	yellow3	16
+0	HG02373	cdx	eas	East Asia	yellow3	16
+0	HG02374	cdx	eas	East Asia	yellow3	16
+0	HG02375	cdx	eas	East Asia	yellow3	16
+0	HG02379	cdx	eas	East Asia	yellow3	16
+0	HG02380	cdx	eas	East Asia	yellow3	16
+0	HG02382	cdx	eas	East Asia	yellow3	16
+0	HG02383	cdx	eas	East Asia	yellow3	16
+0	HG02384	cdx	eas	East Asia	yellow3	16
+0	HG02385	cdx	eas	East Asia	yellow3	16
+0	HG02386	cdx	eas	East Asia	yellow3	16
+0	HG02389	cdx	eas	East Asia	yellow3	16
+0	HG02390	cdx	eas	East Asia	yellow3	16
+0	HG02391	cdx	eas	East Asia	yellow3	16
+0	HG02392	cdx	eas	East Asia	yellow3	16
+0	HG02394	cdx	eas	East Asia	yellow3	16
+0	HG02395	cdx	eas	East Asia	yellow3	16
+0	HG02396	cdx	eas	East Asia	yellow3	16
+0	HG02397	cdx	eas	East Asia	yellow3	16
+0	HG02398	cdx	eas	East Asia	yellow3	16
+0	HG02399	cdx	eas	East Asia	yellow3	16
+0	HG02401	cdx	eas	East Asia	yellow3	16
+0	HG02402	cdx	eas	East Asia	yellow3	16
+0	HG02406	cdx	eas	East Asia	yellow3	16
+0	HG02407	cdx	eas	East Asia	yellow3	16
+0	HG02408	cdx	eas	East Asia	yellow3	16
+0	HG02409	cdx	eas	East Asia	yellow3	16
+0	HG02410	cdx	eas	East Asia	yellow3	16
+0	HG02419	acb	afr	Africa	red	16
+0	HG02425	pel	amr	American	purple	16
+0	HG02427	acb	afr	Africa	red	16
+0	HG02429	acb	afr	Africa	red	16
+0	HG02433	acb	afr	Africa	red	16
+0	HG02439	acb	afr	Africa	red	16
+0	HG02442	acb	afr	Africa	red	16
+0	HG02445	acb	afr	Africa	red	16
+0	HG02455	acb	afr	Africa	red	16
+0	HG02462	gwd	afr	Africa	red	16
+0	HG02463	gwd	afr	Africa	red	16
+0	HG02464	gwd	afr	Africa	red	16
+0	HG02465	gwd	afr	Africa	red	16
+0	HG02466	gwd	afr	Africa	red	16
+0	HG02470	acb	afr	Africa	red	16
+0	HG02471	acb	afr	Africa	red	16
+0	HG02476	acb	afr	Africa	red	16
+0	HG02477	acb	afr	Africa	red	16
+0	HG02479	acb	afr	Africa	red	16
+0	HG02481	acb	afr	Africa	red	16
+0	HG02484	acb	afr	Africa	red	16
+0	HG02485	acb	afr	Africa	red	16
+0	HG02489	acb	afr	Africa	red	16
+0	HG02490	pjl	sas	South Asia	tan	16
+0	HG02491	pjl	sas	South Asia	tan	16
+0	HG02492	pjl	sas	South Asia	tan	16
+0	HG02493	pjl	sas	South Asia	tan	16
+0	HG02494	pjl	sas	South Asia	tan	16
+0	HG02495	pjl	sas	South Asia	tan	16
+0	HG02496	acb	afr	Africa	red	16
+0	HG02497	acb	afr	Africa	red	16
+0	HG02501	acb	afr	Africa	red	16
+0	HG02502	acb	afr	Africa	red	16
+0	HG02505	acb	afr	Africa	red	16
+0	HG02508	acb	afr	Africa	red	16
+0	HG02511	acb	afr	Africa	red	16
+0	HG02512	khv	eas	East Asia	yellow3	16
+0	HG02513	khv	eas	East Asia	yellow3	16
+0	HG02514	khv	eas	East Asia	yellow3	16
+0	HG02521	khv	eas	East Asia	yellow3	16
+0	HG02522	khv	eas	East Asia	yellow3	16
+0	HG02523	khv	eas	East Asia	yellow3	16
+0	HG02524	khv	eas	East Asia	yellow3	16
+0	HG02525	khv	eas	East Asia	yellow3	16
+0	HG02526	khv	eas	East Asia	yellow3	16
+0	HG02536	acb	afr	Africa	red	16
+0	HG02537	acb	afr	Africa	red	16
+0	HG02541	acb	afr	Africa	red	16
+0	HG02545	acb	afr	Africa	red	16
+0	HG02546	acb	afr	Africa	red	16
+0	HG02549	acb	afr	Africa	red	16
+0	HG02554	acb	afr	Africa	red	16
+0	HG02555	acb	afr	Africa	red	16
+0	HG02557	acb	afr	Africa	red	16
+0	HG02558	acb	afr	Africa	red	16
+0	HG02561	gwd	afr	Africa	red	16
+0	HG02562	gwd	afr	Africa	red	16
+0	HG02563	gwd	afr	Africa	red	16
+0	HG02568	gwd	afr	Africa	red	16
+0	HG02569	gwd	afr	Africa	red	16
+0	HG02570	gwd	afr	Africa	red	16
+0	HG02571	gwd	afr	Africa	red	16
+0	HG02572	gwd	afr	Africa	red	16
+0	HG02573	gwd	afr	Africa	red	16
+0	HG02574	gwd	afr	Africa	red	16
+0	HG02575	gwd	afr	Africa	red	16
+0	HG02577	acb	afr	Africa	red	16
+0	HG02580	acb	afr	Africa	red	16
+0	HG02582	gwd	afr	Africa	red	16
+0	HG02583	gwd	afr	Africa	red	16
+0	HG02584	gwd	afr	Africa	red	16
+0	HG02585	gwd	afr	Africa	red	16
+0	HG02586	gwd	afr	Africa	red	16
+0	HG02587	gwd	afr	Africa	red	16
+0	HG02588	gwd	afr	Africa	red	16
+0	HG02589	gwd	afr	Africa	red	16
+0	HG02590	gwd	afr	Africa	red	16
+0	HG02594	gwd	afr	Africa	red	16
+0	HG02595	gwd	afr	Africa	red	16
+0	HG02596	gwd	afr	Africa	red	16
+0	HG02597	pjl	sas	South Asia	tan	16
+0	HG02600	pjl	sas	South Asia	tan	16
+0	HG02601	pjl	sas	South Asia	tan	16
+0	HG02602	pjl	sas	South Asia	tan	16
+0	HG02603	pjl	sas	South Asia	tan	16
+0	HG02604	pjl	sas	South Asia	tan	16
+0	HG02605	pjl	sas	South Asia	tan	16
+0	HG02610	gwd	afr	Africa	red	16
+0	HG02611	gwd	afr	Africa	red	16
+0	HG02612	gwd	afr	Africa	red	16
+0	HG02613	gwd	afr	Africa	red	16
+0	HG02614	gwd	afr	Africa	red	16
+0	HG02615	gwd	afr	Africa	red	16
+0	HG02620	gwd	afr	Africa	red	16
+0	HG02621	gwd	afr	Africa	red	16
+0	HG02622	gwd	afr	Africa	red	16
+0	HG02623	gwd	afr	Africa	red	16
+0	HG02624	gwd	afr	Africa	red	16
+0	HG02625	gwd	afr	Africa	red	16
+0	HG02628	gwd	afr	Africa	red	16
+0	HG02629	gwd	afr	Africa	red	16
+0	HG02630	gwd	afr	Africa	red	16
+0	HG02634	gwd	afr	Africa	red	16
+0	HG02635	gwd	afr	Africa	red	16
+0	HG02636	gwd	afr	Africa	red	16
+0	HG02642	gwd	afr	Africa	red	16
+0	HG02643	gwd	afr	Africa	red	16
+0	HG02644	gwd	afr	Africa	red	16
+0	HG02645	gwd	afr	Africa	red	16
+0	HG02646	gwd	afr	Africa	red	16
+0	HG02647	gwd	afr	Africa	red	16
+0	HG02648	pjl	sas	South Asia	tan	16
+0	HG02649	pjl	sas	South Asia	tan	16
+0	HG02650	pjl	sas	South Asia	tan	16
+0	HG02651	pjl	sas	South Asia	tan	16
+0	HG02652	pjl	sas	South Asia	tan	16
+0	HG02653	pjl	sas	South Asia	tan	16
+0	HG02654	pjl	sas	South Asia	tan	16
+0	HG02655	pjl	sas	South Asia	tan	16
+0	HG02656	pjl	sas	South Asia	tan	16
+0	HG02660	pjl	sas	South Asia	tan	16
+0	HG02661	pjl	sas	South Asia	tan	16
+0	HG02662	pjl	sas	South Asia	tan	16
+0	HG02666	gwd	afr	Africa	red	16
+0	HG02667	gwd	afr	Africa	red	16
+0	HG02668	gwd	afr	Africa	red	16
+0	HG02675	gwd	afr	Africa	red	16
+0	HG02676	gwd	afr	Africa	red	16
+0	HG02677	gwd	afr	Africa	red	16
+0	HG02678	gwd	afr	Africa	red	16
+0	HG02679	gwd	afr	Africa	red	16
+0	HG02680	gwd	afr	Africa	red	16
+0	HG02681	pjl	sas	South Asia	tan	16
+0	HG02682	pjl	sas	South Asia	tan	16
+0	HG02684	pjl	sas	South Asia	tan	16
+0	HG02685	pjl	sas	South Asia	tan	16
+0	HG02686	pjl	sas	South Asia	tan	16
+0	HG02687	pjl	sas	South Asia	tan	16
+0	HG02688	pjl	sas	South Asia	tan	16
+0	HG02689	pjl	sas	South Asia	tan	16
+0	HG02690	pjl	sas	South Asia	tan	16
+0	HG02691	pjl	sas	South Asia	tan	16
+0	HG02692	pjl	sas	South Asia	tan	16
+0	HG02694	pjl	sas	South Asia	tan	16
+0	HG02697	pjl	sas	South Asia	tan	16
+0	HG02698	pjl	sas	South Asia	tan	16
+0	HG02699	pjl	sas	South Asia	tan	16
+0	HG02700	pjl	sas	South Asia	tan	16
+0	HG02701	pjl	sas	South Asia	tan	16
+0	HG02702	gwd	afr	Africa	red	16
+0	HG02703	gwd	afr	Africa	red	16
+0	HG02704	gwd	afr	Africa	red	16
+0	HG02715	gwd	afr	Africa	red	16
+0	HG02716	gwd	afr	Africa	red	16
+0	HG02717	gwd	afr	Africa	red	16
+0	HG02721	gwd	afr	Africa	red	16
+0	HG02722	gwd	afr	Africa	red	16
+0	HG02723	gwd	afr	Africa	red	16
+0	HG02724	pjl	sas	South Asia	tan	16
+0	HG02725	pjl	sas	South Asia	tan	16
+0	HG02726	pjl	sas	South Asia	tan	16
+0	HG02727	pjl	sas	South Asia	tan	16
+0	HG02728	pjl	sas	South Asia	tan	16
+0	HG02729	pjl	sas	South Asia	tan	16
+0	HG02731	pjl	sas	South Asia	tan	16
+0	HG02733	pjl	sas	South Asia	tan	16
+0	HG02734	pjl	sas	South Asia	tan	16
+0	HG02735	pjl	sas	South Asia	tan	16
+0	HG02736	pjl	sas	South Asia	tan	16
+0	HG02737	pjl	sas	South Asia	tan	16
+0	HG02738	pjl	sas	South Asia	tan	16
+0	HG02756	gwd	afr	Africa	red	16
+0	HG02757	gwd	afr	Africa	red	16
+0	HG02759	gwd	afr	Africa	red	16
+0	HG02760	gwd	afr	Africa	red	16
+0	HG02761	gwd	afr	Africa	red	16
+0	HG02762	gwd	afr	Africa	red	16
+0	HG02763	gwd	afr	Africa	red	16
+0	HG02764	gwd	afr	Africa	red	16
+0	HG02768	gwd	afr	Africa	red	16
+0	HG02769	gwd	afr	Africa	red	16
+0	HG02770	gwd	afr	Africa	red	16
+0	HG02771	gwd	afr	Africa	red	16
+0	HG02772	gwd	afr	Africa	red	16
+0	HG02773	gwd	afr	Africa	red	16
+0	HG02774	pjl	sas	South Asia	tan	16
+0	HG02775	pjl	sas	South Asia	tan	16
+0	HG02776	pjl	sas	South Asia	tan	16
+0	HG02778	pjl	sas	South Asia	tan	16
+0	HG02780	pjl	sas	South Asia	tan	16
+0	HG02783	pjl	sas	South Asia	tan	16
+0	HG02784	pjl	sas	South Asia	tan	16
+0	HG02785	pjl	sas	South Asia	tan	16
+0	HG02786	pjl	sas	South Asia	tan	16
+0	HG02787	pjl	sas	South Asia	tan	16
+0	HG02788	pjl	sas	South Asia	tan	16
+0	HG02789	pjl	sas	South Asia	tan	16
+0	HG02790	pjl	sas	South Asia	tan	16
+0	HG02791	pjl	sas	South Asia	tan	16
+0	HG02792	pjl	sas	South Asia	tan	16
+0	HG02793	pjl	sas	South Asia	tan	16
+0	HG02794	pjl	sas	South Asia	tan	16
+0	HG02798	gwd	afr	Africa	red	16
+0	HG02799	gwd	afr	Africa	red	16
+0	HG02800	gwd	afr	Africa	red	16
+0	HG02804	gwd	afr	Africa	red	16
+0	HG02805	gwd	afr	Africa	red	16
+0	HG02806	gwd	afr	Africa	red	16
+0	HG02807	gwd	afr	Africa	red	16
+0	HG02808	gwd	afr	Africa	red	16
+0	HG02809	gwd	afr	Africa	red	16
+0	HG02810	gwd	afr	Africa	red	16
+0	HG02811	gwd	afr	Africa	red	16
+0	HG02812	gwd	afr	Africa	red	16
+0	HG02813	gwd	afr	Africa	red	16
+0	HG02814	gwd	afr	Africa	red	16
+0	HG02815	gwd	afr	Africa	red	16
+0	HG02819	gwd	afr	Africa	red	16
+0	HG02820	gwd	afr	Africa	red	16
+0	HG02821	gwd	afr	Africa	red	16
+0	HG02836	gwd	afr	Africa	red	16
+0	HG02837	gwd	afr	Africa	red	16
+0	HG02838	gwd	afr	Africa	red	16
+0	HG02839	gwd	afr	Africa	red	16
+0	HG02840	gwd	afr	Africa	red	16
+0	HG02841	gwd	afr	Africa	red	16
+0	HG02851	gwd	afr	Africa	red	16
+0	HG02852	gwd	afr	Africa	red	16
+0	HG02853	gwd	afr	Africa	red	16
+0	HG02854	gwd	afr	Africa	red	16
+0	HG02855	gwd	afr	Africa	red	16
+0	HG02856	gwd	afr	Africa	red	16
+0	HG02860	gwd	afr	Africa	red	16
+0	HG02861	gwd	afr	Africa	red	16
+0	HG02862	gwd	afr	Africa	red	16
+0	HG02870	gwd	afr	Africa	red	16
+0	HG02871	gwd	afr	Africa	red	16
+0	HG02878	gwd	afr	Africa	red	16
+0	HG02879	gwd	afr	Africa	red	16
+0	HG02880	gwd	afr	Africa	red	16
+0	HG02881	gwd	afr	Africa	red	16
+0	HG02882	gwd	afr	Africa	red	16
+0	HG02883	gwd	afr	Africa	red	16
+0	HG02884	gwd	afr	Africa	red	16
+0	HG02885	gwd	afr	Africa	red	16
+0	HG02886	gwd	afr	Africa	red	16
+0	HG02887	gwd	afr	Africa	red	16
+0	HG02888	gwd	afr	Africa	red	16
+0	HG02889	gwd	afr	Africa	red	16
+0	HG02890	gwd	afr	Africa	red	16
+0	HG02891	gwd	afr	Africa	red	16
+0	HG02892	gwd	afr	Africa	red	16
+0	HG02895	gwd	afr	Africa	red	16
+0	HG02896	gwd	afr	Africa	red	16
+0	HG02897	gwd	afr	Africa	red	16
+0	HG02922	esn	afr	Africa	red	16
+0	HG02923	esn	afr	Africa	red	16
+0	HG02924	esn	afr	Africa	red	16
+0	HG02938	esn	afr	Africa	red	16
+0	HG02941	esn	afr	Africa	red	16
+0	HG02943	esn	afr	Africa	red	16
+0	HG02944	esn	afr	Africa	red	16
+0	HG02945	esn	afr	Africa	red	16
+0	HG02946	esn	afr	Africa	red	16
+0	HG02947	esn	afr	Africa	red	16
+0	HG02948	esn	afr	Africa	red	16
+0	HG02952	esn	afr	Africa	red	16
+0	HG02953	esn	afr	Africa	red	16
+0	HG02954	esn	afr	Africa	red	16
+0	HG02964	esn	afr	Africa	red	16
+0	HG02965	esn	afr	Africa	red	16
+0	HG02966	esn	afr	Africa	red	16
+0	HG02968	esn	afr	Africa	red	16
+0	HG02970	esn	afr	Africa	red	16
+0	HG02971	esn	afr	Africa	red	16
+0	HG02972	esn	afr	Africa	red	16
+0	HG02973	esn	afr	Africa	red	16
+0	HG02974	esn	afr	Africa	red	16
+0	HG02975	esn	afr	Africa	red	16
+0	HG02976	esn	afr	Africa	red	16
+0	HG02977	esn	afr	Africa	red	16
+0	HG02978	esn	afr	Africa	red	16
+0	HG02979	esn	afr	Africa	red	16
+0	HG02980	esn	afr	Africa	red	16
+0	HG02981	esn	afr	Africa	red	16
+0	HG02982	gwd	afr	Africa	red	16
+0	HG02983	gwd	afr	Africa	red	16
+0	HG02984	gwd	afr	Africa	red	16
+0	HG03006	beb	sas	South Asia	tan	16
+0	HG03007	beb	sas	South Asia	tan	16
+0	HG03008	beb	sas	South Asia	tan	16
+0	HG03009	beb	sas	South Asia	tan	16
+0	HG03012	beb	sas	South Asia	tan	16
+0	HG03015	pjl	sas	South Asia	tan	16
+0	HG03016	pjl	sas	South Asia	tan	16
+0	HG03017	pjl	sas	South Asia	tan	16
+0	HG03018	pjl	sas	South Asia	tan	16
+0	HG03021	pjl	sas	South Asia	tan	16
+0	HG03022	pjl	sas	South Asia	tan	16
+0	HG03024	gwd	afr	Africa	red	16
+0	HG03025	gwd	afr	Africa	red	16
+0	HG03026	gwd	afr	Africa	red	16
+0	HG03027	gwd	afr	Africa	red	16
+0	HG03028	gwd	afr	Africa	red	16
+0	HG03029	gwd	afr	Africa	red	16
+0	HG03033	gwd	afr	Africa	red	16
+0	HG03034	gwd	afr	Africa	red	16
+0	HG03035	gwd	afr	Africa	red	16
+0	HG03039	gwd	afr	Africa	red	16
+0	HG03040	gwd	afr	Africa	red	16
+0	HG03041	gwd	afr	Africa	red	16
+0	HG03045	gwd	afr	Africa	red	16
+0	HG03046	gwd	afr	Africa	red	16
+0	HG03047	gwd	afr	Africa	red	16
+0	HG03048	gwd	afr	Africa	red	16
+0	HG03049	gwd	afr	Africa	red	16
+0	HG03050	gwd	afr	Africa	red	16
+0	HG03052	msl	afr	Africa	red	16
+0	HG03054	msl	afr	Africa	red	16
+0	HG03055	msl	afr	Africa	red	16
+0	HG03056	msl	afr	Africa	red	16
+0	HG03057	msl	afr	Africa	red	16
+0	HG03058	msl	afr	Africa	red	16
+0	HG03060	msl	afr	Africa	red	16
+0	HG03061	msl	afr	Africa	red	16
+0	HG03063	msl	afr	Africa	red	16
+0	HG03064	msl	afr	Africa	red	16
+0	HG03065	msl	afr	Africa	red	16
+0	HG03066	msl	afr	Africa	red	16
+0	HG03069	msl	afr	Africa	red	16
+0	HG03072	msl	afr	Africa	red	16
+0	HG03073	msl	afr	Africa	red	16
+0	HG03074	msl	afr	Africa	red	16
+0	HG03077	msl	afr	Africa	red	16
+0	HG03078	msl	afr	Africa	red	16
+0	HG03079	msl	afr	Africa	red	16
+0	HG03081	msl	afr	Africa	red	16
+0	HG03082	msl	afr	Africa	red	16
+0	HG03084	msl	afr	Africa	red	16
+0	HG03086	msl	afr	Africa	red	16
+0	HG03088	msl	afr	Africa	red	16
+0	HG03091	msl	afr	Africa	red	16
+0	HG03095	msl	afr	Africa	red	16
+0	HG03096	msl	afr	Africa	red	16
+0	HG03097	msl	afr	Africa	red	16
+0	HG03099	esn	afr	Africa	red	16
+0	HG03100	esn	afr	Africa	red	16
+0	HG03101	esn	afr	Africa	red	16
+0	HG03103	esn	afr	Africa	red	16
+0	HG03105	esn	afr	Africa	red	16
+0	HG03108	esn	afr	Africa	red	16
+0	HG03109	esn	afr	Africa	red	16
+0	HG03110	esn	afr	Africa	red	16
+0	HG03111	esn	afr	Africa	red	16
+0	HG03112	esn	afr	Africa	red	16
+0	HG03113	esn	afr	Africa	red	16
+0	HG03114	esn	afr	Africa	red	16
+0	HG03115	esn	afr	Africa	red	16
+0	HG03116	esn	afr	Africa	red	16
+0	HG03117	esn	afr	Africa	red	16
+0	HG03118	esn	afr	Africa	red	16
+0	HG03119	esn	afr	Africa	red	16
+0	HG03120	esn	afr	Africa	red	16
+0	HG03121	esn	afr	Africa	red	16
+0	HG03122	esn	afr	Africa	red	16
+0	HG03123	esn	afr	Africa	red	16
+0	HG03124	esn	afr	Africa	red	16
+0	HG03125	esn	afr	Africa	red	16
+0	HG03126	esn	afr	Africa	red	16
+0	HG03127	esn	afr	Africa	red	16
+0	HG03128	esn	afr	Africa	red	16
+0	HG03129	esn	afr	Africa	red	16
+0	HG03130	esn	afr	Africa	red	16
+0	HG03131	esn	afr	Africa	red	16
+0	HG03132	esn	afr	Africa	red	16
+0	HG03133	esn	afr	Africa	red	16
+0	HG03134	esn	afr	Africa	red	16
+0	HG03135	esn	afr	Africa	red	16
+0	HG03136	esn	afr	Africa	red	16
+0	HG03137	esn	afr	Africa	red	16
+0	HG03139	esn	afr	Africa	red	16
+0	HG03157	esn	afr	Africa	red	16
+0	HG03159	esn	afr	Africa	red	16
+0	HG03160	esn	afr	Africa	red	16
+0	HG03161	esn	afr	Africa	red	16
+0	HG03162	esn	afr	Africa	red	16
+0	HG03163	esn	afr	Africa	red	16
+0	HG03164	esn	afr	Africa	red	16
+0	HG03166	esn	afr	Africa	red	16
+0	HG03168	esn	afr	Africa	red	16
+0	HG03169	esn	afr	Africa	red	16
+0	HG03170	esn	afr	Africa	red	16
+0	HG03172	esn	afr	Africa	red	16
+0	HG03175	esn	afr	Africa	red	16
+0	HG03189	esn	afr	Africa	red	16
+0	HG03190	esn	afr	Africa	red	16
+0	HG03191	esn	afr	Africa	red	16
+0	HG03193	esn	afr	Africa	red	16
+0	HG03195	esn	afr	Africa	red	16
+0	HG03196	esn	afr	Africa	red	16
+0	HG03197	esn	afr	Africa	red	16
+0	HG03198	esn	afr	Africa	red	16
+0	HG03199	esn	afr	Africa	red	16
+0	HG03200	esn	afr	Africa	red	16
+0	HG03202	esn	afr	Africa	red	16
+0	HG03209	msl	afr	Africa	red	16
+0	HG03212	msl	afr	Africa	red	16
+0	HG03224	msl	afr	Africa	red	16
+0	HG03225	msl	afr	Africa	red	16
+0	HG03228	pjl	sas	South Asia	tan	16
+0	HG03229	pjl	sas	South Asia	tan	16
+0	HG03230	pjl	sas	South Asia	tan	16
+0	HG03234	pjl	sas	South Asia	tan	16
+0	HG03235	pjl	sas	South Asia	tan	16
+0	HG03236	pjl	sas	South Asia	tan	16
+0	HG03237	pjl	sas	South Asia	tan	16
+0	HG03238	pjl	sas	South Asia	tan	16
+0	HG03239	pjl	sas	South Asia	tan	16
+0	HG03246	gwd	afr	Africa	red	16
+0	HG03247	gwd	afr	Africa	red	16
+0	HG03248	gwd	afr	Africa	red	16
+0	HG03249	gwd	afr	Africa	red	16
+0	HG03251	gwd	afr	Africa	red	16
+0	HG03258	gwd	afr	Africa	red	16
+0	HG03259	gwd	afr	Africa	red	16
+0	HG03260	gwd	afr	Africa	red	16
+0	HG03265	esn	afr	Africa	red	16
+0	HG03267	esn	afr	Africa	red	16
+0	HG03268	esn	afr	Africa	red	16
+0	HG03269	esn	afr	Africa	red	16
+0	HG03270	esn	afr	Africa	red	16
+0	HG03271	esn	afr	Africa	red	16
+0	HG03272	esn	afr	Africa	red	16
+0	HG03279	esn	afr	Africa	red	16
+0	HG03280	esn	afr	Africa	red	16
+0	HG03291	esn	afr	Africa	red	16
+0	HG03294	esn	afr	Africa	red	16
+0	HG03295	esn	afr	Africa	red	16
+0	HG03296	esn	afr	Africa	red	16
+0	HG03297	esn	afr	Africa	red	16
+0	HG03298	esn	afr	Africa	red	16
+0	HG03299	esn	afr	Africa	red	16
+0	HG03304	esn	afr	Africa	red	16
+0	HG03305	esn	afr	Africa	red	16
+0	HG03306	esn	afr	Africa	red	16
+0	HG03307	esn	afr	Africa	red	16
+0	HG03308	esn	afr	Africa	red	16
+0	HG03309	esn	afr	Africa	red	16
+0	HG03310	esn	afr	Africa	red	16
+0	HG03311	esn	afr	Africa	red	16
+0	HG03312	esn	afr	Africa	red	16
+0	HG03313	esn	afr	Africa	red	16
+0	HG03314	esn	afr	Africa	red	16
+0	HG03342	esn	afr	Africa	red	16
+0	HG03343	esn	afr	Africa	red	16
+0	HG03344	esn	afr	Africa	red	16
+0	HG03350	esn	afr	Africa	red	16
+0	HG03351	esn	afr	Africa	red	16
+0	HG03352	esn	afr	Africa	red	16
+0	HG03354	esn	afr	Africa	red	16
+0	HG03363	esn	afr	Africa	red	16
+0	HG03366	esn	afr	Africa	red	16
+0	HG03367	esn	afr	Africa	red	16
+0	HG03368	esn	afr	Africa	red	16
+0	HG03369	esn	afr	Africa	red	16
+0	HG03370	esn	afr	Africa	red	16
+0	HG03371	esn	afr	Africa	red	16
+0	HG03372	esn	afr	Africa	red	16
+0	HG03373	esn	afr	Africa	red	16
+0	HG03374	esn	afr	Africa	red	16
+0	HG03376	msl	afr	Africa	red	16
+0	HG03378	msl	afr	Africa	red	16
+0	HG03380	msl	afr	Africa	red	16
+0	HG03382	msl	afr	Africa	red	16
+0	HG03385	msl	afr	Africa	red	16
+0	HG03388	msl	afr	Africa	red	16
+0	HG03391	msl	afr	Africa	red	16
+0	HG03394	msl	afr	Africa	red	16
+0	HG03397	msl	afr	Africa	red	16
+0	HG03401	msl	afr	Africa	red	16
+0	HG03410	msl	afr	Africa	red	16
+0	HG03419	msl	afr	Africa	red	16
+0	HG03428	msl	afr	Africa	red	16
+0	HG03432	msl	afr	Africa	red	16
+0	HG03433	msl	afr	Africa	red	16
+0	HG03436	msl	afr	Africa	red	16
+0	HG03437	msl	afr	Africa	red	16
+0	HG03438	msl	afr	Africa	red	16
+0	HG03439	msl	afr	Africa	red	16
+0	HG03442	msl	afr	Africa	red	16
+0	HG03445	msl	afr	Africa	red	16
+0	HG03446	msl	afr	Africa	red	16
+0	HG03449	msl	afr	Africa	red	16
+0	HG03454	msl	afr	Africa	red	16
+0	HG03455	msl	afr	Africa	red	16
+0	HG03457	msl	afr	Africa	red	16
+0	HG03458	msl	afr	Africa	red	16
+0	HG03460	msl	afr	Africa	red	16
+0	HG03461	msl	afr	Africa	red	16
+0	HG03464	msl	afr	Africa	red	16
+0	HG03470	msl	afr	Africa	red	16
+0	HG03472	msl	afr	Africa	red	16
+0	HG03473	msl	afr	Africa	red	16
+0	HG03476	msl	afr	Africa	red	16
+0	HG03478	msl	afr	Africa	red	16
+0	HG03479	msl	afr	Africa	red	16
+0	HG03480	msl	afr	Africa	red	16
+0	HG03487	pjl	sas	South Asia	tan	16
+0	HG03488	pjl	sas	South Asia	tan	16
+0	HG03489	pjl	sas	South Asia	tan	16
+0	HG03490	pjl	sas	South Asia	tan	16
+0	HG03491	pjl	sas	South Asia	tan	16
+0	HG03492	pjl	sas	South Asia	tan	16
+0	HG03499	esn	afr	Africa	red	16
+0	HG03514	esn	afr	Africa	red	16
+0	HG03515	esn	afr	Africa	red	16
+0	HG03516	esn	afr	Africa	red	16
+0	HG03520	esn	afr	Africa	red	16
+0	HG03521	esn	afr	Africa	red	16
+0	HG03522	esn	afr	Africa	red	16
+0	HG03538	gwd	afr	Africa	red	16
+0	HG03539	gwd	afr	Africa	red	16
+0	HG03540	gwd	afr	Africa	red	16
+0	HG03548	msl	afr	Africa	red	16
+0	HG03556	msl	afr	Africa	red	16
+0	HG03557	msl	afr	Africa	red	16
+0	HG03558	msl	afr	Africa	red	16
+0	HG03559	msl	afr	Africa	red	16
+0	HG03563	msl	afr	Africa	red	16
+0	HG03565	msl	afr	Africa	red	16
+0	HG03567	msl	afr	Africa	red	16
+0	HG03571	msl	afr	Africa	red	16
+0	HG03572	msl	afr	Africa	red	16
+0	HG03574	msl	afr	Africa	red	16
+0	HG03575	msl	afr	Africa	red	16
+0	HG03576	msl	afr	Africa	red	16
+0	HG03577	msl	afr	Africa	red	16
+0	HG03578	msl	afr	Africa	red	16
+0	HG03579	msl	afr	Africa	red	16
+0	HG03583	msl	afr	Africa	red	16
+0	HG03584	msl	afr	Africa	red	16
+0	HG03585	beb	sas	South Asia	tan	16
+0	HG03589	beb	sas	South Asia	tan	16
+0	HG03593	beb	sas	South Asia	tan	16
+0	HG03595	beb	sas	South Asia	tan	16
+0	HG03596	beb	sas	South Asia	tan	16
+0	HG03598	beb	sas	South Asia	tan	16
+0	HG03600	beb	sas	South Asia	tan	16
+0	HG03603	beb	sas	South Asia	tan	16
+0	HG03604	beb	sas	South Asia	tan	16
+0	HG03605	beb	sas	South Asia	tan	16
+0	HG03606	beb	sas	South Asia	tan	16
+0	HG03607	beb	sas	South Asia	tan	16
+0	HG03611	beb	sas	South Asia	tan	16
+0	HG03615	beb	sas	South Asia	tan	16
+0	HG03616	beb	sas	South Asia	tan	16
+0	HG03617	beb	sas	South Asia	tan	16
+0	HG03618	pjl	sas	South Asia	tan	16
+0	HG03619	pjl	sas	South Asia	tan	16
+0	HG03620	pjl	sas	South Asia	tan	16
+0	HG03629	pjl	sas	South Asia	tan	16
+0	HG03631	pjl	sas	South Asia	tan	16
+0	HG03633	pjl	sas	South Asia	tan	16
+0	HG03634	pjl	sas	South Asia	tan	16
+0	HG03635	pjl	sas	South Asia	tan	16
+0	HG03636	pjl	sas	South Asia	tan	16
+0	HG03639	pjl	sas	South Asia	tan	16
+0	HG03640	pjl	sas	South Asia	tan	16
+0	HG03641	pjl	sas	South Asia	tan	16
+0	HG03642	stu	sas	South Asia	tan	16
+0	HG03643	stu	sas	South Asia	tan	16
+0	HG03644	stu	sas	South Asia	tan	16
+0	HG03645	stu	sas	South Asia	tan	16
+0	HG03646	stu	sas	South Asia	tan	16
+0	HG03649	pjl	sas	South Asia	tan	16
+0	HG03650	pjl	sas	South Asia	tan	16
+0	HG03651	pjl	sas	South Asia	tan	16
+0	HG03652	pjl	sas	South Asia	tan	16
+0	HG03653	pjl	sas	South Asia	tan	16
+0	HG03654	pjl	sas	South Asia	tan	16
+0	HG03660	pjl	sas	South Asia	tan	16
+0	HG03663	pjl	sas	South Asia	tan	16
+0	HG03667	pjl	sas	South Asia	tan	16
+0	HG03668	pjl	sas	South Asia	tan	16
+0	HG03669	pjl	sas	South Asia	tan	16
+0	HG03672	stu	sas	South Asia	tan	16
+0	HG03673	stu	sas	South Asia	tan	16
+0	HG03679	stu	sas	South Asia	tan	16
+0	HG03680	stu	sas	South Asia	tan	16
+0	HG03681	stu	sas	South Asia	tan	16
+0	HG03682	stu	sas	South Asia	tan	16
+0	HG03683	stu	sas	South Asia	tan	16
+0	HG03684	stu	sas	South Asia	tan	16
+0	HG03685	stu	sas	South Asia	tan	16
+0	HG03686	stu	sas	South Asia	tan	16
+0	HG03687	stu	sas	South Asia	tan	16
+0	HG03689	stu	sas	South Asia	tan	16
+0	HG03690	stu	sas	South Asia	tan	16
+0	HG03691	stu	sas	South Asia	tan	16
+0	HG03692	stu	sas	South Asia	tan	16
+0	HG03693	stu	sas	South Asia	tan	16
+0	HG03694	stu	sas	South Asia	tan	16
+0	HG03695	stu	sas	South Asia	tan	16
+0	HG03696	stu	sas	South Asia	tan	16
+0	HG03697	stu	sas	South Asia	tan	16
+0	HG03698	stu	sas	South Asia	tan	16
+0	HG03699	pjl	sas	South Asia	tan	16
+0	HG03700	pjl	sas	South Asia	tan	16
+0	HG03701	pjl	sas	South Asia	tan	16
+0	HG03702	pjl	sas	South Asia	tan	16
+0	HG03703	pjl	sas	South Asia	tan	16
+0	HG03704	pjl	sas	South Asia	tan	16
+0	HG03705	pjl	sas	South Asia	tan	16
+0	HG03706	pjl	sas	South Asia	tan	16
+0	HG03707	pjl	sas	South Asia	tan	16
+0	HG03708	pjl	sas	South Asia	tan	16
+0	HG03709	pjl	sas	South Asia	tan	16
+0	HG03710	pjl	sas	South Asia	tan	16
+0	HG03711	stu	sas	South Asia	tan	16
+0	HG03713	itu	sas	South Asia	tan	16
+0	HG03714	itu	sas	South Asia	tan	16
+0	HG03716	itu	sas	South Asia	tan	16
+0	HG03717	itu	sas	South Asia	tan	16
+0	HG03718	itu	sas	South Asia	tan	16
+0	HG03720	itu	sas	South Asia	tan	16
+0	HG03721	itu	sas	South Asia	tan	16
+0	HG03727	itu	sas	South Asia	tan	16
+0	HG03729	itu	sas	South Asia	tan	16
+0	HG03730	itu	sas	South Asia	tan	16
+0	HG03731	itu	sas	South Asia	tan	16
+0	HG03732	itu	sas	South Asia	tan	16
+0	HG03733	stu	sas	South Asia	tan	16
+0	HG03736	stu	sas	South Asia	tan	16
+0	HG03738	stu	sas	South Asia	tan	16
+0	HG03740	stu	sas	South Asia	tan	16
+0	HG03741	stu	sas	South Asia	tan	16
+0	HG03742	itu	sas	South Asia	tan	16
+0	HG03743	stu	sas	South Asia	tan	16
+0	HG03744	stu	sas	South Asia	tan	16
+0	HG03745	stu	sas	South Asia	tan	16
+0	HG03746	stu	sas	South Asia	tan	16
+0	HG03750	stu	sas	South Asia	tan	16
+0	HG03752	stu	sas	South Asia	tan	16
+0	HG03753	stu	sas	South Asia	tan	16
+0	HG03754	stu	sas	South Asia	tan	16
+0	HG03755	stu	sas	South Asia	tan	16
+0	HG03756	stu	sas	South Asia	tan	16
+0	HG03757	stu	sas	South Asia	tan	16
+0	HG03760	stu	sas	South Asia	tan	16
+0	HG03761	pjl	sas	South Asia	tan	16
+0	HG03762	pjl	sas	South Asia	tan	16
+0	HG03763	pjl	sas	South Asia	tan	16
+0	HG03765	pjl	sas	South Asia	tan	16
+0	HG03767	pjl	sas	South Asia	tan	16
+0	HG03770	itu	sas	South Asia	tan	16
+0	HG03771	itu	sas	South Asia	tan	16
+0	HG03772	itu	sas	South Asia	tan	16
+0	HG03773	itu	sas	South Asia	tan	16
+0	HG03774	itu	sas	South Asia	tan	16
+0	HG03775	itu	sas	South Asia	tan	16
+0	HG03777	itu	sas	South Asia	tan	16
+0	HG03778	itu	sas	South Asia	tan	16
+0	HG03779	itu	sas	South Asia	tan	16
+0	HG03780	itu	sas	South Asia	tan	16
+0	HG03781	itu	sas	South Asia	tan	16
+0	HG03782	itu	sas	South Asia	tan	16
+0	HG03784	itu	sas	South Asia	tan	16
+0	HG03785	itu	sas	South Asia	tan	16
+0	HG03786	itu	sas	South Asia	tan	16
+0	HG03787	itu	sas	South Asia	tan	16
+0	HG03788	itu	sas	South Asia	tan	16
+0	HG03789	itu	sas	South Asia	tan	16
+0	HG03790	itu	sas	South Asia	tan	16
+0	HG03792	itu	sas	South Asia	tan	16
+0	HG03793	beb	sas	South Asia	tan	16
+0	HG03794	beb	sas	South Asia	tan	16
+0	HG03795	beb	sas	South Asia	tan	16
+0	HG03796	beb	sas	South Asia	tan	16
+0	HG03797	beb	sas	South Asia	tan	16
+0	HG03798	beb	sas	South Asia	tan	16
+0	HG03799	beb	sas	South Asia	tan	16
+0	HG03800	beb	sas	South Asia	tan	16
+0	HG03801	beb	sas	South Asia	tan	16
+0	HG03802	beb	sas	South Asia	tan	16
+0	HG03803	beb	sas	South Asia	tan	16
+0	HG03804	beb	sas	South Asia	tan	16
+0	HG03805	beb	sas	South Asia	tan	16
+0	HG03806	beb	sas	South Asia	tan	16
+0	HG03807	beb	sas	South Asia	tan	16
+0	HG03808	beb	sas	South Asia	tan	16
+0	HG03809	beb	sas	South Asia	tan	16
+0	HG03812	beb	sas	South Asia	tan	16
+0	HG03817	beb	sas	South Asia	tan	16
+0	HG03821	beb	sas	South Asia	tan	16
+0	HG03824	beb	sas	South Asia	tan	16
+0	HG03826	beb	sas	South Asia	tan	16
+0	HG03829	beb	sas	South Asia	tan	16
+0	HG03830	beb	sas	South Asia	tan	16
+0	HG03831	beb	sas	South Asia	tan	16
+0	HG03832	beb	sas	South Asia	tan	16
+0	HG03833	beb	sas	South Asia	tan	16
+0	HG03834	beb	sas	South Asia	tan	16
+0	HG03836	stu	sas	South Asia	tan	16
+0	HG03837	stu	sas	South Asia	tan	16
+0	HG03838	stu	sas	South Asia	tan	16
+0	HG03844	stu	sas	South Asia	tan	16
+0	HG03846	stu	sas	South Asia	tan	16
+0	HG03848	stu	sas	South Asia	tan	16
+0	HG03849	stu	sas	South Asia	tan	16
+0	HG03850	stu	sas	South Asia	tan	16
+0	HG03851	stu	sas	South Asia	tan	16
+0	HG03854	stu	sas	South Asia	tan	16
+0	HG03856	stu	sas	South Asia	tan	16
+0	HG03857	stu	sas	South Asia	tan	16
+0	HG03858	stu	sas	South Asia	tan	16
+0	HG03861	itu	sas	South Asia	tan	16
+0	HG03862	itu	sas	South Asia	tan	16
+0	HG03863	itu	sas	South Asia	tan	16
+0	HG03864	itu	sas	South Asia	tan	16
+0	HG03866	itu	sas	South Asia	tan	16
+0	HG03867	itu	sas	South Asia	tan	16
+0	HG03868	itu	sas	South Asia	tan	16
+0	HG03869	itu	sas	South Asia	tan	16
+0	HG03870	itu	sas	South Asia	tan	16
+0	HG03871	itu	sas	South Asia	tan	16
+0	HG03872	itu	sas	South Asia	tan	16
+0	HG03873	itu	sas	South Asia	tan	16
+0	HG03874	itu	sas	South Asia	tan	16
+0	HG03875	itu	sas	South Asia	tan	16
+0	HG03882	itu	sas	South Asia	tan	16
+0	HG03884	stu	sas	South Asia	tan	16
+0	HG03887	stu	sas	South Asia	tan	16
+0	HG03888	stu	sas	South Asia	tan	16
+0	HG03890	stu	sas	South Asia	tan	16
+0	HG03894	stu	sas	South Asia	tan	16
+0	HG03895	stu	sas	South Asia	tan	16
+0	HG03896	stu	sas	South Asia	tan	16
+0	HG03897	stu	sas	South Asia	tan	16
+0	HG03898	stu	sas	South Asia	tan	16
+0	HG03899	stu	sas	South Asia	tan	16
+0	HG03900	stu	sas	South Asia	tan	16
+0	HG03902	beb	sas	South Asia	tan	16
+0	HG03904	beb	sas	South Asia	tan	16
+0	HG03905	beb	sas	South Asia	tan	16
+0	HG03906	beb	sas	South Asia	tan	16
+0	HG03907	beb	sas	South Asia	tan	16
+0	HG03908	beb	sas	South Asia	tan	16
+0	HG03909	beb	sas	South Asia	tan	16
+0	HG03910	beb	sas	South Asia	tan	16
+0	HG03911	beb	sas	South Asia	tan	16
+0	HG03913	beb	sas	South Asia	tan	16
+0	HG03914	beb	sas	South Asia	tan	16
+0	HG03915	beb	sas	South Asia	tan	16
+0	HG03916	beb	sas	South Asia	tan	16
+0	HG03917	beb	sas	South Asia	tan	16
+0	HG03919	beb	sas	South Asia	tan	16
+0	HG03920	beb	sas	South Asia	tan	16
+0	HG03922	beb	sas	South Asia	tan	16
+0	HG03925	beb	sas	South Asia	tan	16
+0	HG03926	beb	sas	South Asia	tan	16
+0	HG03927	beb	sas	South Asia	tan	16
+0	HG03928	beb	sas	South Asia	tan	16
+0	HG03929	beb	sas	South Asia	tan	16
+0	HG03930	beb	sas	South Asia	tan	16
+0	HG03931	beb	sas	South Asia	tan	16
+0	HG03934	beb	sas	South Asia	tan	16
+0	HG03937	beb	sas	South Asia	tan	16
+0	HG03940	beb	sas	South Asia	tan	16
+0	HG03941	beb	sas	South Asia	tan	16
+0	HG03942	beb	sas	South Asia	tan	16
+0	HG03945	stu	sas	South Asia	tan	16
+0	HG03947	stu	sas	South Asia	tan	16
+0	HG03949	stu	sas	South Asia	tan	16
+0	HG03950	stu	sas	South Asia	tan	16
+0	HG03951	stu	sas	South Asia	tan	16
+0	HG03953	stu	sas	South Asia	tan	16
+0	HG03955	stu	sas	South Asia	tan	16
+0	HG03960	itu	sas	South Asia	tan	16
+0	HG03963	itu	sas	South Asia	tan	16
+0	HG03965	itu	sas	South Asia	tan	16
+0	HG03967	itu	sas	South Asia	tan	16
+0	HG03968	itu	sas	South Asia	tan	16
+0	HG03969	itu	sas	South Asia	tan	16
+0	HG03971	itu	sas	South Asia	tan	16
+0	HG03973	itu	sas	South Asia	tan	16
+0	HG03974	itu	sas	South Asia	tan	16
+0	HG03976	itu	sas	South Asia	tan	16
+0	HG03977	itu	sas	South Asia	tan	16
+0	HG03978	itu	sas	South Asia	tan	16
+0	HG03985	stu	sas	South Asia	tan	16
+0	HG03986	stu	sas	South Asia	tan	16
+0	HG03989	stu	sas	South Asia	tan	16
+0	HG03990	stu	sas	South Asia	tan	16
+0	HG03991	stu	sas	South Asia	tan	16
+0	HG03995	stu	sas	South Asia	tan	16
+0	HG03998	stu	sas	South Asia	tan	16
+0	HG03999	stu	sas	South Asia	tan	16
+0	HG04001	itu	sas	South Asia	tan	16
+0	HG04002	itu	sas	South Asia	tan	16
+0	HG04003	stu	sas	South Asia	tan	16
+0	HG04006	stu	sas	South Asia	tan	16
+0	HG04014	itu	sas	South Asia	tan	16
+0	HG04015	itu	sas	South Asia	tan	16
+0	HG04017	itu	sas	South Asia	tan	16
+0	HG04018	itu	sas	South Asia	tan	16
+0	HG04019	itu	sas	South Asia	tan	16
+0	HG04020	itu	sas	South Asia	tan	16
+0	HG04022	itu	sas	South Asia	tan	16
+0	HG04023	itu	sas	South Asia	tan	16
+0	HG04025	itu	sas	South Asia	tan	16
+0	HG04026	itu	sas	South Asia	tan	16
+0	HG04029	stu	sas	South Asia	tan	16
+0	HG04033	stu	sas	South Asia	tan	16
+0	HG04035	stu	sas	South Asia	tan	16
+0	HG04036	stu	sas	South Asia	tan	16
+0	HG04038	stu	sas	South Asia	tan	16
+0	HG04039	stu	sas	South Asia	tan	16
+0	HG04042	stu	sas	South Asia	tan	16
+0	HG04047	stu	sas	South Asia	tan	16
+0	HG04054	itu	sas	South Asia	tan	16
+0	HG04056	itu	sas	South Asia	tan	16
+0	HG04059	itu	sas	South Asia	tan	16
+0	HG04060	itu	sas	South Asia	tan	16
+0	HG04061	itu	sas	South Asia	tan	16
+0	HG04062	itu	sas	South Asia	tan	16
+0	HG04063	itu	sas	South Asia	tan	16
+0	HG04070	itu	sas	South Asia	tan	16
+0	HG04075	stu	sas	South Asia	tan	16
+0	HG04076	itu	sas	South Asia	tan	16
+0	HG04080	itu	sas	South Asia	tan	16
+0	HG04090	itu	sas	South Asia	tan	16
+0	HG04093	itu	sas	South Asia	tan	16
+0	HG04094	itu	sas	South Asia	tan	16
+0	HG04096	itu	sas	South Asia	tan	16
+0	HG04098	itu	sas	South Asia	tan	16
+0	HG04099	stu	sas	South Asia	tan	16
+0	HG04100	stu	sas	South Asia	tan	16
+0	HG04106	stu	sas	South Asia	tan	16
+0	HG04107	stu	sas	South Asia	tan	16
+0	HG04115	stu	sas	South Asia	tan	16
+0	HG04118	itu	sas	South Asia	tan	16
+0	HG04122	stu	sas	South Asia	tan	16
+0	HG04127	stu	sas	South Asia	tan	16
+0	HG04131	beb	sas	South Asia	tan	16
+0	HG04132	beb	sas	South Asia	tan	16
+0	HG04133	beb	sas	South Asia	tan	16
+0	HG04134	beb	sas	South Asia	tan	16
+0	HG04135	beb	sas	South Asia	tan	16
+0	HG04136	beb	sas	South Asia	tan	16
+0	HG04140	beb	sas	South Asia	tan	16
+0	HG04141	beb	sas	South Asia	tan	16
+0	HG04142	beb	sas	South Asia	tan	16
+0	HG04144	beb	sas	South Asia	tan	16
+0	HG04146	beb	sas	South Asia	tan	16
+0	HG04147	beb	sas	South Asia	tan	16
+0	HG04148	beb	sas	South Asia	tan	16
+0	HG04149	beb	sas	South Asia	tan	16
+0	HG04150	beb	sas	South Asia	tan	16
+0	HG04151	beb	sas	South Asia	tan	16
+0	HG04152	beb	sas	South Asia	tan	16
+0	HG04153	beb	sas	South Asia	tan	16
+0	HG04155	beb	sas	South Asia	tan	16
+0	HG04156	beb	sas	South Asia	tan	16
+0	HG04157	beb	sas	South Asia	tan	16
+0	HG04158	beb	sas	South Asia	tan	16
+0	HG04159	beb	sas	South Asia	tan	16
+0	HG04160	beb	sas	South Asia	tan	16
+0	HG04161	beb	sas	South Asia	tan	16
+0	HG04162	beb	sas	South Asia	tan	16
+0	HG04164	beb	sas	South Asia	tan	16
+0	HG04171	beb	sas	South Asia	tan	16
+0	HG04173	beb	sas	South Asia	tan	16
+0	HG04174	beb	sas	South Asia	tan	16
+0	HG04175	beb	sas	South Asia	tan	16
+0	HG04176	beb	sas	South Asia	tan	16
+0	HG04177	beb	sas	South Asia	tan	16
+0	HG04180	beb	sas	South Asia	tan	16
+0	HG04182	beb	sas	South Asia	tan	16
+0	HG04183	beb	sas	South Asia	tan	16
+0	HG04184	beb	sas	South Asia	tan	16
+0	HG04185	beb	sas	South Asia	tan	16
+0	HG04186	beb	sas	South Asia	tan	16
+0	HG04187	beb	sas	South Asia	tan	16
+0	HG04188	beb	sas	South Asia	tan	16
+0	HG04189	beb	sas	South Asia	tan	16
+0	HG04191	beb	sas	South Asia	tan	16
+0	HG04192	beb	sas	South Asia	tan	16
+0	HG04193	beb	sas	South Asia	tan	16
+0	HG04194	beb	sas	South Asia	tan	16
+0	HG04195	beb	sas	South Asia	tan	16
+0	HG04199	stu	sas	South Asia	tan	16
+0	HG04204	stu	sas	South Asia	tan	16
+0	HG04206	itu	sas	South Asia	tan	16
+0	HG04209	itu	sas	South Asia	tan	16
+0	HG04210	stu	sas	South Asia	tan	16
+0	HG04211	itu	sas	South Asia	tan	16
+0	HG04212	itu	sas	South Asia	tan	16
+0	HG04214	itu	sas	South Asia	tan	16
+0	HG04215	stu	sas	South Asia	tan	16
+0	HG04216	itu	sas	South Asia	tan	16
+0	HG04219	itu	sas	South Asia	tan	16
+0	HG04222	itu	sas	South Asia	tan	16
+0	HG04225	itu	sas	South Asia	tan	16
+0	HG04227	stu	sas	South Asia	tan	16
+0	HG04228	stu	sas	South Asia	tan	16
+0	HG04229	stu	sas	South Asia	tan	16
+0	HG04235	itu	sas	South Asia	tan	16
+0	HG04238	itu	sas	South Asia	tan	16
+0	HG04239	itu	sas	South Asia	tan	16
+0	HGDP00003	brahui	sas	South Asia	tan	16
+0	HGDP00007	brahui	sas	South Asia	tan	16
+0	HGDP00011	brahui	sas	South Asia	tan	16
+0	HGDP00013	brahui	sas	South Asia	tan	16
+0	HGDP00015	brahui	sas	South Asia	tan	16
+0	HGDP00017	brahui	sas	South Asia	tan	16
+0	HGDP00021	brahui	sas	South Asia	tan	16
+0	HGDP00023	brahui	sas	South Asia	tan	16
+0	HGDP00025	brahui	sas	South Asia	tan	16
+0	HGDP00029	brahui	sas	South Asia	tan	16
+0	HGDP00031	brahui	sas	South Asia	tan	16
+0	HGDP00033	brahui	sas	South Asia	tan	16
+0	HGDP00035	brahui	sas	South Asia	tan	16
+0	HGDP00037	brahui	sas	South Asia	tan	16
+0	HGDP00039	brahui	sas	South Asia	tan	16
+0	HGDP00041	brahui	sas	South Asia	tan	16
+0	HGDP00043	brahui	sas	South Asia	tan	16
+0	HGDP00045	brahui	sas	South Asia	tan	16
+0	HGDP00047	brahui	sas	South Asia	tan	16
+0	HGDP00049	brahui	sas	South Asia	tan	16
+0	HGDP00052	balochi	sas	South Asia	tan	16
+0	HGDP00054	balochi	sas	South Asia	tan	16
+0	HGDP00060	balochi	sas	South Asia	tan	16
+0	HGDP00064	balochi	sas	South Asia	tan	16
+0	HGDP00066	balochi	sas	South Asia	tan	16
+0	HGDP00068	balochi	sas	South Asia	tan	16
+0	HGDP00070	balochi	sas	South Asia	tan	16
+0	HGDP00072	balochi	sas	South Asia	tan	16
+0	HGDP00074	balochi	sas	South Asia	tan	16
+0	HGDP00076	balochi	sas	South Asia	tan	16
+0	HGDP00078	balochi	sas	South Asia	tan	16
+0	HGDP00080	balochi	sas	South Asia	tan	16
+0	HGDP00082	balochi	sas	South Asia	tan	16
+0	HGDP00086	balochi	sas	South Asia	tan	16
+0	HGDP00088	balochi	sas	South Asia	tan	16
+0	HGDP00092	balochi	sas	South Asia	tan	16
+0	HGDP00094	balochi	sas	South Asia	tan	16
+0	HGDP00096	balochi	sas	South Asia	tan	16
+0	HGDP00098	balochi	sas	South Asia	tan	16
+0	HGDP00130	makrani	sas	South Asia	tan	16
+0	HGDP00131	makrani	sas	South Asia	tan	16
+0	HGDP00133	makrani	sas	South Asia	tan	16
+0	HGDP00134	makrani	sas	South Asia	tan	16
+0	HGDP00135	makrani	sas	South Asia	tan	16
+0	HGDP00136	makrani	sas	South Asia	tan	16
+0	HGDP00137	makrani	sas	South Asia	tan	16
+0	HGDP00139	makrani	sas	South Asia	tan	16
+0	HGDP00140	makrani	sas	South Asia	tan	16
+0	HGDP00141	makrani	sas	South Asia	tan	16
+0	HGDP00143	makrani	sas	South Asia	tan	16
+0	HGDP00144	makrani	sas	South Asia	tan	16
+0	HGDP00145	makrani	sas	South Asia	tan	16
+0	HGDP00146	makrani	sas	South Asia	tan	16
+0	HGDP00148	makrani	sas	South Asia	tan	16
+0	HGDP00149	makrani	sas	South Asia	tan	16
+0	HGDP00150	makrani	sas	South Asia	tan	16
+0	HGDP00151	makrani	sas	South Asia	tan	16
+0	HGDP00153	makrani	sas	South Asia	tan	16
+0	HGDP00154	makrani	sas	South Asia	tan	16
+0	HGDP00155	makrani	sas	South Asia	tan	16
+0	HGDP00158	makrani	sas	South Asia	tan	16
+0	HGDP00161	makrani	sas	South Asia	tan	16
+0	HGDP00167	sindhi	sas	South Asia	tan	16
+0	HGDP00169	sindhi	sas	South Asia	tan	16
+0	HGDP00171	sindhi	sas	South Asia	tan	16
+0	HGDP00175	sindhi	sas	South Asia	tan	16
+0	HGDP00177	sindhi	sas	South Asia	tan	16
+0	HGDP00179	sindhi	sas	South Asia	tan	16
+0	HGDP00181	sindhi	sas	South Asia	tan	16
+0	HGDP00183	sindhi	sas	South Asia	tan	16
+0	HGDP00187	sindhi	sas	South Asia	tan	16
+0	HGDP00189	sindhi	sas	South Asia	tan	16
+0	HGDP00191	sindhi	sas	South Asia	tan	16
+0	HGDP00192	sindhi	sas	South Asia	tan	16
+0	HGDP00197	sindhi	sas	South Asia	tan	16
+0	HGDP00199	sindhi	sas	South Asia	tan	16
+0	HGDP00201	sindhi	sas	South Asia	tan	16
+0	HGDP00205	sindhi	sas	South Asia	tan	16
+0	HGDP00206	sindhi	sas	South Asia	tan	16
+0	HGDP00210	sindhi	sas	South Asia	tan	16
+0	HGDP00214	pathan	sas	South Asia	tan	16
+0	HGDP00222	pathan	sas	South Asia	tan	16
+0	HGDP00224	pathan	sas	South Asia	tan	16
+0	HGDP00228	pathan	sas	South Asia	tan	16
+0	HGDP00230	pathan	sas	South Asia	tan	16
+0	HGDP00234	pathan	sas	South Asia	tan	16
+0	HGDP00237	pathan	sas	South Asia	tan	16
+0	HGDP00239	pathan	sas	South Asia	tan	16
+0	HGDP00241	pathan	sas	South Asia	tan	16
+0	HGDP00243	pathan	sas	South Asia	tan	16
+0	HGDP00244	pathan	sas	South Asia	tan	16
+0	HGDP00247	pathan	sas	South Asia	tan	16
+0	HGDP00248	pathan	sas	South Asia	tan	16
+0	HGDP00251	pathan	sas	South Asia	tan	16
+0	HGDP00254	pathan	sas	South Asia	tan	16
+0	HGDP00258	pathan	sas	South Asia	tan	16
+0	HGDP00259	pathan	sas	South Asia	tan	16
+0	HGDP00262	pathan	sas	South Asia	tan	16
+0	HGDP00264	pathan	sas	South Asia	tan	16
+0	HGDP00274	kalash	sas	South Asia	tan	16
+0	HGDP00277	kalash	sas	South Asia	tan	16
+0	HGDP00281	kalash	sas	South Asia	tan	16
+0	HGDP00285	kalash	sas	South Asia	tan	16
+0	HGDP00290	kalash	sas	South Asia	tan	16
+0	HGDP00298	kalash	sas	South Asia	tan	16
+0	HGDP00302	kalash	sas	South Asia	tan	16
+0	HGDP00304	kalash	sas	South Asia	tan	16
+0	HGDP00307	kalash	sas	South Asia	tan	16
+0	HGDP00309	kalash	sas	South Asia	tan	16
+0	HGDP00311	kalash	sas	South Asia	tan	16
+0	HGDP00313	kalash	sas	South Asia	tan	16
+0	HGDP00315	kalash	sas	South Asia	tan	16
+0	HGDP00321	kalash	sas	South Asia	tan	16
+0	HGDP00323	kalash	sas	South Asia	tan	16
+0	HGDP00326	kalash	sas	South Asia	tan	16
+0	HGDP00330	kalash	sas	South Asia	tan	16
+0	HGDP00333	kalash	sas	South Asia	tan	16
+0	HGDP00346	burusho	sas	South Asia	tan	16
+0	HGDP00351	burusho	sas	South Asia	tan	16
+0	HGDP00356	burusho	sas	South Asia	tan	16
+0	HGDP00364	burusho	sas	South Asia	tan	16
+0	HGDP00371	burusho	sas	South Asia	tan	16
+0	HGDP00372	burusho	sas	South Asia	tan	16
+0	HGDP00376	burusho	sas	South Asia	tan	16
+0	HGDP00382	burusho	sas	South Asia	tan	16
+0	HGDP00388	burusho	sas	South Asia	tan	16
+0	HGDP00392	burusho	sas	South Asia	tan	16
+0	HGDP00397	burusho	sas	South Asia	tan	16
+0	HGDP00402	burusho	sas	South Asia	tan	16
+0	HGDP00407	burusho	sas	South Asia	tan	16
+0	HGDP00412	burusho	sas	South Asia	tan	16
+0	HGDP00417	burusho	sas	South Asia	tan	16
+0	HGDP00423	burusho	sas	South Asia	tan	16
+0	HGDP00433	burusho	sas	South Asia	tan	16
+0	HGDP00438	burusho	sas	South Asia	tan	16
+0	HGDP00444	burusho	sas	South Asia	tan	16
+0	HGDP00445	burusho	sas	South Asia	tan	16
+0	HGDP00511	french	eur	European	green	16
+0	HGDP00512	french	eur	European	green	16
+0	HGDP00513	french	eur	European	green	16
+0	HGDP00514	french	eur	European	green	16
+0	HGDP00515	french	eur	European	green	16
+0	HGDP00516	french	eur	European	green	16
+0	HGDP00517	french	eur	European	green	16
+0	HGDP00518	french	eur	European	green	16
+0	HGDP00519	french	eur	European	green	16
+0	HGDP00520	french	eur	European	green	16
+0	HGDP00522	french	eur	European	green	16
+0	HGDP00523	french	eur	European	green	16
+0	HGDP00524	french	eur	European	green	16
+0	HGDP00525	french	eur	European	green	16
+0	HGDP00527	french	eur	European	green	16
+0	HGDP00528	french	eur	European	green	16
+0	HGDP00529	french	eur	European	green	16
+0	HGDP00531	french	eur	European	green	16
+0	HGDP00534	french	eur	European	green	16
+0	HGDP00535	french	eur	European	green	16
+0	HGDP00536	french	eur	European	green	16
+0	HGDP00537	french	eur	European	green	16
+0	HGDP00538	french	eur	European	green	16
+0	HGDP00539	french	eur	European	green	16
+0	HGDP00558	druze	mid	Middle-East	orange	16
+0	HGDP00559	druze	mid	Middle-East	orange	16
+0	HGDP00560	druze	mid	Middle-East	orange	16
+0	HGDP00561	druze	mid	Middle-East	orange	16
+0	HGDP00562	druze	mid	Middle-East	orange	16
+0	HGDP00563	druze	mid	Middle-East	orange	16
+0	HGDP00564	druze	mid	Middle-East	orange	16
+0	HGDP00566	druze	mid	Middle-East	orange	16
+0	HGDP00567	druze	mid	Middle-East	orange	16
+0	HGDP00568	druze	mid	Middle-East	orange	16
+0	HGDP00574	druze	mid	Middle-East	orange	16
+0	HGDP00577	druze	mid	Middle-East	orange	16
+0	HGDP00578	druze	mid	Middle-East	orange	16
+0	HGDP00579	druze	mid	Middle-East	orange	16
+0	HGDP00581	druze	mid	Middle-East	orange	16
+0	HGDP00582	druze	mid	Middle-East	orange	16
+0	HGDP00583	druze	mid	Middle-East	orange	16
+0	HGDP00584	druze	mid	Middle-East	orange	16
+0	HGDP00586	druze	mid	Middle-East	orange	16
+0	HGDP00587	druze	mid	Middle-East	orange	16
+0	HGDP00588	druze	mid	Middle-East	orange	16
+0	HGDP00590	druze	mid	Middle-East	orange	16
+0	HGDP00591	druze	mid	Middle-East	orange	16
+0	HGDP00594	druze	mid	Middle-East	orange	16
+0	HGDP00595	druze	mid	Middle-East	orange	16
+0	HGDP00598	druze	mid	Middle-East	orange	16
+0	HGDP00600	druze	mid	Middle-East	orange	16
+0	HGDP00601	druze	mid	Middle-East	orange	16
+0	HGDP00602	druze	mid	Middle-East	orange	16
+0	HGDP00604	druze	mid	Middle-East	orange	16
+0	HGDP00606	druze	mid	Middle-East	orange	16
+0	HGDP00607	bedouin	mid	Middle-East	orange	16
+0	HGDP00608	bedouin	mid	Middle-East	orange	16
+0	HGDP00610	bedouin	mid	Middle-East	orange	16
+0	HGDP00612	bedouin	mid	Middle-East	orange	16
+0	HGDP00614	bedouin	mid	Middle-East	orange	16
+0	HGDP00615	bedouin	mid	Middle-East	orange	16
+0	HGDP00618	bedouin	mid	Middle-East	orange	16
+0	HGDP00619	bedouin	mid	Middle-East	orange	16
+0	HGDP00622	bedouin	mid	Middle-East	orange	16
+0	HGDP00623	bedouin	mid	Middle-East	orange	16
+0	HGDP00624	bedouin	mid	Middle-East	orange	16
+0	HGDP00626	bedouin	mid	Middle-East	orange	16
+0	HGDP00629	bedouin	mid	Middle-East	orange	16
+0	HGDP00630	bedouin	mid	Middle-East	orange	16
+0	HGDP00631	bedouin	mid	Middle-East	orange	16
+0	HGDP00636	bedouin	mid	Middle-East	orange	16
+0	HGDP00637	bedouin	mid	Middle-East	orange	16
+0	HGDP00639	bedouin	mid	Middle-East	orange	16
+0	HGDP00641	bedouin	mid	Middle-East	orange	16
+0	HGDP00642	bedouin	mid	Middle-East	orange	16
+0	HGDP00643	bedouin	mid	Middle-East	orange	16
+0	HGDP00644	bedouin	mid	Middle-East	orange	16
+0	HGDP00645	bedouin	mid	Middle-East	orange	16
+0	HGDP00647	bedouin	mid	Middle-East	orange	16
+0	HGDP00648	bedouin	mid	Middle-East	orange	16
+0	HGDP00649	bedouin	mid	Middle-East	orange	16
+0	HGDP00651	bedouin	mid	Middle-East	orange	16
+0	HGDP00653	bedouin	mid	Middle-East	orange	16
+0	HGDP00666	sardinian	eur	European	green	16
+0	HGDP00667	sardinian	eur	European	green	16
+0	HGDP00668	sardinian	eur	European	green	16
+0	HGDP00669	sardinian	eur	European	green	16
+0	HGDP00670	sardinian	eur	European	green	16
+0	HGDP00671	sardinian	eur	European	green	16
+0	HGDP00672	sardinian	eur	European	green	16
+0	HGDP00673	sardinian	eur	European	green	16
+0	HGDP00674	sardinian	eur	European	green	16
+0	HGDP00675	palestinian	mid	Middle-East	orange	16
+0	HGDP00676	palestinian	mid	Middle-East	orange	16
+0	HGDP00677	palestinian	mid	Middle-East	orange	16
+0	HGDP00678	palestinian	mid	Middle-East	orange	16
+0	HGDP00679	palestinian	mid	Middle-East	orange	16
+0	HGDP00680	palestinian	mid	Middle-East	orange	16
+0	HGDP00682	palestinian	mid	Middle-East	orange	16
+0	HGDP00683	palestinian	mid	Middle-East	orange	16
+0	HGDP00685	palestinian	mid	Middle-East	orange	16
+0	HGDP00686	palestinian	mid	Middle-East	orange	16
+0	HGDP00687	palestinian	mid	Middle-East	orange	16
+0	HGDP00688	palestinian	mid	Middle-East	orange	16
+0	HGDP00689	palestinian	mid	Middle-East	orange	16
+0	HGDP00690	palestinian	mid	Middle-East	orange	16
+0	HGDP00691	palestinian	mid	Middle-East	orange	16
+0	HGDP00693	palestinian	mid	Middle-East	orange	16
+0	HGDP00694	palestinian	mid	Middle-East	orange	16
+0	HGDP00698	palestinian	mid	Middle-East	orange	16
+0	HGDP00699	palestinian	mid	Middle-East	orange	16
+0	HGDP00700	palestinian	mid	Middle-East	orange	16
+0	HGDP00701	bedouin	mid	Middle-East	orange	16
+0	HGDP00703	colombian	amr	American	purple	16
+0	HGDP00704	colombian	amr	American	purple	16
+0	HGDP00708	colombian	amr	American	purple	16
+0	HGDP00710	colombian	amr	American	purple	16
+0	HGDP00711	cambodian	eas	East Asia	yellow3	16
+0	HGDP00712	cambodian	eas	East Asia	yellow3	16
+0	HGDP00714	cambodian	eas	East Asia	yellow3	16
+0	HGDP00716	cambodian	eas	East Asia	yellow3	16
+0	HGDP00719	cambodian	eas	East Asia	yellow3	16
+0	HGDP00720	cambodian	eas	East Asia	yellow3	16
+0	HGDP00723	palestinian	mid	Middle-East	orange	16
+0	HGDP00726	palestinian	mid	Middle-East	orange	16
+0	HGDP00727	palestinian	mid	Middle-East	orange	16
+0	HGDP00729	palestinian	mid	Middle-East	orange	16
+0	HGDP00730	palestinian	mid	Middle-East	orange	16
+0	HGDP00731	palestinian	mid	Middle-East	orange	16
+0	HGDP00732	palestinian	mid	Middle-East	orange	16
+0	HGDP00733	palestinian	mid	Middle-East	orange	16
+0	HGDP00734	palestinian	mid	Middle-East	orange	16
+0	HGDP00735	palestinian	mid	Middle-East	orange	16
+0	HGDP00736	palestinian	mid	Middle-East	orange	16
+0	HGDP00739	palestinian	mid	Middle-East	orange	16
+0	HGDP00740	palestinian	mid	Middle-East	orange	16
+0	HGDP00741	palestinian	mid	Middle-East	orange	16
+0	HGDP00744	palestinian	mid	Middle-East	orange	16
+0	HGDP00745	palestinian	mid	Middle-East	orange	16
+0	HGDP00746	palestinian	mid	Middle-East	orange	16
+0	HGDP00747	japanese	eas	East Asia	yellow3	16
+0	HGDP00748	japanese	eas	East Asia	yellow3	16
+0	HGDP00750	japanese	eas	East Asia	yellow3	16
+0	HGDP00751	japanese	eas	East Asia	yellow3	16
+0	HGDP00752	japanese	eas	East Asia	yellow3	16
+0	HGDP00753	japanese	eas	East Asia	yellow3	16
+0	HGDP00754	japanese	eas	East Asia	yellow3	16
+0	HGDP00755	japanese	eas	East Asia	yellow3	16
+0	HGDP00756	japanese	eas	East Asia	yellow3	16
+0	HGDP00757	japanese	eas	East Asia	yellow3	16
+0	HGDP00758	japanese	eas	East Asia	yellow3	16
+0	HGDP00759	japanese	eas	East Asia	yellow3	16
+0	HGDP00760	japanese	eas	East Asia	yellow3	16
+0	HGDP00761	japanese	eas	East Asia	yellow3	16
+0	HGDP00762	japanese	eas	East Asia	yellow3	16
+0	HGDP00763	japanese	eas	East Asia	yellow3	16
+0	HGDP00764	japanese	eas	East Asia	yellow3	16
+0	HGDP00765	japanese	eas	East Asia	yellow3	16
+0	HGDP00766	japanese	eas	East Asia	yellow3	16
+0	HGDP00767	japanese	eas	East Asia	yellow3	16
+0	HGDP00768	japanese	eas	East Asia	yellow3	16
+0	HGDP00769	japanese	eas	East Asia	yellow3	16
+0	HGDP00771	japanese	eas	East Asia	yellow3	16
+0	HGDP00772	japanese	eas	East Asia	yellow3	16
+0	HGDP00774	han	eas	East Asia	yellow3	16
+0	HGDP00776	han	eas	East Asia	yellow3	16
+0	HGDP00777	han	eas	East Asia	yellow3	16
+0	HGDP00779	han	eas	East Asia	yellow3	16
+0	HGDP00780	han	eas	East Asia	yellow3	16
+0	HGDP00781	han	eas	East Asia	yellow3	16
+0	HGDP00782	han	eas	East Asia	yellow3	16
+0	HGDP00784	han	eas	East Asia	yellow3	16
+0	HGDP00786	han	eas	East Asia	yellow3	16
+0	HGDP00790	japanese	eas	East Asia	yellow3	16
+0	HGDP00791	japanese	eas	East Asia	yellow3	16
+0	HGDP00794	orcadian	eur	European	green	16
+0	HGDP00795	orcadian	eur	European	green	16
+0	HGDP00797	orcadian	eur	European	green	16
+0	HGDP00799	orcadian	eur	European	green	16
+0	HGDP00800	orcadian	eur	European	green	16
+0	HGDP00802	orcadian	eur	European	green	16
+0	HGDP00803	orcadian	eur	European	green	16
+0	HGDP00804	orcadian	eur	European	green	16
+0	HGDP00805	orcadian	eur	European	green	16
+0	HGDP00806	orcadian	eur	European	green	16
+0	HGDP00807	orcadian	eur	European	green	16
+0	HGDP00808	orcadian	eur	European	green	16
+0	HGDP00810	orcadian	eur	European	green	16
+0	HGDP00811	han	eas	East Asia	yellow3	16
+0	HGDP00812	han	eas	East Asia	yellow3	16
+0	HGDP00813	han	eas	East Asia	yellow3	16
+0	HGDP00814	han	eas	East Asia	yellow3	16
+0	HGDP00815	han	eas	East Asia	yellow3	16
+0	HGDP00817	han	eas	East Asia	yellow3	16
+0	HGDP00818	han	eas	East Asia	yellow3	16
+0	HGDP00819	han	eas	East Asia	yellow3	16
+0	HGDP00820	han	eas	East Asia	yellow3	16
+0	HGDP00821	han	eas	East Asia	yellow3	16
+0	HGDP00822	han	eas	East Asia	yellow3	16
+0	HGDP00828	japanese	eas	East Asia	yellow3	16
+0	HGDP00832	surui	amr	American	purple	16
+0	HGDP00837	surui	amr	American	purple	16
+0	HGDP00838	surui	amr	American	purple	16
+0	HGDP00843	surui	amr	American	purple	16
+0	HGDP00845	surui	amr	American	purple	16
+0	HGDP00849	surui	amr	American	purple	16
+0	HGDP00854	maya	amr	American	purple	16
+0	HGDP00856	maya	amr	American	purple	16
+0	HGDP00858	maya	amr	American	purple	16
+0	HGDP00859	maya	amr	American	purple	16
+0	HGDP00860	maya	amr	American	purple	16
+0	HGDP00861	maya	amr	American	purple	16
+0	HGDP00862	maya	amr	American	purple	16
+0	HGDP00863	maya	amr	American	purple	16
+0	HGDP00864	maya	amr	American	purple	16
+0	HGDP00865	maya	amr	American	purple	16
+0	HGDP00868	maya	amr	American	purple	16
+0	HGDP00869	maya	amr	American	purple	16
+0	HGDP00870	maya	amr	American	purple	16
+0	HGDP00871	maya	amr	American	purple	16
+0	HGDP00872	maya	amr	American	purple	16
+0	HGDP00873	maya	amr	American	purple	16
+0	HGDP00875	maya	amr	American	purple	16
+0	HGDP00876	maya	amr	American	purple	16
+0	HGDP00877	maya	amr	American	purple	16
+0	HGDP00904	mandenka	afr	Africa	red	16
+0	HGDP00905	mandenka	afr	Africa	red	16
+0	HGDP00906	mandenka	afr	Africa	red	16
+0	HGDP00907	mandenka	afr	Africa	red	16
+0	HGDP00908	mandenka	afr	Africa	red	16
+0	HGDP00909	mandenka	afr	Africa	red	16
+0	HGDP00910	mandenka	afr	Africa	red	16
+0	HGDP00911	mandenka	afr	Africa	red	16
+0	HGDP00912	mandenka	afr	Africa	red	16
+0	HGDP00913	mandenka	afr	Africa	red	16
+0	HGDP00914	mandenka	afr	Africa	red	16
+0	HGDP00916	mandenka	afr	Africa	red	16
+0	HGDP00917	mandenka	afr	Africa	red	16
+0	HGDP00918	mandenka	afr	Africa	red	16
+0	HGDP00919	mandenka	afr	Africa	red	16
+0	HGDP00920	yoruba	afr	Africa	red	16
+0	HGDP00924	yoruba	afr	Africa	red	16
+0	HGDP00925	yoruba	afr	Africa	red	16
+0	HGDP00926	yoruba	afr	Africa	red	16
+0	HGDP00929	yoruba	afr	Africa	red	16
+0	HGDP00930	yoruba	afr	Africa	red	16
+0	HGDP00931	yoruba	afr	Africa	red	16
+0	HGDP00935	yoruba	afr	Africa	red	16
+0	HGDP00937	yoruba	afr	Africa	red	16
+0	HGDP00938	yoruba	afr	Africa	red	16
+0	HGDP00939	yoruba	afr	Africa	red	16
+0	HGDP00940	yoruba	afr	Africa	red	16
+0	HGDP00941	yoruba	afr	Africa	red	16
+0	HGDP00942	yoruba	afr	Africa	red	16
+0	HGDP00943	yoruba	afr	Africa	red	16
+0	HGDP00944	yoruba	afr	Africa	red	16
+0	HGDP00945	yakut	eas	East Asia	yellow3	16
+0	HGDP00946	yakut	eas	East Asia	yellow3	16
+0	HGDP00947	yakut	eas	East Asia	yellow3	16
+0	HGDP00950	yakut	eas	East Asia	yellow3	16
+0	HGDP00952	yakut	eas	East Asia	yellow3	16
+0	HGDP00954	yakut	eas	East Asia	yellow3	16
+0	HGDP00955	yakut	eas	East Asia	yellow3	16
+0	HGDP00957	yakut	eas	East Asia	yellow3	16
+0	HGDP00958	yakut	eas	East Asia	yellow3	16
+0	HGDP00959	yakut	eas	East Asia	yellow3	16
+0	HGDP00960	yakut	eas	East Asia	yellow3	16
+0	HGDP00961	yakut	eas	East Asia	yellow3	16
+0	HGDP00962	yakut	eas	East Asia	yellow3	16
+0	HGDP00963	yakut	eas	East Asia	yellow3	16
+0	HGDP00964	yakut	eas	East Asia	yellow3	16
+0	HGDP00965	yakut	eas	East Asia	yellow3	16
+0	HGDP00966	yakut	eas	East Asia	yellow3	16
+0	HGDP00967	yakut	eas	East Asia	yellow3	16
+0	HGDP00968	yakut	eas	East Asia	yellow3	16
+0	HGDP00969	yakut	eas	East Asia	yellow3	16
+0	HGDP00970	colombian	amr	American	purple	16
+0	HGDP00971	han	eas	East Asia	yellow3	16
+0	HGDP00972	han	eas	East Asia	yellow3	16
+0	HGDP00973	han	eas	East Asia	yellow3	16
+0	HGDP00974	han	eas	East Asia	yellow3	16
+0	HGDP00975	han	eas	East Asia	yellow3	16
+0	HGDP00976	han	eas	East Asia	yellow3	16
+0	HGDP00977	han	eas	East Asia	yellow3	16
+0	HGDP00995	karitiana	amr	American	purple	16
+0	HGDP00999	karitiana	amr	American	purple	16
+0	HGDP01001	karitiana	amr	American	purple	16
+0	HGDP01006	karitiana	amr	American	purple	16
+0	HGDP01009	karitiana	amr	American	purple	16
+0	HGDP01010	karitiana	amr	American	purple	16
+0	HGDP01013	karitiana	amr	American	purple	16
+0	HGDP01014	karitiana	amr	American	purple	16
+0	HGDP01019	karitiana	amr	American	purple	16
+0	HGDP01021	han	eas	East Asia	yellow3	16
+0	HGDP01023	han	eas	East Asia	yellow3	16
+0	HGDP01024	han	eas	East Asia	yellow3	16
+0	HGDP01037	pima	amr	American	purple	16
+0	HGDP01041	pima	amr	American	purple	16
+0	HGDP01051	pima	amr	American	purple	16
+0	HGDP01053	pima	amr	American	purple	16
+0	HGDP01055	pima	amr	American	purple	16
+0	HGDP01056	pima	amr	American	purple	16
+0	HGDP01057	pima	amr	American	purple	16
+0	HGDP01058	pima	amr	American	purple	16
+0	HGDP01059	pima	amr	American	purple	16
+0	HGDP01060	pima	amr	American	purple	16
+0	HGDP01062	sardinian	eur	European	green	16
+0	HGDP01063	sardinian	eur	European	green	16
+0	HGDP01065	sardinian	eur	European	green	16
+0	HGDP01066	sardinian	eur	European	green	16
+0	HGDP01067	sardinian	eur	European	green	16
+0	HGDP01068	sardinian	eur	European	green	16
+0	HGDP01069	sardinian	eur	European	green	16
+0	HGDP01070	sardinian	eur	European	green	16
+0	HGDP01071	sardinian	eur	European	green	16
+0	HGDP01072	sardinian	eur	European	green	16
+0	HGDP01073	sardinian	eur	European	green	16
+0	HGDP01074	sardinian	eur	European	green	16
+0	HGDP01075	sardinian	eur	European	green	16
+0	HGDP01077	sardinian	eur	European	green	16
+0	HGDP01096	tujia	eas	East Asia	yellow3	16
+0	HGDP01099	tujia	eas	East Asia	yellow3	16
+0	HGDP01100	tujia	eas	East Asia	yellow3	16
+0	HGDP01101	tujia	eas	East Asia	yellow3	16
+0	HGDP01102	tujia	eas	East Asia	yellow3	16
+0	HGDP01103	tujia	eas	East Asia	yellow3	16
+0	HGDP01104	tujia	eas	East Asia	yellow3	16
+0	HGDP01149	italian	eur	European	green	16
+0	HGDP01151	italian	eur	European	green	16
+0	HGDP01152	italian	eur	European	green	16
+0	HGDP01155	italian	eur	European	green	16
+0	HGDP01156	italian	eur	European	green	16
+0	HGDP01161	tuscan	eur	European	green	16
+0	HGDP01162	tuscan	eur	European	green	16
+0	HGDP01164	tuscan	eur	European	green	16
+0	HGDP01166	tuscan	eur	European	green	16
+0	HGDP01167	tuscan	eur	European	green	16
+0	HGDP01169	tuscan	eur	European	green	16
+0	HGDP01171	italian	eur	European	green	16
+0	HGDP01173	italian	eur	European	green	16
+0	HGDP01174	italian	eur	European	green	16
+0	HGDP01177	italian	eur	European	green	16
+0	HGDP01181	yizu	eas	East Asia	yellow3	16
+0	HGDP01182	yizu	eas	East Asia	yellow3	16
+0	HGDP01183	yizu	eas	East Asia	yellow3	16
+0	HGDP01184	yizu	eas	East Asia	yellow3	16
+0	HGDP01185	yizu	eas	East Asia	yellow3	16
+0	HGDP01186	yizu	eas	East Asia	yellow3	16
+0	HGDP01187	yizu	eas	East Asia	yellow3	16
+0	HGDP01189	miaozu	eas	East Asia	yellow3	16
+0	HGDP01190	miaozu	eas	East Asia	yellow3	16
+0	HGDP01192	miaozu	eas	East Asia	yellow3	16
+0	HGDP01193	miaozu	eas	East Asia	yellow3	16
+0	HGDP01194	miaozu	eas	East Asia	yellow3	16
+0	HGDP01195	miaozu	eas	East Asia	yellow3	16
+0	HGDP01196	miaozu	eas	East Asia	yellow3	16
+0	HGDP01197	miaozu	eas	East Asia	yellow3	16
+0	HGDP01200	mandenka	afr	Africa	red	16
+0	HGDP01201	mandenka	afr	Africa	red	16
+0	HGDP01202	mandenka	afr	Africa	red	16
+0	HGDP01204	oroqen	eas	East Asia	yellow3	16
+0	HGDP01205	oroqen	eas	East Asia	yellow3	16
+0	HGDP01206	oroqen	eas	East Asia	yellow3	16
+0	HGDP01207	oroqen	eas	East Asia	yellow3	16
+0	HGDP01209	oroqen	eas	East Asia	yellow3	16
+0	HGDP01212	oroqen	eas	East Asia	yellow3	16
+0	HGDP01213	daur	eas	East Asia	yellow3	16
+0	HGDP01214	daur	eas	East Asia	yellow3	16
+0	HGDP01216	daur	eas	East Asia	yellow3	16
+0	HGDP01217	daur	eas	East Asia	yellow3	16
+0	HGDP01218	daur	eas	East Asia	yellow3	16
+0	HGDP01220	daur	eas	East Asia	yellow3	16
+0	HGDP01221	daur	eas	East Asia	yellow3	16
+0	HGDP01222	daur	eas	East Asia	yellow3	16
+0	HGDP01224	mongola	eas	East Asia	yellow3	16
+0	HGDP01225	mongola	eas	East Asia	yellow3	16
+0	HGDP01226	mongola	eas	East Asia	yellow3	16
+0	HGDP01227	mongola	eas	East Asia	yellow3	16
+0	HGDP01229	mongola	eas	East Asia	yellow3	16
+0	HGDP01230	mongola	eas	East Asia	yellow3	16
+0	HGDP01231	mongola	eas	East Asia	yellow3	16
+0	HGDP01232	mongola	eas	East Asia	yellow3	16
+0	HGDP01233	hezhen	eas	East Asia	yellow3	16
+0	HGDP01234	hezhen	eas	East Asia	yellow3	16
+0	HGDP01236	hezhen	eas	East Asia	yellow3	16
+0	HGDP01237	hezhen	eas	East Asia	yellow3	16
+0	HGDP01238	hezhen	eas	East Asia	yellow3	16
+0	HGDP01239	hezhen	eas	East Asia	yellow3	16
+0	HGDP01241	hezhen	eas	East Asia	yellow3	16
+0	HGDP01243	xibo	eas	East Asia	yellow3	16
+0	HGDP01244	xibo	eas	East Asia	yellow3	16
+0	HGDP01245	xibo	eas	East Asia	yellow3	16
+0	HGDP01247	xibo	eas	East Asia	yellow3	16
+0	HGDP01248	xibo	eas	East Asia	yellow3	16
+0	HGDP01249	xibo	eas	East Asia	yellow3	16
+0	HGDP01251	xibo	eas	East Asia	yellow3	16
+0	HGDP01254	mozabite	mid	Middle-East	orange	16
+0	HGDP01257	mozabite	mid	Middle-East	orange	16
+0	HGDP01258	mozabite	mid	Middle-East	orange	16
+0	HGDP01259	mozabite	mid	Middle-East	orange	16
+0	HGDP01260	mozabite	mid	Middle-East	orange	16
+0	HGDP01262	mozabite	mid	Middle-East	orange	16
+0	HGDP01263	mozabite	mid	Middle-East	orange	16
+0	HGDP01264	mozabite	mid	Middle-East	orange	16
+0	HGDP01265	mozabite	mid	Middle-East	orange	16
+0	HGDP01266	mozabite	mid	Middle-East	orange	16
+0	HGDP01267	mozabite	mid	Middle-East	orange	16
+0	HGDP01268	mozabite	mid	Middle-East	orange	16
+0	HGDP01269	mozabite	mid	Middle-East	orange	16
+0	HGDP01272	mozabite	mid	Middle-East	orange	16
+0	HGDP01273	mozabite	mid	Middle-East	orange	16
+0	HGDP01275	mozabite	mid	Middle-East	orange	16
+0	HGDP01276	mozabite	mid	Middle-East	orange	16
+0	HGDP01277	mozabite	mid	Middle-East	orange	16
+0	HGDP01279	mozabite	mid	Middle-East	orange	16
+0	HGDP01280	mozabite	mid	Middle-East	orange	16
+0	HGDP01282	mozabite	mid	Middle-East	orange	16
+0	HGDP01283	mandenka	afr	Africa	red	16
+0	HGDP01285	mandenka	afr	Africa	red	16
+0	HGDP01287	han	eas	East Asia	yellow3	16
+0	HGDP01288	han	eas	East Asia	yellow3	16
+0	HGDP01289	han	eas	East Asia	yellow3	16
+0	HGDP01290	han	eas	East Asia	yellow3	16
+0	HGDP01291	han	eas	East Asia	yellow3	16
+0	HGDP01292	han	eas	East Asia	yellow3	16
+0	HGDP01293	han	eas	East Asia	yellow3	16
+0	HGDP01294	han	eas	East Asia	yellow3	16
+0	HGDP01295	han	eas	East Asia	yellow3	16
+0	HGDP01296	han	eas	East Asia	yellow3	16
+0	HGDP01309	dai	eas	East Asia	yellow3	16
+0	HGDP01310	dai	eas	East Asia	yellow3	16
+0	HGDP01311	dai	eas	East Asia	yellow3	16
+0	HGDP01313	dai	eas	East Asia	yellow3	16
+0	HGDP01316	dai	eas	East Asia	yellow3	16
+0	HGDP01317	lahu	eas	East Asia	yellow3	16
+0	HGDP01318	lahu	eas	East Asia	yellow3	16
+0	HGDP01319	lahu	eas	East Asia	yellow3	16
+0	HGDP01321	lahu	eas	East Asia	yellow3	16
+0	HGDP01322	lahu	eas	East Asia	yellow3	16
+0	HGDP01326	lahu	eas	East Asia	yellow3	16
+0	HGDP01327	she	eas	East Asia	yellow3	16
+0	HGDP01328	she	eas	East Asia	yellow3	16
+0	HGDP01329	she	eas	East Asia	yellow3	16
+0	HGDP01330	she	eas	East Asia	yellow3	16
+0	HGDP01331	she	eas	East Asia	yellow3	16
+0	HGDP01332	she	eas	East Asia	yellow3	16
+0	HGDP01334	she	eas	East Asia	yellow3	16
+0	HGDP01336	she	eas	East Asia	yellow3	16
+0	HGDP01337	naxi	eas	East Asia	yellow3	16
+0	HGDP01339	naxi	eas	East Asia	yellow3	16
+0	HGDP01340	naxi	eas	East Asia	yellow3	16
+0	HGDP01341	naxi	eas	East Asia	yellow3	16
+0	HGDP01342	naxi	eas	East Asia	yellow3	16
+0	HGDP01346	naxi	eas	East Asia	yellow3	16
+0	HGDP01347	tu	eas	East Asia	yellow3	16
+0	HGDP01348	tu	eas	East Asia	yellow3	16
+0	HGDP01349	tu	eas	East Asia	yellow3	16
+0	HGDP01351	tu	eas	East Asia	yellow3	16
+0	HGDP01352	tu	eas	East Asia	yellow3	16
+0	HGDP01353	tu	eas	East Asia	yellow3	16
+0	HGDP01354	tu	eas	East Asia	yellow3	16
+0	HGDP01356	tu	eas	East Asia	yellow3	16
+0	HGDP01357	basque	eur	European	green	16
+0	HGDP01358	basque	eur	European	green	16
+0	HGDP01359	basque	eur	European	green	16
+0	HGDP01360	basque	eur	European	green	16
+0	HGDP01361	basque	eur	European	green	16
+0	HGDP01362	basque	eur	European	green	16
+0	HGDP01363	basque	eur	European	green	16
+0	HGDP01366	basque	eur	European	green	16
+0	HGDP01367	basque	eur	European	green	16
+0	HGDP01369	basque	eur	European	green	16
+0	HGDP01370	basque	eur	European	green	16
+0	HGDP01372	basque	eur	European	green	16
+0	HGDP01373	basque	eur	European	green	16
+0	HGDP01374	basque	eur	European	green	16
+0	HGDP01375	basque	eur	European	green	16
+0	HGDP01376	basque	eur	European	green	16
+0	HGDP01377	basque	eur	European	green	16
+0	HGDP01378	basque	eur	European	green	16
+0	HGDP01379	basque	eur	European	green	16
+0	HGDP01380	basque	eur	European	green	16
+0	HGDP01381	adygei	eur	European	green	16
+0	HGDP01382	adygei	eur	European	green	16
+0	HGDP01384	adygei	eur	European	green	16
+0	HGDP01385	adygei	eur	European	green	16
+0	HGDP01386	adygei	eur	European	green	16
+0	HGDP01387	adygei	eur	European	green	16
+0	HGDP01388	adygei	eur	European	green	16
+0	HGDP01396	adygei	eur	European	green	16
+0	HGDP01397	adygei	eur	European	green	16
+0	HGDP01398	adygei	eur	European	green	16
+0	HGDP01399	adygei	eur	European	green	16
+0	HGDP01400	adygei	eur	European	green	16
+0	HGDP01403	adygei	eur	European	green	16
+0	HGDP01404	adygei	eur	European	green	16
+0	HGDP01405	bantukenya	afr	Africa	red	16
+0	HGDP01408	bantukenya	afr	Africa	red	16
+0	HGDP01412	bantukenya	afr	Africa	red	16
+0	HGDP01413	bantukenya	afr	Africa	red	16
+0	HGDP01418	bantukenya	afr	Africa	red	16
+0	HGDP01419	bantukenya	afr	Africa	red	16
+0	LP6005441-DNA_A01	adygei	eur	European	green	16
+0	LP6005441-DNA_A04	colombian	amr	American	purple	16
+0	LP6005441-DNA_A05	french	eur	European	green	16
+0	LP6005441-DNA_A06	italian	eur	European	green	16
+0	LP6005441-DNA_A09	naxi	eas	East Asia	yellow3	16
+0	LP6005441-DNA_A12	surui	amr	American	purple	16
+0	LP6005441-DNA_B02	bantukenya	afr	Africa	red	16
+0	LP6005441-DNA_B04	colombian	amr	American	purple	16
+0	LP6005441-DNA_B05	french	eur	European	green	16
+0	LP6005441-DNA_B06	italian	eur	European	green	16
+0	LP6005441-DNA_B07	lahu	eas	East Asia	yellow3	16
+0	LP6005441-DNA_B09	naxi	eas	East Asia	yellow3	16
+0	LP6005441-DNA_B12	surui	amr	American	purple	16
+0	LP6005441-DNA_C01	balochi	sas	South Asia	tan	16
+0	LP6005441-DNA_C02	basque	eur	European	green	16
+0	LP6005441-DNA_C03	brahui	sas	South Asia	tan	16
+0	LP6005441-DNA_C05	han	eas	East Asia	yellow3	16
+0	LP6005441-DNA_C06	japanese	eas	East Asia	yellow3	16
+0	LP6005441-DNA_C07	makrani	sas	South Asia	tan	16
+0	LP6005441-DNA_C08	miaozu	eas	East Asia	yellow3	16
+0	LP6005441-DNA_C09	orcadian	eur	European	green	16
+0	LP6005441-DNA_C10	pathan	sas	South Asia	tan	16
+0	LP6005441-DNA_C11	sardinian	eur	European	green	16
+0	LP6005441-DNA_D01	balochi	sas	South Asia	tan	16
+0	LP6005441-DNA_D02	basque	eur	European	green	16
+0	LP6005441-DNA_D03	brahui	sas	South Asia	tan	16
+0	LP6005441-DNA_D04	dai	eas	East Asia	yellow3	16
+0	LP6005441-DNA_D05	han	eas	East Asia	yellow3	16
+0	LP6005441-DNA_D06	japanese	eas	East Asia	yellow3	16
+0	LP6005441-DNA_D07	makrani	sas	South Asia	tan	16
+0	LP6005441-DNA_D08	miaozu	eas	East Asia	yellow3	16
+0	LP6005441-DNA_D09	orcadian	eur	European	green	16
+0	LP6005441-DNA_D10	pathan	sas	South Asia	tan	16
+0	LP6005441-DNA_D11	sardinian	eur	European	green	16
+0	LP6005441-DNA_D12	tu	eas	East Asia	yellow3	16
+0	LP6005441-DNA_E02	bedouin	mid	Middle-East	orange	16
+0	LP6005441-DNA_E03	burusho	sas	South Asia	tan	16
+0	LP6005441-DNA_E06	kalash	sas	South Asia	tan	16
+0	LP6005441-DNA_E07	mandenka	afr	Africa	red	16
+0	LP6005441-DNA_E08	mongola	eas	East Asia	yellow3	16
+0	LP6005441-DNA_E09	oroqen	eas	East Asia	yellow3	16
+0	LP6005441-DNA_E10	pima	amr	American	purple	16
+0	LP6005441-DNA_F02	bedouin	mid	Middle-East	orange	16
+0	LP6005441-DNA_F03	burusho	sas	South Asia	tan	16
+0	LP6005441-DNA_F04	daur	eas	East Asia	yellow3	16
+0	LP6005441-DNA_F06	kalash	sas	South Asia	tan	16
+0	LP6005441-DNA_F07	mandenka	afr	Africa	red	16
+0	LP6005441-DNA_F08	mongola	eas	East Asia	yellow3	16
+0	LP6005441-DNA_F09	oroqen	eas	East Asia	yellow3	16
+0	LP6005441-DNA_F10	pima	amr	American	purple	16
+0	LP6005441-DNA_F12	tujia	eas	East Asia	yellow3	16
+0	LP6005441-DNA_G03	cambodian	eas	East Asia	yellow3	16
+0	LP6005441-DNA_G04	druze	mid	Middle-East	orange	16
+0	LP6005441-DNA_G05	hezhen	eas	East Asia	yellow3	16
+0	LP6005441-DNA_G06	karitiana	amr	American	purple	16
+0	LP6005441-DNA_G07	maya	amr	American	purple	16
+0	LP6005441-DNA_G08	mozabite	mid	Middle-East	orange	16
+0	LP6005441-DNA_G11	sindhi	sas	South Asia	tan	16
+0	LP6005441-DNA_G12	tuscan	eur	European	green	16
+0	LP6005441-DNA_H03	cambodian	eas	East Asia	yellow3	16
+0	LP6005441-DNA_H05	hezhen	eas	East Asia	yellow3	16
+0	LP6005441-DNA_H06	karitiana	amr	American	purple	16
+0	LP6005441-DNA_H07	maya	amr	American	purple	16
+0	LP6005441-DNA_H08	mozabite	mid	Middle-East	orange	16
+0	LP6005441-DNA_H09	palestinian	mid	Middle-East	orange	16
+0	LP6005441-DNA_H11	sindhi	sas	South Asia	tan	16
+0	LP6005441-DNA_H12	tuscan	eur	European	green	16
+0	LP6005442-DNA_A02	yoruba	afr	Africa	red	16
+0	LP6005442-DNA_B02	yoruba	afr	Africa	red	16
+0	LP6005442-DNA_D01	xibo	eas	East Asia	yellow3	16
+0	LP6005442-DNA_F01	yakut	eas	East Asia	yellow3	16
+0	LP6005442-DNA_G01	yizu	eas	East Asia	yellow3	16
+0	LP6005442-DNA_H01	yizu	eas	East Asia	yellow3	16
+0	LP6005443-DNA_A01	bantukenya	afr	Africa	red	16
+0	LP6005443-DNA_A02	tujia	eas	East Asia	yellow3	16
+0	LP6005443-DNA_B01	dai	eas	East Asia	yellow3	16
+0	LP6005443-DNA_C02	xibo	eas	East Asia	yellow3	16
+0	LP6005443-DNA_D01	druze	mid	Middle-East	orange	16
+0	LP6005443-DNA_D02	yakut	eas	East Asia	yellow3	16
+0	LP6005443-DNA_E01	lahu	eas	East Asia	yellow3	16
+0	LP6005443-DNA_E02	bantusafrica	afr	Africa	red	16
+0	LP6005443-DNA_E09	naxi	eas	East Asia	yellow3	16
+0	LP6005443-DNA_F01	she	eas	East Asia	yellow3	16
+0	LP6005443-DNA_G01	she	eas	East Asia	yellow3	16
+0	LP6005443-DNA_H01	tu	eas	East Asia	yellow3	16
+0	LP6005592-DNA_B03	palestinian	mid	Middle-East	orange	16
+0	LP6005592-DNA_D03	dai	eas	East Asia	yellow3	16
+0	NA06984	ceu	eur	European	green	16
+0	NA06985	ceu	eur	European	green	16
+0	NA06986	ceu	eur	European	green	16
+0	NA06989	ceu	eur	European	green	16
+0	NA06991	ceu	eur	European	green	16
+0	NA06993	ceu	eur	European	green	16
+0	NA06994	ceu	eur	European	green	16
+0	NA06995	ceu	eur	European	green	16
+0	NA06997	ceu	eur	European	green	16
+0	NA07000	ceu	eur	European	green	16
+0	NA07014	ceu	eur	European	green	16
+0	NA07019	ceu	eur	European	green	16
+0	NA07022	ceu	eur	European	green	16
+0	NA07029	ceu	eur	European	green	16
+0	NA07031	ceu	eur	European	green	16
+0	NA07034	ceu	eur	European	green	16
+0	NA07037	ceu	eur	European	green	16
+0	NA07045	ceu	eur	European	green	16
+0	NA07048	ceu	eur	European	green	16
+0	NA07051	ceu	eur	European	green	16
+0	NA07055	ceu	eur	European	green	16
+0	NA07056	ceu	eur	European	green	16
+0	NA07345	ceu	eur	European	green	16
+0	NA07346	ceu	eur	European	green	16
+0	NA07347	ceu	eur	European	green	16
+0	NA07349	ceu	eur	European	green	16
+0	NA07357	ceu	eur	European	green	16
+0	NA07435	ceu	eur	European	green	16
+0	NA10830	ceu	eur	European	green	16
+0	NA10831	ceu	eur	European	green	16
+0	NA10835	ceu	eur	European	green	16
+0	NA10836	ceu	eur	European	green	16
+0	NA10837	ceu	eur	European	green	16
+0	NA10838	ceu	eur	European	green	16
+0	NA10839	ceu	eur	European	green	16
+0	NA10840	ceu	eur	European	green	16
+0	NA10842	ceu	eur	European	green	16
+0	NA10843	ceu	eur	European	green	16
+0	NA10845	ceu	eur	European	green	16
+0	NA10846	ceu	eur	European	green	16
+0	NA10847	ceu	eur	European	green	16
+0	NA10851	ceu	eur	European	green	16
+0	NA10852	ceu	eur	European	green	16
+0	NA10855	ceu	eur	European	green	16
+0	NA10856	ceu	eur	European	green	16
+0	NA10857	ceu	eur	European	green	16
+0	NA10859	ceu	eur	European	green	16
+0	NA10860	ceu	eur	European	green	16
+0	NA10861	ceu	eur	European	green	16
+0	NA10863	ceu	eur	European	green	16
+0	NA10864	ceu	eur	European	green	16
+0	NA10865	ceu	eur	European	green	16
+0	NA11829	ceu	eur	European	green	16
+0	NA11830	ceu	eur	European	green	16
+0	NA11831	ceu	eur	European	green	16
+0	NA11832	ceu	eur	European	green	16
+0	NA11839	ceu	eur	European	green	16
+0	NA11840	ceu	eur	European	green	16
+0	NA11843	ceu	eur	European	green	16
+0	NA11881	ceu	eur	European	green	16
+0	NA11882	ceu	eur	European	green	16
+0	NA11891	ceu	eur	European	green	16
+0	NA11892	ceu	eur	European	green	16
+0	NA11893	ceu	eur	European	green	16
+0	NA11894	ceu	eur	European	green	16
+0	NA11917	ceu	eur	European	green	16
+0	NA11918	ceu	eur	European	green	16
+0	NA11919	ceu	eur	European	green	16
+0	NA11920	ceu	eur	European	green	16
+0	NA11930	ceu	eur	European	green	16
+0	NA11931	ceu	eur	European	green	16
+0	NA11932	ceu	eur	European	green	16
+0	NA11933	ceu	eur	European	green	16
+0	NA11992	ceu	eur	European	green	16
+0	NA11993	ceu	eur	European	green	16
+0	NA11994	ceu	eur	European	green	16
+0	NA11995	ceu	eur	European	green	16
+0	NA12003	ceu	eur	European	green	16
+0	NA12004	ceu	eur	European	green	16
+0	NA12005	ceu	eur	European	green	16
+0	NA12006	ceu	eur	European	green	16
+0	NA12043	ceu	eur	European	green	16
+0	NA12044	ceu	eur	European	green	16
+0	NA12045	ceu	eur	European	green	16
+0	NA12046	ceu	eur	European	green	16
+0	NA12056	ceu	eur	European	green	16
+0	NA12057	ceu	eur	European	green	16
+0	NA12058	ceu	eur	European	green	16
+0	NA12144	ceu	eur	European	green	16
+0	NA12145	ceu	eur	European	green	16
+0	NA12146	ceu	eur	European	green	16
+0	NA12154	ceu	eur	European	green	16
+0	NA12155	ceu	eur	European	green	16
+0	NA12156	ceu	eur	European	green	16
+0	NA12234	ceu	eur	European	green	16
+0	NA12236	ceu	eur	European	green	16
+0	NA12239	ceu	eur	European	green	16
+0	NA12248	ceu	eur	European	green	16
+0	NA12249	ceu	eur	European	green	16
+0	NA12264	ceu	eur	European	green	16
+0	NA12272	ceu	eur	European	green	16
+0	NA12273	ceu	eur	European	green	16
+0	NA12274	ceu	eur	European	green	16
+0	NA12275	ceu	eur	European	green	16
+0	NA12282	ceu	eur	European	green	16
+0	NA12283	ceu	eur	European	green	16
+0	NA12286	ceu	eur	European	green	16
+0	NA12329	ceu	eur	European	green	16
+0	NA12335	ceu	eur	European	green	16
+0	NA12336	ceu	eur	European	green	16
+0	NA12340	ceu	eur	European	green	16
+0	NA12341	ceu	eur	European	green	16
+0	NA12342	ceu	eur	European	green	16
+0	NA12343	ceu	eur	European	green	16
+0	NA12344	ceu	eur	European	green	16
+0	NA12347	ceu	eur	European	green	16
+0	NA12348	ceu	eur	European	green	16
+0	NA12376	ceu	eur	European	green	16
+0	NA12383	ceu	eur	European	green	16
+0	NA12386	ceu	eur	European	green	16
+0	NA12399	ceu	eur	European	green	16
+0	NA12400	ceu	eur	European	green	16
+0	NA12413	ceu	eur	European	green	16
+0	NA12414	ceu	eur	European	green	16
+0	NA12485	ceu	eur	European	green	16
+0	NA12489	ceu	eur	European	green	16
+0	NA12546B	ceu	eur	European	green	16
+0	NA12707	ceu	eur	European	green	16
+0	NA12716	ceu	eur	European	green	16
+0	NA12717	ceu	eur	European	green	16
+0	NA12718	ceu	eur	European	green	16
+0	NA12739	ceu	eur	European	green	16
+0	NA12740	ceu	eur	European	green	16
+0	NA12748	ceu	eur	European	green	16
+0	NA12749	ceu	eur	European	green	16
+0	NA12750	ceu	eur	European	green	16
+0	NA12751	ceu	eur	European	green	16
+0	NA12752	ceu	eur	European	green	16
+0	NA12753	ceu	eur	European	green	16
+0	NA12760	ceu	eur	European	green	16
+0	NA12761	ceu	eur	European	green	16
+0	NA12762	ceu	eur	European	green	16
+0	NA12763	ceu	eur	European	green	16
+0	NA12766	ceu	eur	European	green	16
+0	NA12767	ceu	eur	European	green	16
+0	NA12775	ceu	eur	European	green	16
+0	NA12776	ceu	eur	European	green	16
+0	NA12777	ceu	eur	European	green	16
+0	NA12778	ceu	eur	European	green	16
+0	NA12801	ceu	eur	European	green	16
+0	NA12802	ceu	eur	European	green	16
+0	NA12812	ceu	eur	European	green	16
+0	NA12813	ceu	eur	European	green	16
+0	NA12814	ceu	eur	European	green	16
+0	NA12815	ceu	eur	European	green	16
+0	NA12817	ceu	eur	European	green	16
+0	NA12818	ceu	eur	European	green	16
+0	NA12827	ceu	eur	European	green	16
+0	NA12828	ceu	eur	European	green	16
+0	NA12829	ceu	eur	European	green	16
+0	NA12830A	ceu	eur	European	green	16
+0	NA12832	ceu	eur	European	green	16
+0	NA12842	ceu	eur	European	green	16
+0	NA12843	ceu	eur	European	green	16
+0	NA12864	ceu	eur	European	green	16
+0	NA12872	ceu	eur	European	green	16
+0	NA12873	ceu	eur	European	green	16
+0	NA12874	ceu	eur	European	green	16
+0	NA12875	ceu	eur	European	green	16
+0	NA12877	ceu	eur	European	green	16
+0	NA12889	ceu	eur	European	green	16
+0	NA12890	ceu	eur	European	green	16
+0	NA12892	ceu	eur	European	green	16
+0	NA18484	yri	afr	Africa	red	16
+0	NA18485	yri	afr	Africa	red	16
+0	NA18486	yri	afr	Africa	red	16
+0	NA18487	yri	afr	Africa	red	16
+0	NA18488	yri	afr	Africa	red	16
+0	NA18489	yri	afr	Africa	red	16
+0	NA18497	yri	afr	Africa	red	16
+0	NA18498	yri	afr	Africa	red	16
+0	NA18499	yri	afr	Africa	red	16
+0	NA18500	yri	afr	Africa	red	16
+0	NA18501	yri	afr	Africa	red	16
+0	NA18502	yri	afr	Africa	red	16
+0	NA18503	yri	afr	Africa	red	16
+0	NA18504	yri	afr	Africa	red	16
+0	NA18505	yri	afr	Africa	red	16
+0	NA18506	yri	afr	Africa	red	16
+0	NA18507	yri	afr	Africa	red	16
+0	NA18508	yri	afr	Africa	red	16
+0	NA18510	yri	afr	Africa	red	16
+0	NA18511	yri	afr	Africa	red	16
+0	NA18515	yri	afr	Africa	red	16
+0	NA18516	yri	afr	Africa	red	16
+0	NA18517	yri	afr	Africa	red	16
+0	NA18518	yri	afr	Africa	red	16
+0	NA18519	yri	afr	Africa	red	16
+0	NA18520	yri	afr	Africa	red	16
+0	NA18521	yri	afr	Africa	red	16
+0	NA18522	yri	afr	Africa	red	16
+0	NA18523	yri	afr	Africa	red	16
+0	NA18525	chb	eas	East Asia	yellow3	16
+0	NA18526	chb	eas	East Asia	yellow3	16
+0	NA18528	chb	eas	East Asia	yellow3	16
+0	NA18530	chb	eas	East Asia	yellow3	16
+0	NA18531	chb	eas	East Asia	yellow3	16
+0	NA18532	chb	eas	East Asia	yellow3	16
+0	NA18533	chb	eas	East Asia	yellow3	16
+0	NA18534	chb	eas	East Asia	yellow3	16
+0	NA18535	chb	eas	East Asia	yellow3	16
+0	NA18536	chb	eas	East Asia	yellow3	16
+0	NA18537	chb	eas	East Asia	yellow3	16
+0	NA18538	chb	eas	East Asia	yellow3	16
+0	NA18539	chb	eas	East Asia	yellow3	16
+0	NA18541	chb	eas	East Asia	yellow3	16
+0	NA18542	chb	eas	East Asia	yellow3	16
+0	NA18543	chb	eas	East Asia	yellow3	16
+0	NA18544	chb	eas	East Asia	yellow3	16
+0	NA18545	chb	eas	East Asia	yellow3	16
+0	NA18546	chb	eas	East Asia	yellow3	16
+0	NA18547	chb	eas	East Asia	yellow3	16
+0	NA18548	chb	eas	East Asia	yellow3	16
+0	NA18549	chb	eas	East Asia	yellow3	16
+0	NA18550	chb	eas	East Asia	yellow3	16
+0	NA18552	chb	eas	East Asia	yellow3	16
+0	NA18553	chb	eas	East Asia	yellow3	16
+0	NA18555	chb	eas	East Asia	yellow3	16
+0	NA18557	chb	eas	East Asia	yellow3	16
+0	NA18558	chb	eas	East Asia	yellow3	16
+0	NA18559	chb	eas	East Asia	yellow3	16
+0	NA18560	chb	eas	East Asia	yellow3	16
+0	NA18561	chb	eas	East Asia	yellow3	16
+0	NA18562	chb	eas	East Asia	yellow3	16
+0	NA18563	chb	eas	East Asia	yellow3	16
+0	NA18564	chb	eas	East Asia	yellow3	16
+0	NA18565	chb	eas	East Asia	yellow3	16
+0	NA18566	chb	eas	East Asia	yellow3	16
+0	NA18567	chb	eas	East Asia	yellow3	16
+0	NA18570	chb	eas	East Asia	yellow3	16
+0	NA18571	chb	eas	East Asia	yellow3	16
+0	NA18572	chb	eas	East Asia	yellow3	16
+0	NA18573	chb	eas	East Asia	yellow3	16
+0	NA18574	chb	eas	East Asia	yellow3	16
+0	NA18577	chb	eas	East Asia	yellow3	16
+0	NA18579	chb	eas	East Asia	yellow3	16
+0	NA18582	chb	eas	East Asia	yellow3	16
+0	NA18591	chb	eas	East Asia	yellow3	16
+0	NA18592	chb	eas	East Asia	yellow3	16
+0	NA18593	chb	eas	East Asia	yellow3	16
+0	NA18595	chb	eas	East Asia	yellow3	16
+0	NA18596	chb	eas	East Asia	yellow3	16
+0	NA18597	chb	eas	East Asia	yellow3	16
+0	NA18599	chb	eas	East Asia	yellow3	16
+0	NA18602	chb	eas	East Asia	yellow3	16
+0	NA18603	chb	eas	East Asia	yellow3	16
+0	NA18605	chb	eas	East Asia	yellow3	16
+0	NA18606	chb	eas	East Asia	yellow3	16
+0	NA18608	chb	eas	East Asia	yellow3	16
+0	NA18609	chb	eas	East Asia	yellow3	16
+0	NA18610	chb	eas	East Asia	yellow3	16
+0	NA18611	chb	eas	East Asia	yellow3	16
+0	NA18612	chb	eas	East Asia	yellow3	16
+0	NA18613	chb	eas	East Asia	yellow3	16
+0	NA18614	chb	eas	East Asia	yellow3	16
+0	NA18615	chb	eas	East Asia	yellow3	16
+0	NA18616	chb	eas	East Asia	yellow3	16
+0	NA18617	chb	eas	East Asia	yellow3	16
+0	NA18618	chb	eas	East Asia	yellow3	16
+0	NA18619	chb	eas	East Asia	yellow3	16
+0	NA18620	chb	eas	East Asia	yellow3	16
+0	NA18621	chb	eas	East Asia	yellow3	16
+0	NA18622	chb	eas	East Asia	yellow3	16
+0	NA18623	chb	eas	East Asia	yellow3	16
+0	NA18624	chb	eas	East Asia	yellow3	16
+0	NA18625	chb	eas	East Asia	yellow3	16
+0	NA18626	chb	eas	East Asia	yellow3	16
+0	NA18627	chb	eas	East Asia	yellow3	16
+0	NA18628	chb	eas	East Asia	yellow3	16
+0	NA18629	chb	eas	East Asia	yellow3	16
+0	NA18630	chb	eas	East Asia	yellow3	16
+0	NA18631	chb	eas	East Asia	yellow3	16
+0	NA18632	chb	eas	East Asia	yellow3	16
+0	NA18633	chb	eas	East Asia	yellow3	16
+0	NA18634	chb	eas	East Asia	yellow3	16
+0	NA18635	chb	eas	East Asia	yellow3	16
+0	NA18636	chb	eas	East Asia	yellow3	16
+0	NA18638	chb	eas	East Asia	yellow3	16
+0	NA18639	chb	eas	East Asia	yellow3	16
+0	NA18640	chb	eas	East Asia	yellow3	16
+0	NA18641	chb	eas	East Asia	yellow3	16
+0	NA18642	chb	eas	East Asia	yellow3	16
+0	NA18643	chb	eas	East Asia	yellow3	16
+0	NA18644	chb	eas	East Asia	yellow3	16
+0	NA18645	chb	eas	East Asia	yellow3	16
+0	NA18646	chb	eas	East Asia	yellow3	16
+0	NA18647	chb	eas	East Asia	yellow3	16
+0	NA18648	chb	eas	East Asia	yellow3	16
+0	NA18740	chb	eas	East Asia	yellow3	16
+0	NA18745	chb	eas	East Asia	yellow3	16
+0	NA18747	chb	eas	East Asia	yellow3	16
+0	NA18748	chb	eas	East Asia	yellow3	16
+0	NA18749	chb	eas	East Asia	yellow3	16
+0	NA18757	chb	eas	East Asia	yellow3	16
+0	NA18852	yri	afr	Africa	red	16
+0	NA18853	yri	afr	Africa	red	16
+0	NA18854	yri	afr	Africa	red	16
+0	NA18855	yri	afr	Africa	red	16
+0	NA18856	yri	afr	Africa	red	16
+0	NA18857	yri	afr	Africa	red	16
+0	NA18858	yri	afr	Africa	red	16
+0	NA18859	yri	afr	Africa	red	16
+0	NA18860	yri	afr	Africa	red	16
+0	NA18861	yri	afr	Africa	red	16
+0	NA18862	yri	afr	Africa	red	16
+0	NA18863	yri	afr	Africa	red	16
+0	NA18865	yri	afr	Africa	red	16
+0	NA18867	yri	afr	Africa	red	16
+0	NA18868	yri	afr	Africa	red	16
+0	NA18869	yri	afr	Africa	red	16
+0	NA18870	yri	afr	Africa	red	16
+0	NA18871	yri	afr	Africa	red	16
+0	NA18872	yri	afr	Africa	red	16
+0	NA18873	yri	afr	Africa	red	16
+0	NA18874A	yri	afr	Africa	red	16
+0	NA18875	yri	afr	Africa	red	16
+0	NA18876	yri	afr	Africa	red	16
+0	NA18877	yri	afr	Africa	red	16
+0	NA18878	yri	afr	Africa	red	16
+0	NA18879	yri	afr	Africa	red	16
+0	NA18881	yri	afr	Africa	red	16
+0	NA18906	yri	afr	Africa	red	16
+0	NA18907	yri	afr	Africa	red	16
+0	NA18908	yri	afr	Africa	red	16
+0	NA18909	yri	afr	Africa	red	16
+0	NA18910	yri	afr	Africa	red	16
+0	NA18911	yri	afr	Africa	red	16
+0	NA18912	yri	afr	Africa	red	16
+0	NA18913	yri	afr	Africa	red	16
+0	NA18914	yri	afr	Africa	red	16
+0	NA18915	yri	afr	Africa	red	16
+0	NA18916	yri	afr	Africa	red	16
+0	NA18917	yri	afr	Africa	red	16
+0	NA18923	yri	afr	Africa	red	16
+0	NA18924	yri	afr	Africa	red	16
+0	NA18925	yri	afr	Africa	red	16
+0	NA18930	yri	afr	Africa	red	16
+0	NA18933	yri	afr	Africa	red	16
+0	NA18934	yri	afr	Africa	red	16
+0	NA18935	yri	afr	Africa	red	16
+0	NA18939	jpt	eas	East Asia	yellow3	16
+0	NA18940	jpt	eas	East Asia	yellow3	16
+0	NA18941	jpt	eas	East Asia	yellow3	16
+0	NA18942	jpt	eas	East Asia	yellow3	16
+0	NA18943	jpt	eas	East Asia	yellow3	16
+0	NA18944	jpt	eas	East Asia	yellow3	16
+0	NA18945	jpt	eas	East Asia	yellow3	16
+0	NA18946	jpt	eas	East Asia	yellow3	16
+0	NA18947	jpt	eas	East Asia	yellow3	16
+0	NA18948	jpt	eas	East Asia	yellow3	16
+0	NA18949	jpt	eas	East Asia	yellow3	16
+0	NA18950	jpt	eas	East Asia	yellow3	16
+0	NA18951	jpt	eas	East Asia	yellow3	16
+0	NA18952	jpt	eas	East Asia	yellow3	16
+0	NA18953	jpt	eas	East Asia	yellow3	16
+0	NA18954	jpt	eas	East Asia	yellow3	16
+0	NA18956	jpt	eas	East Asia	yellow3	16
+0	NA18957	jpt	eas	East Asia	yellow3	16
+0	NA18959	jpt	eas	East Asia	yellow3	16
+0	NA18960	jpt	eas	East Asia	yellow3	16
+0	NA18961	jpt	eas	East Asia	yellow3	16
+0	NA18962	jpt	eas	East Asia	yellow3	16
+0	NA18963	jpt	eas	East Asia	yellow3	16
+0	NA18964	jpt	eas	East Asia	yellow3	16
+0	NA18965	jpt	eas	East Asia	yellow3	16
+0	NA18966	jpt	eas	East Asia	yellow3	16
+0	NA18967	jpt	eas	East Asia	yellow3	16
+0	NA18968	jpt	eas	East Asia	yellow3	16
+0	NA18969	jpt	eas	East Asia	yellow3	16
+0	NA18970	jpt	eas	East Asia	yellow3	16
+0	NA18971	jpt	eas	East Asia	yellow3	16
+0	NA18972	jpt	eas	East Asia	yellow3	16
+0	NA18973	jpt	eas	East Asia	yellow3	16
+0	NA18974	jpt	eas	East Asia	yellow3	16
+0	NA18975	jpt	eas	East Asia	yellow3	16
+0	NA18976	jpt	eas	East Asia	yellow3	16
+0	NA18977	jpt	eas	East Asia	yellow3	16
+0	NA18979	jpt	eas	East Asia	yellow3	16
+0	NA18980	jpt	eas	East Asia	yellow3	16
+0	NA18981	jpt	eas	East Asia	yellow3	16
+0	NA18982	jpt	eas	East Asia	yellow3	16
+0	NA18983	jpt	eas	East Asia	yellow3	16
+0	NA18984	jpt	eas	East Asia	yellow3	16
+0	NA18985	jpt	eas	East Asia	yellow3	16
+0	NA18986	jpt	eas	East Asia	yellow3	16
+0	NA18987	jpt	eas	East Asia	yellow3	16
+0	NA18988	jpt	eas	East Asia	yellow3	16
+0	NA18989	jpt	eas	East Asia	yellow3	16
+0	NA18990	jpt	eas	East Asia	yellow3	16
+0	NA18991	jpt	eas	East Asia	yellow3	16
+0	NA18992	jpt	eas	East Asia	yellow3	16
+0	NA18993	jpt	eas	East Asia	yellow3	16
+0	NA18994	jpt	eas	East Asia	yellow3	16
+0	NA18995	jpt	eas	East Asia	yellow3	16
+0	NA18997	jpt	eas	East Asia	yellow3	16
+0	NA18998	jpt	eas	East Asia	yellow3	16
+0	NA18999	jpt	eas	East Asia	yellow3	16
+0	NA19000	jpt	eas	East Asia	yellow3	16
+0	NA19001	jpt	eas	East Asia	yellow3	16
+0	NA19002	jpt	eas	East Asia	yellow3	16
+0	NA19003	jpt	eas	East Asia	yellow3	16
+0	NA19004	jpt	eas	East Asia	yellow3	16
+0	NA19005	jpt	eas	East Asia	yellow3	16
+0	NA19006	jpt	eas	East Asia	yellow3	16
+0	NA19007	jpt	eas	East Asia	yellow3	16
+0	NA19009	jpt	eas	East Asia	yellow3	16
+0	NA19010	jpt	eas	East Asia	yellow3	16
+0	NA19011	jpt	eas	East Asia	yellow3	16
+0	NA19012	jpt	eas	East Asia	yellow3	16
+0	NA19017	lwk	afr	Africa	red	16
+0	NA19019	lwk	afr	Africa	red	16
+0	NA19020	lwk	afr	Africa	red	16
+0	NA19023	lwk	afr	Africa	red	16
+0	NA19026	lwk	afr	Africa	red	16
+0	NA19027	lwk	afr	Africa	red	16
+0	NA19035	lwk	afr	Africa	red	16
+0	NA19038	lwk	afr	Africa	red	16
+0	NA19041	lwk	afr	Africa	red	16
+0	NA19042	lwk	afr	Africa	red	16
+0	NA19043	lwk	afr	Africa	red	16
+0	NA19055	jpt	eas	East Asia	yellow3	16
+0	NA19056	jpt	eas	East Asia	yellow3	16
+0	NA19057	jpt	eas	East Asia	yellow3	16
+0	NA19058	jpt	eas	East Asia	yellow3	16
+0	NA19059	jpt	eas	East Asia	yellow3	16
+0	NA19060	jpt	eas	East Asia	yellow3	16
+0	NA19062	jpt	eas	East Asia	yellow3	16
+0	NA19063	jpt	eas	East Asia	yellow3	16
+0	NA19064	jpt	eas	East Asia	yellow3	16
+0	NA19065	jpt	eas	East Asia	yellow3	16
+0	NA19066	jpt	eas	East Asia	yellow3	16
+0	NA19067	jpt	eas	East Asia	yellow3	16
+0	NA19068	jpt	eas	East Asia	yellow3	16
+0	NA19070	jpt	eas	East Asia	yellow3	16
+0	NA19072	jpt	eas	East Asia	yellow3	16
+0	NA19074	jpt	eas	East Asia	yellow3	16
+0	NA19075	jpt	eas	East Asia	yellow3	16
+0	NA19076	jpt	eas	East Asia	yellow3	16
+0	NA19077	jpt	eas	East Asia	yellow3	16
+0	NA19078	jpt	eas	East Asia	yellow3	16
+0	NA19079	jpt	eas	East Asia	yellow3	16
+0	NA19080	jpt	eas	East Asia	yellow3	16
+0	NA19081	jpt	eas	East Asia	yellow3	16
+0	NA19082	jpt	eas	East Asia	yellow3	16
+0	NA19083	jpt	eas	East Asia	yellow3	16
+0	NA19084	jpt	eas	East Asia	yellow3	16
+0	NA19085	jpt	eas	East Asia	yellow3	16
+0	NA19086	jpt	eas	East Asia	yellow3	16
+0	NA19087	jpt	eas	East Asia	yellow3	16
+0	NA19088	jpt	eas	East Asia	yellow3	16
+0	NA19089	jpt	eas	East Asia	yellow3	16
+0	NA19090	jpt	eas	East Asia	yellow3	16
+0	NA19091	jpt	eas	East Asia	yellow3	16
+0	NA19092	yri	afr	Africa	red	16
+0	NA19093	yri	afr	Africa	red	16
+0	NA19094	yri	afr	Africa	red	16
+0	NA19095	yri	afr	Africa	red	16
+0	NA19096	yri	afr	Africa	red	16
+0	NA19097	yri	afr	Africa	red	16
+0	NA19098	yri	afr	Africa	red	16
+0	NA19099	yri	afr	Africa	red	16
+0	NA19100	yri	afr	Africa	red	16
+0	NA19101	yri	afr	Africa	red	16
+0	NA19102	yri	afr	Africa	red	16
+0	NA19103	yri	afr	Africa	red	16
+0	NA19107	yri	afr	Africa	red	16
+0	NA19108	yri	afr	Africa	red	16
+0	NA19109	yri	afr	Africa	red	16
+0	NA19113	yri	afr	Africa	red	16
+0	NA19114	yri	afr	Africa	red	16
+0	NA19115	yri	afr	Africa	red	16
+0	NA19116	yri	afr	Africa	red	16
+0	NA19117	yri	afr	Africa	red	16
+0	NA19118	yri	afr	Africa	red	16
+0	NA19119	yri	afr	Africa	red	16
+0	NA19120	yri	afr	Africa	red	16
+0	NA19121	yri	afr	Africa	red	16
+0	NA19122	yri	afr	Africa	red	16
+0	NA19123	yri	afr	Africa	red	16
+0	NA19127	yri	afr	Africa	red	16
+0	NA19128	yri	afr	Africa	red	16
+0	NA19129	yri	afr	Africa	red	16
+0	NA19130	yri	afr	Africa	red	16
+0	NA19131	yri	afr	Africa	red	16
+0	NA19132	yri	afr	Africa	red	16
+0	NA19137	yri	afr	Africa	red	16
+0	NA19138	yri	afr	Africa	red	16
+0	NA19139	yri	afr	Africa	red	16
+0	NA19140	yri	afr	Africa	red	16
+0	NA19141	yri	afr	Africa	red	16
+0	NA19142	yri	afr	Africa	red	16
+0	NA19143	yri	afr	Africa	red	16
+0	NA19144	yri	afr	Africa	red	16
+0	NA19145	yri	afr	Africa	red	16
+0	NA19146	yri	afr	Africa	red	16
+0	NA19147	yri	afr	Africa	red	16
+0	NA19148	yri	afr	Africa	red	16
+0	NA19149	yri	afr	Africa	red	16
+0	NA19150	yri	afr	Africa	red	16
+0	NA19151	yri	afr	Africa	red	16
+0	NA19152	yri	afr	Africa	red	16
+0	NA19153	yri	afr	Africa	red	16
+0	NA19154	yri	afr	Africa	red	16
+0	NA19159	yri	afr	Africa	red	16
+0	NA19160	yri	afr	Africa	red	16
+0	NA19161	yri	afr	Africa	red	16
+0	NA19171	yri	afr	Africa	red	16
+0	NA19172	yri	afr	Africa	red	16
+0	NA19173	yri	afr	Africa	red	16
+0	NA19174	yri	afr	Africa	red	16
+0	NA19175	yri	afr	Africa	red	16
+0	NA19177	yri	afr	Africa	red	16
+0	NA19185	yri	afr	Africa	red	16
+0	NA19186	yri	afr	Africa	red	16
+0	NA19197	yri	afr	Africa	red	16
+0	NA19198	yri	afr	Africa	red	16
+0	NA19199	yri	afr	Africa	red	16
+0	NA19200	yri	afr	Africa	red	16
+0	NA19201	yri	afr	Africa	red	16
+0	NA19202	yri	afr	Africa	red	16
+0	NA19203	yri	afr	Africa	red	16
+0	NA19204	yri	afr	Africa	red	16
+0	NA19205	yri	afr	Africa	red	16
+0	NA19206	yri	afr	Africa	red	16
+0	NA19207	yri	afr	Africa	red	16
+0	NA19208	yri	afr	Africa	red	16
+0	NA19209	yri	afr	Africa	red	16
+0	NA19210	yri	afr	Africa	red	16
+0	NA19211	yri	afr	Africa	red	16
+0	NA19213	yri	afr	Africa	red	16
+0	NA19214	yri	afr	Africa	red	16
+0	NA19215	yri	afr	Africa	red	16
+0	NA19221	yri	afr	Africa	red	16
+0	NA19222	yri	afr	Africa	red	16
+0	NA19223	yri	afr	Africa	red	16
+0	NA19224	yri	afr	Africa	red	16
+0	NA19225	yri	afr	Africa	red	16
+0	NA19235	yri	afr	Africa	red	16
+0	NA19236	yri	afr	Africa	red	16
+0	NA19237	yri	afr	Africa	red	16
+0	NA19240	yri	afr	Africa	red	16
+0	NA19247	yri	afr	Africa	red	16
+0	NA19248	yri	afr	Africa	red	16
+0	NA19249	yri	afr	Africa	red	16
+0	NA19256	yri	afr	Africa	red	16
+0	NA19257	yri	afr	Africa	red	16
+0	NA19258	yri	afr	Africa	red	16
+0	NA19309	lwk	afr	Africa	red	16
+0	NA19312	lwk	afr	Africa	red	16
+0	NA19315	lwk	afr	Africa	red	16
+0	NA19318	lwk	afr	Africa	red	16
+0	NA19320	lwk	afr	Africa	red	16
+0	NA19321	lwk	afr	Africa	red	16
+0	NA19323	lwk	afr	Africa	red	16
+0	NA19327	lwk	afr	Africa	red	16
+0	NA19331	lwk	afr	Africa	red	16
+0	NA19334	lwk	afr	Africa	red	16
+0	NA19338	lwk	afr	Africa	red	16
+0	NA19346	lwk	afr	Africa	red	16
+0	NA19347	lwk	afr	Africa	red	16
+0	NA19350	lwk	afr	Africa	red	16
+0	NA19351	lwk	afr	Africa	red	16
+0	NA19355	lwk	afr	Africa	red	16
+0	NA19360	lwk	afr	Africa	red	16
+0	NA19372	lwk	afr	Africa	red	16
+0	NA19375	lwk	afr	Africa	red	16
+0	NA19377	lwk	afr	Africa	red	16
+0	NA19378	lwk	afr	Africa	red	16
+0	NA19379	lwk	afr	Africa	red	16
+0	NA19380	lwk	afr	Africa	red	16
+0	NA19384	lwk	afr	Africa	red	16
+0	NA19385	lwk	afr	Africa	red	16
+0	NA19391	lwk	afr	Africa	red	16
+0	NA19393	lwk	afr	Africa	red	16
+0	NA19394	lwk	afr	Africa	red	16
+0	NA19397	lwk	afr	Africa	red	16
+0	NA19399	lwk	afr	Africa	red	16
+0	NA19401	lwk	afr	Africa	red	16
+0	NA19403	lwk	afr	Africa	red	16
+0	NA19404	lwk	afr	Africa	red	16
+0	NA19428	lwk	afr	Africa	red	16
+0	NA19429	lwk	afr	Africa	red	16
+0	NA19431	lwk	afr	Africa	red	16
+0	NA19434	lwk	afr	Africa	red	16
+0	NA19435	lwk	afr	Africa	red	16
+0	NA19436	lwk	afr	Africa	red	16
+0	NA19437	lwk	afr	Africa	red	16
+0	NA19438	lwk	afr	Africa	red	16
+0	NA19439	lwk	afr	Africa	red	16
+0	NA19440	lwk	afr	Africa	red	16
+0	NA19445	lwk	afr	Africa	red	16
+0	NA19446	lwk	afr	Africa	red	16
+0	NA19451	lwk	afr	Africa	red	16
+0	NA19454	lwk	afr	Africa	red	16
+0	NA19455	lwk	afr	Africa	red	16
+0	NA19456	lwk	afr	Africa	red	16
+0	NA19457	lwk	afr	Africa	red	16
+0	NA19461	lwk	afr	Africa	red	16
+0	NA19462	lwk	afr	Africa	red	16
+0	NA19463	lwk	afr	Africa	red	16
+0	NA19466	lwk	afr	Africa	red	16
+0	NA19467	lwk	afr	Africa	red	16
+0	NA19468	lwk	afr	Africa	red	16
+0	NA19473	lwk	afr	Africa	red	16
+0	NA19700	asw	afr	Africa	red	16
+0	NA19701	asw	afr	Africa	red	16
+0	NA19702	asw	afr	Africa	red	16
+0	NA19703	asw	afr	Africa	red	16
+0	NA19704	asw	afr	Africa	red	16
+0	NA19705	asw	afr	Africa	red	16
+0	NA19707	asw	afr	Africa	red	16
+0	NA19711	asw	afr	Africa	red	16
+0	NA19712	asw	afr	Africa	red	16
+0	NA19713	asw	afr	Africa	red	16
+0	NA19834	asw	afr	Africa	red	16
+0	NA19835	asw	afr	Africa	red	16
+0	NA19836	asw	afr	Africa	red	16
+0	NA19900	asw	afr	Africa	red	16
+0	NA19901	asw	afr	Africa	red	16
+0	NA19902	asw	afr	Africa	red	16
+0	NA19904	asw	afr	Africa	red	16
+0	NA19908	asw	afr	Africa	red	16
+0	NA19909	asw	afr	Africa	red	16
+0	NA19913	asw	afr	Africa	red	16
+0	NA19914	asw	afr	Africa	red	16
+0	NA19919	asw	afr	Africa	red	16
+0	NA19920	asw	afr	Africa	red	16
+0	NA19922	asw	afr	Africa	red	16
+0	NA19923	asw	afr	Africa	red	16
+0	NA19924	asw	afr	Africa	red	16
+0	NA19982	asw	afr	Africa	red	16
+0	NA19983	asw	afr	Africa	red	16
+0	NA19984	asw	afr	Africa	red	16
+0	NA20126	asw	afr	Africa	red	16
+0	NA20127	asw	afr	Africa	red	16
+0	NA20128	asw	afr	Africa	red	16
+0	NA20129	asw	afr	Africa	red	16
+0	NA20276	asw	afr	Africa	red	16
+0	NA20279	asw	afr	Africa	red	16
+0	NA20281	asw	afr	Africa	red	16
+0	NA20282	asw	afr	Africa	red	16
+0	NA20287	asw	afr	Africa	red	16
+0	NA20289	asw	afr	Africa	red	16
+0	NA20291	asw	afr	Africa	red	16
+0	NA20294	asw	afr	Africa	red	16
+0	NA20296	asw	afr	Africa	red	16
+0	NA20298	asw	afr	Africa	red	16
+0	NA20317	asw	afr	Africa	red	16
+0	NA20318	asw	afr	Africa	red	16
+0	NA20320	asw	afr	Africa	red	16
+0	NA20321	asw	afr	Africa	red	16
+0	NA20332	asw	afr	Africa	red	16
+0	NA20334	asw	afr	Africa	red	16
+0	NA20339	asw	afr	Africa	red	16
+0	NA20340	asw	afr	Africa	red	16
+0	NA20342	asw	afr	Africa	red	16
+0	NA20346	asw	afr	Africa	red	16
+0	NA20348	asw	afr	Africa	red	16
+0	NA20351	asw	afr	Africa	red	16
+0	NA20355	asw	afr	Africa	red	16
+0	NA20356	asw	afr	Africa	red	16
+0	NA20357	asw	afr	Africa	red	16
+0	NA20358	asw	afr	Africa	red	16
+0	NA20359	asw	afr	Africa	red	16
+0	NA20362	asw	afr	Africa	red	16
+0	NA20412	asw	afr	Africa	red	16
+0	NA20502	tsi	eur	European	green	16
+0	NA20503	tsi	eur	European	green	16
+0	NA20504	tsi	eur	European	green	16
+0	NA20505	tsi	eur	European	green	16
+0	NA20507	tsi	eur	European	green	16
+0	NA20508	tsi	eur	European	green	16
+0	NA20509	tsi	eur	European	green	16
+0	NA20510	tsi	eur	European	green	16
+0	NA20511	tsi	eur	European	green	16
+0	NA20512	tsi	eur	European	green	16
+0	NA20513	tsi	eur	European	green	16
+0	NA20514	tsi	eur	European	green	16
+0	NA20515	tsi	eur	European	green	16
+0	NA20516	tsi	eur	European	green	16
+0	NA20517	tsi	eur	European	green	16
+0	NA20518	tsi	eur	European	green	16
+0	NA20519	tsi	eur	European	green	16
+0	NA20520	tsi	eur	European	green	16
+0	NA20521	tsi	eur	European	green	16
+0	NA20522	tsi	eur	European	green	16
+0	NA20524	tsi	eur	European	green	16
+0	NA20525	tsi	eur	European	green	16
+0	NA20527	tsi	eur	European	green	16
+0	NA20528	tsi	eur	European	green	16
+0	NA20529	tsi	eur	European	green	16
+0	NA20531	tsi	eur	European	green	16
+0	NA20532	tsi	eur	European	green	16
+0	NA20534	tsi	eur	European	green	16
+0	NA20535	tsi	eur	European	green	16
+0	NA20536	tsi	eur	European	green	16
+0	NA20538	tsi	eur	European	green	16
+0	NA20539	tsi	eur	European	green	16
+0	NA20540	tsi	eur	European	green	16
+0	NA20541	tsi	eur	European	green	16
+0	NA20542	tsi	eur	European	green	16
+0	NA20543	tsi	eur	European	green	16
+0	NA20544	tsi	eur	European	green	16
+0	NA20581	tsi	eur	European	green	16
+0	NA20582	tsi	eur	European	green	16
+0	NA20585	tsi	eur	European	green	16
+0	NA20586	tsi	eur	European	green	16
+0	NA20587	tsi	eur	European	green	16
+0	NA20588	tsi	eur	European	green	16
+0	NA20589	tsi	eur	European	green	16
+0	NA20752	tsi	eur	European	green	16
+0	NA20753	tsi	eur	European	green	16
+0	NA20754	tsi	eur	European	green	16
+0	NA20755	tsi	eur	European	green	16
+0	NA20756	tsi	eur	European	green	16
+0	NA20757	tsi	eur	European	green	16
+0	NA20758	tsi	eur	European	green	16
+0	NA20759	tsi	eur	European	green	16
+0	NA20760	tsi	eur	European	green	16
+0	NA20761	tsi	eur	European	green	16
+0	NA20762	tsi	eur	European	green	16
+0	NA20763	tsi	eur	European	green	16
+0	NA20764	tsi	eur	European	green	16
+0	NA20765	tsi	eur	European	green	16
+0	NA20766	tsi	eur	European	green	16
+0	NA20767	tsi	eur	European	green	16
+0	NA20768	tsi	eur	European	green	16
+0	NA20769	tsi	eur	European	green	16
+0	NA20770	tsi	eur	European	green	16
+0	NA20771	tsi	eur	European	green	16
+0	NA20772	tsi	eur	European	green	16
+0	NA20773	tsi	eur	European	green	16
+0	NA20774	tsi	eur	European	green	16
+0	NA20775	tsi	eur	European	green	16
+0	NA20778	tsi	eur	European	green	16
+0	NA20783	tsi	eur	European	green	16
+0	NA20785	tsi	eur	European	green	16
+0	NA20786	tsi	eur	European	green	16
+0	NA20787	tsi	eur	European	green	16
+0	NA20790	tsi	eur	European	green	16
+0	NA20792	tsi	eur	European	green	16
+0	NA20795	tsi	eur	European	green	16
+0	NA20796	tsi	eur	European	green	16
+0	NA20797	tsi	eur	European	green	16
+0	NA20798	tsi	eur	European	green	16
+0	NA20799	tsi	eur	European	green	16
+0	NA20800	tsi	eur	European	green	16
+0	NA20801	tsi	eur	European	green	16
+0	NA20802	tsi	eur	European	green	16
+0	NA20803	tsi	eur	European	green	16
+0	NA20804	tsi	eur	European	green	16
+0	NA20805	tsi	eur	European	green	16
+0	NA20806	tsi	eur	European	green	16
+0	NA20807	tsi	eur	European	green	16
+0	NA20808	tsi	eur	European	green	16
+0	NA20809	tsi	eur	European	green	16
+0	NA20810	tsi	eur	European	green	16
+0	NA20811	tsi	eur	European	green	16
+0	NA20812	tsi	eur	European	green	16
+0	NA20813	tsi	eur	European	green	16
+0	NA20814	tsi	eur	European	green	16
+0	NA20815	tsi	eur	European	green	16
+0	NA20818	tsi	eur	European	green	16
+0	NA20819	tsi	eur	European	green	16
+0	NA20821	tsi	eur	European	green	16
+0	NA20822	tsi	eur	European	green	16
+0	NA20826	tsi	eur	European	green	16
+0	NA20827	tsi	eur	European	green	16
+0	NA20828	tsi	eur	European	green	16
+0	NA20845	gih	sas	South Asia	tan	16
+0	NA20846	gih	sas	South Asia	tan	16
+0	NA20847	gih	sas	South Asia	tan	16
+0	NA20849	gih	sas	South Asia	tan	16
+0	NA20850	gih	sas	South Asia	tan	16
+0	NA20851	gih	sas	South Asia	tan	16
+0	NA20852	gih	sas	South Asia	tan	16
+0	NA20853	gih	sas	South Asia	tan	16
+0	NA20854	gih	sas	South Asia	tan	16
+0	NA20856	gih	sas	South Asia	tan	16
+0	NA20858	gih	sas	South Asia	tan	16
+0	NA20859	gih	sas	South Asia	tan	16
+0	NA20861	gih	sas	South Asia	tan	16
+0	NA20862	gih	sas	South Asia	tan	16
+0	NA20863	gih	sas	South Asia	tan	16
+0	NA20864	gih	sas	South Asia	tan	16
+0	NA20866	gih	sas	South Asia	tan	16
+0	NA20867	gih	sas	South Asia	tan	16
+0	NA20868	gih	sas	South Asia	tan	16
+0	NA20869	gih	sas	South Asia	tan	16
+0	NA20870	gih	sas	South Asia	tan	16
+0	NA20872	gih	sas	South Asia	tan	16
+0	NA20874	gih	sas	South Asia	tan	16
+0	NA20875	gih	sas	South Asia	tan	16
+0	NA20876	gih	sas	South Asia	tan	16
+0	NA20877	gih	sas	South Asia	tan	16
+0	NA20878	gih	sas	South Asia	tan	16
+0	NA20881	gih	sas	South Asia	tan	16
+0	NA20882	gih	sas	South Asia	tan	16
+0	NA20884	gih	sas	South Asia	tan	16
+0	NA20885	gih	sas	South Asia	tan	16
+0	NA20886	gih	sas	South Asia	tan	16
+0	NA20887	gih	sas	South Asia	tan	16
+0	NA20888	gih	sas	South Asia	tan	16
+0	NA20889	gih	sas	South Asia	tan	16
+0	NA20890	gih	sas	South Asia	tan	16
+0	NA20891	gih	sas	South Asia	tan	16
+0	NA20892	gih	sas	South Asia	tan	16
+0	NA20894	gih	sas	South Asia	tan	16
+0	NA20895	gih	sas	South Asia	tan	16
+0	NA20896	gih	sas	South Asia	tan	16
+0	NA20897	gih	sas	South Asia	tan	16
+0	NA20899	gih	sas	South Asia	tan	16
+0	NA20900	gih	sas	South Asia	tan	16
+0	NA20901	gih	sas	South Asia	tan	16
+0	NA20902	gih	sas	South Asia	tan	16
+0	NA20903	gih	sas	South Asia	tan	16
+0	NA20904	gih	sas	South Asia	tan	16
+0	NA20905	gih	sas	South Asia	tan	16
+0	NA20906	gih	sas	South Asia	tan	16
+0	NA20908	gih	sas	South Asia	tan	16
+0	NA20910	gih	sas	South Asia	tan	16
+0	NA20911	gih	sas	South Asia	tan	16
+0	NA21086	gih	sas	South Asia	tan	16
+0	NA21087	gih	sas	South Asia	tan	16
+0	NA21088	gih	sas	South Asia	tan	16
+0	NA21089	gih	sas	South Asia	tan	16
+0	NA21090	gih	sas	South Asia	tan	16
+0	NA21091	gih	sas	South Asia	tan	16
+0	NA21092	gih	sas	South Asia	tan	16
+0	NA21093	gih	sas	South Asia	tan	16
+0	NA21094	gih	sas	South Asia	tan	16
+0	NA21095	gih	sas	South Asia	tan	16
+0	NA21097	gih	sas	South Asia	tan	16
+0	NA21098	gih	sas	South Asia	tan	16
+0	NA21099	gih	sas	South Asia	tan	16
+0	NA21100	gih	sas	South Asia	tan	16
+0	NA21101	gih	sas	South Asia	tan	16
+0	NA21102	gih	sas	South Asia	tan	16
+0	NA21103	gih	sas	South Asia	tan	16
+0	NA21104	gih	sas	South Asia	tan	16
+0	NA21105	gih	sas	South Asia	tan	16
+0	NA21106	gih	sas	South Asia	tan	16
+0	NA21107	gih	sas	South Asia	tan	16
+0	NA21108	gih	sas	South Asia	tan	16
+0	NA21109	gih	sas	South Asia	tan	16
+0	NA21110	gih	sas	South Asia	tan	16
+0	NA21111	gih	sas	South Asia	tan	16
+0	NA21112	gih	sas	South Asia	tan	16
+0	NA21113	gih	sas	South Asia	tan	16
+0	NA21114	gih	sas	South Asia	tan	16
+0	NA21115	gih	sas	South Asia	tan	16
+0	NA21116	gih	sas	South Asia	tan	16
+0	NA21117	gih	sas	South Asia	tan	16
+0	NA21118	gih	sas	South Asia	tan	16
+0	NA21119	gih	sas	South Asia	tan	16
+0	NA21120	gih	sas	South Asia	tan	16
+0	NA21122	gih	sas	South Asia	tan	16
+0	NA21123	gih	sas	South Asia	tan	16
+0	NA21124	gih	sas	South Asia	tan	16
+0	NA21125	gih	sas	South Asia	tan	16
+0	NA21126	gih	sas	South Asia	tan	16
+0	NA21127	gih	sas	South Asia	tan	16
+0	NA21128	gih	sas	South Asia	tan	16
+0	NA21129	gih	sas	South Asia	tan	16
+0	NA21130	gih	sas	South Asia	tan	16
+0	NA21133	gih	sas	South Asia	tan	16
+0	NA21135	gih	sas	South Asia	tan	16
+0	NA21137	gih	sas	South Asia	tan	16
+0	NA21141	gih	sas	South Asia	tan	16
+0	NA21142	gih	sas	South Asia	tan	16
+0	NA21143	gih	sas	South Asia	tan	16
+0	NA21144	gih	sas	South Asia	tan	16
+0	SS6004468	french	eur	European	green	16
+0	SS6004470	mandenka	afr	Africa	red	16
+0	SS6004475	yoruba	afr	Africa	red	16
+0	SS6004476	karitiana	amr	American	purple	16
+0	v3.1::HG00403	chs	eas	East Asia	yellow3	16
+0	v3.1::HG00405	chs	eas	East Asia	yellow3	16
+0	v3.1::HG00451	chs	eas	East Asia	yellow3	16
+0	v3.1::HG00452	chs	eas	East Asia	yellow3	16
+0	v3.1::HG00453	chs	eas	East Asia	yellow3	16
+0	v3.1::HG00512	chs	eas	East Asia	yellow3	16
+0	v3.1::HG00513	chs	eas	East Asia	yellow3	16
+0	v3.1::HG00514	chs	eas	East Asia	yellow3	16
+0	v3.1::HG01776	ibs	eur	European	green	16
+0	v3.1::HG01777	ibs	eur	European	green	16
+0	v3.1::HG01778	ibs	eur	European	green	16
+0	v3.1::HG01889	acb	afr	Africa	red	16
+0	v3.1::HG01890	acb	afr	Africa	red	16
+0	v3.1::HG01891	acb	afr	Africa	red	16
+0	v3.1::HG01917	pel	amr	American	purple	16
+0	v3.1::HG01918	pel	amr	American	purple	16
+0	v3.1::HG01919	pel	amr	American	purple	16
+0	v3.1::HG02059	khv	eas	East Asia	yellow3	16
+0	v3.1::HG02060	khv	eas	East Asia	yellow3	16
+0	v3.1::HG02061	khv	eas	East Asia	yellow3	16
+0	v3.1::HG02068	khv	eas	East Asia	yellow3	16
+0	v3.1::HG02069	khv	eas	East Asia	yellow3	16
+0	v3.1::HG02070	khv	eas	East Asia	yellow3	16
+0	v3.1::HG02232	ibs	eur	European	green	16
+0	v3.1::HG02233	ibs	eur	European	green	16
+0	v3.1::HG02234	ibs	eur	European	green	16
+0	v3.1::HG02259	pel	amr	American	purple	16
+0	v3.1::HG02260	pel	amr	American	purple	16
+0	v3.1::HG02261	pel	amr	American	purple	16
+0	v3.1::HG02449	acb	afr	Africa	red	16
+0	v3.1::HG02450	acb	afr	Africa	red	16
+0	v3.1::HG02451	acb	afr	Africa	red	16
+0	v3.1::HG02657	pjl	sas	South Asia	tan	16
+0	v3.1::HG02658	pjl	sas	South Asia	tan	16
+0	v3.1::HG02659	pjl	sas	South Asia	tan	16
+0	v3.1::HG02816	gwd	afr	Africa	red	16
+0	v3.1::HG02817	gwd	afr	Africa	red	16
+0	v3.1::HG02818	gwd	afr	Africa	red	16
+0	v3.1::HG03240	gwd	afr	Africa	red	16
+0	v3.1::HG03241	gwd	afr	Africa	red	16
+0	v3.1::HG03242	gwd	afr	Africa	red	16
+0	v3.1::HG03300	esn	afr	Africa	red	16
+0	v3.1::HG03301	esn	afr	Africa	red	16
+0	v3.1::HG03302	esn	afr	Africa	red	16
+0	v3.1::HG03451	msl	afr	Africa	red	16
+0	v3.1::HG03452	msl	afr	Africa	red	16
+0	v3.1::HG03453	msl	afr	Africa	red	16
+0	v3.1::HG03484	msl	afr	Africa	red	16
+0	v3.1::HG03485	msl	afr	Africa	red	16
+0	v3.1::HG03486	msl	afr	Africa	red	16
+0	v3.1::HG03517	esn	afr	Africa	red	16
+0	v3.1::HG03518	esn	afr	Africa	red	16
+0	v3.1::HG03519	esn	afr	Africa	red	16
+0	v3.1::HG03624	pjl	sas	South Asia	tan	16
+0	v3.1::HG03625	pjl	sas	South Asia	tan	16
+0	v3.1::HG03626	pjl	sas	South Asia	tan	16
+0	v3.1::HG03688	stu	sas	South Asia	tan	16
+0	v3.1::HG03719	itu	sas	South Asia	tan	16
+0	v3.1::HG03722	itu	sas	South Asia	tan	16
+0	v3.1::HG03725	itu	sas	South Asia	tan	16
+0	v3.1::HG03814	beb	sas	South Asia	tan	16
+0	v3.1::HG03815	beb	sas	South Asia	tan	16
+0	v3.1::HG03816	beb	sas	South Asia	tan	16
+0	v3.1::HG03823	beb	sas	South Asia	tan	16
+0	v3.1::HG03825	beb	sas	South Asia	tan	16
+0	v3.1::HG03885	stu	sas	South Asia	tan	16
+0	v3.1::HG03886	stu	sas	South Asia	tan	16
+0	v3.1::HG03943	stu	sas	South Asia	tan	16
+0	v3.1::HG03944	stu	sas	South Asia	tan	16
+0	v3.1::HG03992	stu	sas	South Asia	tan	16
+0	v3.1::HG04198	itu	sas	South Asia	tan	16
+0	v3.1::HG04200	itu	sas	South Asia	tan	16
+0	v3.1::HG04217	itu	sas	South Asia	tan	16
+0	v3.1::NA12878	ceu	eur	European	green	16
+0	v3.1::NA12891	ceu	eur	European	green	16
+0	v3.1::NA19189	yri	afr	Africa	red	16
+0	v3.1::NA19190	yri	afr	Africa	red	16
+0	v3.1::NA19191	yri	afr	Africa	red	16
+0	v3.1::NA19238	yri	afr	Africa	red	16
+0	v3.1::NA19239	yri	afr	Africa	red	16
+0	v3.1::NA19818	asw	afr	Africa	red	16
+0	v3.1::NA19819	asw	afr	Africa	red	16
+0	v3.1::NA19828	asw	afr	Africa	red	16
+0	v3.1::NA19916	asw	afr	Africa	red	16
+0	v3.1::NA19917	asw	afr	Africa	red	16
+0	v3.1::NA19918	asw	afr	Africa	red	16
