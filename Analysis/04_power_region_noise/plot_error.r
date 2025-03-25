@@ -4,7 +4,7 @@ ERROR = as.character(eval(paste(text=param[1])))
 library(ggplot2)
 library(data.table)
 
-SNPset = c("GompertsAirwatCfCells", "HnsccImmuneLandscape", "humanPreimplantationEmbryos", "StemCellsInChronicMyeloidLeukemia", "eQTLAutoimmune")
+SNPset = c("GompertsAirwatCfCells", "HnsccImmuneLandscape", "humanPreimplantationEmbryos", "StemCellsInChronicMyeloidLeukemia")
 
 # admixture
 adm_list <- lapply(SNPset, function(SNP) {
