@@ -5,7 +5,7 @@ Characterizing the ancestry of donors in single-cell RNA sequencing (scRNA-seq) 
 **This repository documents all necessary scripts for the analysis in *Evaluating genetic-ancestry inference from single-cell RNA-seq data* paper.**
 
 
-## Tutorial: from reads to genetic-ancestry inference
+## Tutorial: from scRNA-seq reads to genetic-ancestry inference
 
 To complete
 
