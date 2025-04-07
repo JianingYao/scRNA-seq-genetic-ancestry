@@ -4,14 +4,14 @@ STUDY = eval(paste(text=param[1]))
 
 library(RColorBrewer)
 
-INFO_DIR="../../Analysis/00_TGP/"
+INFO_DIR="../../../Analysis/00_TGP/"
 info=read.table(paste0(INFO_DIR, "info.txt"),h=T,sep="\t")
 
-DATA_DIR="./Ancestry/Results/"
+DATA_DIR="../../"
 ADM_DIR=paste0(DATA_DIR, STUDY, "/ADMIXTURE_results/")
-admixture = read.table(paste0(ADM_DIR, STUDY,".TGP_HGDP.pca.6.Q"),h=F)
-admixture.pop = read.table(paste0(DATA_DIR, STUDY,"/",STUDY,".TGP_HGDP.pca.pop"))
-admixture.ind = read.table(paste0(DATA_DIR, STUDY,"/",STUDY,".TGP_HGDP.pca.fam"))[,2]
+admixture = read.table(paste0(ADM_DIR, STUDY,".HGDP_1kGP.pca.6.Q"),h=F)
+admixture.pop = read.table(paste0(DATA_DIR, STUDY,"/",STUDY,".HGDP_1kGP.pca.pop"))
+admixture.ind = read.table(paste0(DATA_DIR, STUDY,"/",STUDY,".HGDP_1kGP.pca.fam"))[,2]
 
 colnames(admixture)=c("eur","eas","amr","sas","afr","mid")
 rownames(admixture)=admixture.ind

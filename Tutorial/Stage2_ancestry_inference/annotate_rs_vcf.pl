@@ -13,17 +13,17 @@ while (<IN>) {
 close IN;
 print "   $cpt_in SNPs in $plink_file.bim.\n\n";
 
-print "2/ Stock rs ID from $pca_file.bed\n";
-open(IN,"$pca_file.bed") || die;
+print "2/ Stock rs ID from $pca_file.bim\n";
+open(IN,"$pca_file.bim") || die;
 $cpt=0;
 while (<IN>) {
 	chomp $_; @line=split;
-    if (defined($rs{$line[4]}{$line[2]}{$line[5]}{$line[6]})){ $rs{$line[4]}{$line[2]}{$line[5]}{$line[6]} = $line[3]; }
-    if (defined($rs{$line[4]}{$line[2]}{$line[6]}{$line[5]})){ $rs{$line[4]}{$line[2]}{$line[6]}{$line[5]} = $line[3]; }
+    if (defined($rs{$line[0]}{$line[3]}{$line[4]}{$line[5]})){ $rs{$line[0]}{$line[3]}{$line[4]}{$line[5]} = $line[1]; }
+    if (defined($rs{$line[0]}{$line[3]}{$line[5]}{$line[4]})){ $rs{$line[0]}{$line[3]}{$line[5]}{$line[4]} = $line[1]; }
     $cpt++;
 }
 close IN;
-print "   $cpt SNPs in $pca_file.bed.\n\n";
+print "   $cpt SNPs in $pca_file.bim.\n\n";
 
 print "3/ Update $plink_file.bim with rs id\n";
 system "cp $plink_file.bim $plink_file.tmp.bim";
