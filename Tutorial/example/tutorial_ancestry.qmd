@@ -1,0 +1,7 @@
+```{r}
+library(ggplot2)
+```
+```{bash}
+ls -l > files.txt
+head files.txt
+```
