@@ -1,7 +1,126 @@
-```{r}
-library(ggplot2)
-```
+---
+title: "Tutorial on genetic-ancestry inference using scRNA data"
+author: "Jianing Yao"
+format:
+  gfm:
+    toc: true           # Quarto will generate a Markdown TOC
+    number-sections: true
+execute:
+  echo: true
+  warning: false
+  freeze: auto
+---
+
+### 
+
+#### This tutorial will showcase genetic-ancestry inference on a specific HCA study after obtaining SNPs from the scRNA data following steps described in `Stage1_preprocessing`.
+
+
+
+
 ```{bash}
-ls -l > files.txt
-head files.txt
+# Set up
+PLINK2="../../bin/plink1.9/plink"
+PCA_FILE="HGDP_1kGP.exon_UTRS"
+tar -xJvf ../Stage2_ancestry_inference/$PCA_FILE.tar.xz
+STUDY='StemCellsInChronicMyeloidLeukemia'
+VCF='StemCellsInChronicMyeloidLeukemia.SNP.Filtered.SV.vcf.gz'
+DIR=$STUDY
+if [ ! -d "$DIR" ]; then
+    mkdir -p "$DIR"
+fi
+
+#### Step 1: Convert your vcf into plink format and QC the data
+$PLINK2 --const-fid 0 --vcf $VCF --geno 0.10 --make-bed --allow-extra-chr --out $DIR/$STUDY.plink.step1
+$PLINK2 --bfile $DIR/$STUDY.plink.step1 --mind 0.10 --make-bed --allow-extra-chr --out $DIR/$STUDY.plink.step2
+$PLINK2 --const-fid 0 --vcf $VCF --keep $DIR/$STUDY.plink.step2.fam --geno 0.10 --make-bed --allow-extra-chr --out $DIR/$STUDY.plink
+rm $DIR/$STUDY.plink.step*
+
+#### Step 2: Find rs ID and create a list with rs id in both scRNA dataset and the reference dataset
+perl ../Stage2_ancestry_inference/annotate_rs_vcf.pl $DIR/$STUDY.plink $PCA_FILE
+grep -v toremove $DIR/$STUDY.plink.bim | cut -f2 > $DIR/$STUDY.plink.list
+
+
+#### Step 3: Merge the 2 files and perform pruning
+$PLINK2 --bfile $DIR/$STUDY.plink --extract $DIR/$STUDY.plink.list --make-bed --out $DIR/$STUDY.tmp1 --allow-extra-chr
+$PLINK2 --bfile $PCA_FILE         --extract $DIR/$STUDY.plink.list --make-bed --out $DIR/$STUDY.tmp2
+$PLINK2 --bfile $DIR/$STUDY.tmp1  --bmerge $DIR/$STUDY.tmp2 --make-bed --allow-no-sex --out $DIR/$STUDY.HGDP_1kGP
+$PLINK2 --bfile $DIR/$STUDY.HGDP_1kGP   --indep-pairwise 50 10 0.1 --out $DIR/$STUDY.HGDP_1kGP.pca
+$PLINK2 --bfile $DIR/$STUDY.HGDP_1kGP   --extract $DIR/$STUDY.HGDP_1kGP.pca.prune.in --make-bed --out $DIR/$STUDY.HGDP_1kGP.pca
+rm $DIR/$STUDY.tmp*
+
+
+#### Step 4: Run PCA
+awk '{print $1, $2, "MYID"}' $DIR/$STUDY.plink.fam > $DIR/$STUDY.HGDP_1kGP.cluster
+awk '{print $1, $2, "HGDP_1kGP"}' $PCA_FILE.fam >> $DIR/$STUDY.HGDP_1kGP.cluster
+$PLINK2 --bfile $DIR/$STUDY.HGDP_1kGP.pca --pca --within $DIR/$STUDY.HGDP_1kGP.cluster --pca-cluster-names HGDP_1kGP --out $DIR/$STUDY.HGDP_1kGP.pca
+```
+
+```{r, fig.width=8, fig.height=4}
+library(RColorBrewer)
+
+STUDY = "StemCellsInChronicMyeloidLeukemia"
+data=read.table(paste0(STUDY,"/",STUDY,".HGDP_1kGP.pca.eigenvec"),h=F)
+rownames(data) = data$V2
+info=read.table("info.txt",h=T,sep="\t")
+rownames(info) = info$IID
+mydata  = data[as.character(read.table(paste0(STUDY,"/",STUDY,".plink.fam"))[,2]),]
+data_HGDP_1kGP = data[as.character(info$IID),]
+
+topPCtokeep = 5  #let's keep the top 5 PCs
+tokeep = topPCtokeep+2
+
+#compute center of each reference population
+center_afr = apply(subset(data_HGDP_1kGP[,3:tokeep],info$myREG=="Africa"),2,mean)
+center_amr = apply(subset(data_HGDP_1kGP[,3:tokeep],info$myREG=="American"),2,mean)
+center_eas = apply(subset(data_HGDP_1kGP[,3:tokeep],info$myREG=="East Asia"),2,mean)
+center_eur = apply(subset(data_HGDP_1kGP[,3:tokeep],info$myREG=="European" | info$myREG=="Finnish"),2,mean)
+center_mea = apply(subset(data_HGDP_1kGP[,3:tokeep],info$myREG=="Middle-East"),2,mean)
+center_sas = apply(subset(data_HGDP_1kGP[,3:tokeep],info$myREG=="South Asia"),2,mean)
+out=NULL
+for (i in 1:nrow(mydata)){
+    thisiid = c(
+    sum((mydata[i,3:tokeep]-center_afr)**2),
+    sum((mydata[i,3:tokeep]-center_amr)**2),
+    sum((mydata[i,3:tokeep]-center_eas)**2),
+    sum((mydata[i,3:tokeep]-center_eur)**2),
+    sum((mydata[i,3:tokeep]-center_mea)**2),
+    sum((mydata[i,3:tokeep]-center_sas)**2))
+    thisiid = as.integer(thisiid == min(thisiid))
+    out=rbind(out,thisiid)
+}
+colnames(out) = c("afr","amr","eas","eur","mea","sas")
+rownames(out)= mydata[,2]
+write.table(out,file=paste0(STUDY,"/",STUDY,".pca_center.txt"),col.names=T,row.names=F,quote=F,sep="\t")
+
+mylegend = c("Africa", "America", "East Asia", "Europe", "Middle East", "South Asia")
+mycol = c("#1B9E77","#D95F02","#7570B3","#E6AB02","#66A61E","#E7298A")
+populations <- c("Africa", "American", "East Asia", "European", "Middle East", "South Asia")
+info$Color <- mycol[match(info$myREG, populations)]
+#
+x1=c(data_HGDP_1kGP$V3,mydata$V3); y1=c(data_HGDP_1kGP$V4,mydata$V4)
+x2=c(data_HGDP_1kGP$V5,mydata$V5); y2=c(data_HGDP_1kGP$V6,mydata$V6)
+
+op <- par(mfrow = c(1, 2), mar = c(4, 4, 1, 1))
+on.exit(par(op), add = TRUE)
+
+# PC1 vs PC2
+plot(
+  data_HGDP_1kGP$V3, data_HGDP_1kGP$V4,
+  col = as.character(info$Color), pch = info$PCH,
+  xlab = "PC1", ylab = "PC2",
+  xlim = c(min(x1), max(x1)), ylim = c(min(y1), max(y1))
+)
+points(mydata$V3, mydata$V4, pch = 16)
+
+# PC3 vs PC4
+plot(
+  data_HGDP_1kGP$V5, data_HGDP_1kGP$V6,
+  col = as.character(info$Color), pch = info$PCH,
+  xlab = "PC3", ylab = "PC4",
+  xlim = c(min(x2), max(x2)), ylim = c(min(y2), max(y2))
+)
+points(mydata$V5, mydata$V6, pch = 16)
+
+legend("topright", cex = 0.7, legend = mylegend, col = mycol, pch = 16, bty = "n")
 ```
