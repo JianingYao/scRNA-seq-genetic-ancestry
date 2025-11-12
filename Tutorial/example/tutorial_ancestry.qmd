@@ -9,16 +9,14 @@ execute:
   echo: true
   warning: false
   freeze: auto
----
-
-### 
+--- 
 
 #### This tutorial will showcase genetic-ancestry inference on a specific HCA study after obtaining SNPs from the scRNA data following steps described in `Stage1_preprocessing`.
 
 
+### QC
 
-
-```{bash}
+```{bash qc, results='hide', message=FALSE, warning=FALSE}
 # Set up
 PLINK2="../../bin/plink1.9/plink"
 PCA_FILE="HGDP_1kGP.exon_UTRS"
@@ -56,8 +54,13 @@ awk '{print $1, $2, "HGDP_1kGP"}' $PCA_FILE.fam >> $DIR/$STUDY.HGDP_1kGP.cluster
 $PLINK2 --bfile $DIR/$STUDY.HGDP_1kGP.pca --pca --within $DIR/$STUDY.HGDP_1kGP.cluster --pca-cluster-names HGDP_1kGP --out $DIR/$STUDY.HGDP_1kGP.pca
 ```
 
-```{r, fig.width=8, fig.height=4}
+### PCA analysis
+
+```{r pca, fig.width=8, fig.height=4, dev="png"}
 library(RColorBrewer)
+library(ggplot2)
+library(patchwork)
+library(readr)
 
 STUDY = "StemCellsInChronicMyeloidLeukemia"
 data=read.table(paste0(STUDY,"/",STUDY,".HGDP_1kGP.pca.eigenvec"),h=F)
@@ -95,32 +98,105 @@ write.table(out,file=paste0(STUDY,"/",STUDY,".pca_center.txt"),col.names=T,row.n
 
 mylegend = c("Africa", "America", "East Asia", "Europe", "Middle East", "South Asia")
 mycol = c("#1B9E77","#D95F02","#7570B3","#E6AB02","#66A61E","#E7298A")
-populations <- c("Africa", "American", "East Asia", "European", "Middle East", "South Asia")
+populations <- c("Africa", "American", "East Asia", "European", "Middle-East", "South Asia")
 info$Color <- mycol[match(info$myREG, populations)]
 #
 x1=c(data_HGDP_1kGP$V3,mydata$V3); y1=c(data_HGDP_1kGP$V4,mydata$V4)
 x2=c(data_HGDP_1kGP$V5,mydata$V5); y2=c(data_HGDP_1kGP$V6,mydata$V6)
 
-op <- par(mfrow = c(1, 2), mar = c(4, 4, 1, 1))
-on.exit(par(op), add = TRUE)
-
-# PC1 vs PC2
-plot(
-  data_HGDP_1kGP$V3, data_HGDP_1kGP$V4,
-  col = as.character(info$Color), pch = info$PCH,
-  xlab = "PC1", ylab = "PC2",
-  xlim = c(min(x1), max(x1)), ylim = c(min(y1), max(y1))
+df_ref <- data.frame(
+  PC1 = data_HGDP_1kGP$V3, PC2 = data_HGDP_1kGP$V4,
+  PC3 = data_HGDP_1kGP$V5, PC4 = data_HGDP_1kGP$V6,
+  REG = factor(info$myREG, levels = populations)
 )
-points(mydata$V3, mydata$V4, pch = 16)
 
-# PC3 vs PC4
-plot(
-  data_HGDP_1kGP$V5, data_HGDP_1kGP$V6,
-  col = as.character(info$Color), pch = info$PCH,
-  xlab = "PC3", ylab = "PC4",
-  xlim = c(min(x2), max(x2)), ylim = c(min(y2), max(y2))
+df_my <- data.frame(
+  PC1 = mydata$V3, PC2 = mydata$V4,
+  PC3 = mydata$V5, PC4 = mydata$V6
 )
-points(mydata$V5, mydata$V6, pch = 16)
 
-legend("topright", cex = 0.7, legend = mylegend, col = mycol, pch = 16, bty = "n")
+pop_cols <- setNames(mycol, populations)
+
+p12 <- ggplot() +
+  geom_point(data = df_ref, aes(PC1, PC2, color = REG), size = 1.6, alpha = 0.7, na.rm = TRUE) +
+  geom_point(data = df_my,  aes(PC1, PC2), color = "black", size = 1.8, na.rm = TRUE) +
+  scale_color_manual(values = pop_cols, breaks = populations, labels = mylegend, drop = FALSE) +
+  coord_cartesian(xlim = range(x1, na.rm = TRUE), ylim = range(y1, na.rm = TRUE), expand = TRUE) +
+  labs(x = "PC1", y = "PC2", color = "Population") +
+  theme_minimal(base_size = 11) +
+  theme(legend.position = "top", panel.grid.minor = element_blank())
+
+p34 <- ggplot() +
+  geom_point(data = df_ref, aes(PC3, PC4, color = REG), size = 1.6, alpha = 0.7, na.rm = TRUE) +
+  geom_point(data = df_my,  aes(PC3, PC4), color = "black", size = 1.8, na.rm = TRUE) +
+  scale_color_manual(values = pop_cols, breaks = populations, labels = mylegend, drop = FALSE) +
+  coord_cartesian(xlim = range(x2, na.rm = TRUE), ylim = range(y2, na.rm = TRUE), expand = TRUE) +
+  labs(x = "PC3", y = "PC4", color = "Population") +
+  theme_minimal(base_size = 11) +
+  theme(legend.position = "top", panel.grid.minor = element_blank())
+
+legend_row <- guides(color = guide_legend(nrow = 1, byrow = TRUE))
+
+p12 <- p12 + legend_row + theme(legend.position = "top")
+p34 <- p34 + legend_row + theme(legend.position = "top")
+
+(p12 + p34 + plot_layout(guides = "collect", widths = c(1, 1))) &
+  theme(legend.position = "top",
+        legend.direction = "horizontal",
+        legend.box.just = "left")
+```
+
+### ADMIXTURE analysis
+```{r ADM pop}
+STUDY = "StemCellsInChronicMyeloidLeukemia"
+
+bed=read.table(paste0(STUDY,"/",STUDY,".HGDP_1kGP.fam"),h=F)[,1:2]
+info=read.table("info.txt",h=T,sep="\t")
+pop=rep(".",nrow(bed)); names(pop)=bed$V2
+
+for (mypop in c("eas","amr","sas","afr","mid","eur")){
+    pop[as.character(info$IID[which(info$REG==mypop)])] = mypop
+}
+
+write.table(pop,file=paste0(STUDY,"/",STUDY,".HGDP_1kGP.pca.pop"),sep="\t",quote=F,col.names=F,row.names=F)
+```
+
+```{bash run ADM}
+STUDY='StemCellsInChronicMyeloidLeukemia'
+DIR=$STUDY
+cd $DIR
+../../../bin/admixture_linux-1.3.0/admixture --supervised $STUDY.HGDP_1kGP.pca.bed 6
+```
+
+```{r ADM, fig.width=10, fig.height=4, dev="png"}
+library(RColorBrewer)
+
+STUDY = 'StemCellsInChronicMyeloidLeukemia'
+info=read.table("info.txt",h=T,sep="\t")
+
+admixture = read.table(paste0(STUDY,"/",STUDY,".HGDP_1kGP.pca.6.Q"),h=F)
+admixture.pop = read.table(paste0(STUDY,"/",STUDY,".HGDP_1kGP.pca.pop"))
+admixture.ind = read.table(paste0(STUDY,"/",STUDY,".HGDP_1kGP.pca.fam"))[,2]
+
+colnames(admixture)=c("eur","eas","amr","sas","afr","mid")
+rownames(admixture)=admixture.ind
+
+myadmixture  = admixture[as.character(read.table(paste0(STUDY,"/",STUDY,".plink.fam"))[,2]),] # subset only mydata
+toplot=myadmixture[,order(apply(myadmixture,2,mean),decreasing=T)]
+mycol=c("#E6AB02","#7570B3","#D95F02","#E7298A","#1B9E77","#66A61E")
+mycol=mycol[order(apply(myadmixture,2,mean),decreasing=T)]
+
+for (i in 6:1){
+    toplot=toplot[order(toplot[,i],decreasing=T),]
+}
+
+barplot(
+  t(as.matrix(toplot)),
+  col = mycol,
+  xlab = "",
+  ylab = "Admixture proportion",
+  border = NA,
+  xaxt = "n",
+  ylim = c(0, 1)
+)
 ```
