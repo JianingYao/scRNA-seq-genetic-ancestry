@@ -1,192 +1,254 @@
-library(ggplot2)
-library(reshape2)
 library(dplyr)
+library(tidyr)
+library(ggplot2)
 library(RColorBrewer)
+library(patchwork)
 
-continents <- c("Africa", "America", "East Asia", "Europe","Middle-East", "South Asia")
-study_names <- c("GompertsAirwatCfCells", "HnsccImmuneLandscape", "humanPreimplantationEmbryos", "StemCellsInChronicMyeloidLeukemia")
-
-# all-SNPs
-allSNPs_pca <- read.table("../../Analysis/02_Power_Analysis/Results/allSNPs/allSNPs_pca_continent_error.txt", header = TRUE, sep = "\t")
-n <- allSNPs_pca$reference
-allSNPs_pca <- cbind("Continent" = rownames(allSNPs_pca), allSNPs_pca)
-allSNPs_pca$pred <- NULL
-allSNPs_pca$reference <- NULL
-rownames(allSNPs_pca) <- NULL
-allSNPs_pca$Method <- "PCA-Distance"
-#
-allSNPs_rf <- read.table("../../Analysis/02_Power_Analysis/Results/allSNPs/allSNPs_pcaRF_continent_error.txt", header = TRUE, sep = "\t")
-allSNPs_rf <- cbind("Continent" = rownames(allSNPs_rf), allSNPs_rf)
-allSNPs_rf$pred <- NULL
-allSNPs_rf$reference <- NULL
-rownames(allSNPs_rf) <- NULL
-allSNPs_rf$Method <- "PCA-RandomForest"
-#
-allSNPs_adm <- read.table("../../Analysis/02_Power_Analysis/Results/allSNPs/allSNPs_admixture_continent_error.txt", header = TRUE, sep = "\t")
-allSNPs_adm <- cbind("Continent" = rownames(allSNPs_adm), allSNPs_adm)
-allSNPs_adm$pred <- NULL
-allSNPs_adm$reference <- NULL
-rownames(allSNPs_adm) <- NULL
-allSNPs_adm$Method <- "ADMIXTURE"
-
-allSNPs <- rbind(allSNPs_pca, allSNPs_rf, allSNPs_adm)
-colnames(allSNPs)[2] <- "error"
-allSNPs$Genotype <- "all-SNPs"
-
-# scRNA
-scRNA_pca_result <- NULL
-for (study in study_names) {
-    file_path <- paste0("../../Analysis/02_Power_Analysis/Results/", study, "/", study, "_pca_continent_error.txt")
-    scRNA_pca_study <- read.table(file_path, header = TRUE, sep = "\t")
-    scRNA_pca_study <- cbind("Continent" = rownames(scRNA_pca_study), scRNA_pca_study)
-    scRNA_pca_study$pred <- NULL
-    scRNA_pca_study$reference <- NULL
-    rownames(scRNA_pca_study) <- NULL
-    scRNA_pca_result <- rbind(scRNA_pca_result, scRNA_pca_study)
-}
-colnames(scRNA_pca_result)[2] <- "error"
-scRNA_pca_result <- as.data.frame(scRNA_pca_result %>%
-  group_by(Continent) %>%
-  summarise(error = mean(error, na.rm = TRUE)))
-scRNA_pca_result$Method <- "PCA-Distance"
-#
-scRNA_rf_result <- NULL
-for (study in study_names) {
-    file_path <- paste0("../../Analysis/02_Power_Analysis/Results/", study, "/", study, "_pcaRF_continent_error.txt")
-    scRNA_rf_study <- read.table(file_path, header = TRUE, sep = "\t")
-    scRNA_rf_study <- cbind("Continent" = rownames(scRNA_rf_study), scRNA_rf_study)
-    scRNA_rf_study$pred <- NULL
-    scRNA_rf_study$reference <- NULL
-    rownames(scRNA_rf_study) <- NULL
-    scRNA_rf_result <- rbind(scRNA_rf_result, scRNA_rf_study)
-}
-colnames(scRNA_rf_result)[2] <- "error"
-scRNA_rf_result <- as.data.frame(scRNA_rf_result %>%
-  group_by(Continent) %>%
-  summarise(error = mean(error, na.rm = TRUE)))
-scRNA_rf_result$Method <- "PCA-RandomForest"
-#
-scRNA_adm_result <- NULL
-for (study in study_names) {
-    file_path <- paste0("../../Analysis/02_Power_Analysis/Results/", study, "/", study, "_admixture_continent_error.txt")
-    scRNA_adm_study <- read.table(file_path, header = TRUE, sep = "\t")
-    scRNA_adm_study <- cbind("Continent" = rownames(scRNA_adm_study), scRNA_adm_study)
-    scRNA_adm_study$pred <- NULL
-    scRNA_adm_study$reference <- NULL
-    rownames(scRNA_adm_study) <- NULL
-    scRNA_adm_result <- rbind(scRNA_adm_result, scRNA_adm_study)
-}
-colnames(scRNA_adm_result)[2] <- "error"
-scRNA_adm_result <- as.data.frame(scRNA_adm_result %>%
-  group_by(Continent) %>%
-  summarise(error = mean(error, na.rm = TRUE)))
-scRNA_adm_result$Method <- "ADMIXTURE"
-
-scRNA <- rbind(scRNA_pca_result, scRNA_rf_result, scRNA_adm_result)
-scRNA$Genotype <- "sc-SNPs"
-
-
-# scRNA with noise
-scRNA.noise_pca_result <- NULL
-for (study in study_names) {
-    file_path <- paste0("../../Analysis/02_Power_Analysis_noise/Results_0.08/", study, "/", study, "_pca_continent_error.txt")
-    scRNA.noise_pca_study <- read.table(file_path, header = TRUE, sep = "\t")
-    scRNA.noise_pca_study <- cbind("Continent" = rownames(scRNA.noise_pca_study), scRNA.noise_pca_study)
-    scRNA.noise_pca_study$pred <- NULL
-    scRNA.noise_pca_study$reference <- NULL
-    rownames(scRNA.noise_pca_study) <- NULL
-    scRNA.noise_pca_result <- rbind(scRNA.noise_pca_result, scRNA.noise_pca_study)
-}
-colnames(scRNA.noise_pca_result)[2] <- "error"
-scRNA.noise_pca_result <- as.data.frame(scRNA.noise_pca_result %>%
-  group_by(Continent) %>%
-  summarise(error = mean(error, na.rm = TRUE)))
-scRNA.noise_pca_result$Method <- "PCA-Distance"
-#
-scRNA.noise_rf_result <- NULL
-for (study in study_names) {
-    file_path <- paste0("../../Analysis/02_Power_Analysis_noise/Results_0.08/", study, "/", study, "_pcaRF_continent_error.txt")
-    scRNA.noise_rf_study <- read.table(file_path, header = TRUE, sep = "\t")
-    scRNA.noise_rf_study <- cbind("Continent" = rownames(scRNA.noise_rf_study), scRNA.noise_rf_study)
-    scRNA.noise_rf_study$pred <- NULL
-    scRNA.noise_rf_study$reference <- NULL
-    rownames(scRNA.noise_rf_study) <- NULL
-    scRNA.noise_rf_result <- rbind(scRNA.noise_rf_result, scRNA.noise_rf_study)
-}
-colnames(scRNA.noise_rf_result)[2] <- "error"
-scRNA.noise_rf_result <- as.data.frame(scRNA.noise_rf_result %>%
-  group_by(Continent) %>%
-  summarise(error = mean(error, na.rm = TRUE)))
-scRNA.noise_rf_result$Method <- "PCA-RandomForest"
-#
-scRNA.noise_adm_result <- NULL
-for (study in study_names) {
-    file_path <- paste0("../../Analysis/02_Power_Analysis_noise/Results_0.08/", study, "/", study, "_admixture_continent_error.txt")
-    scRNA.noise_adm_study <- read.table(file_path, header = TRUE, sep = "\t")
-    scRNA.noise_adm_study <- cbind("Continent" = rownames(scRNA.noise_adm_study), scRNA.noise_adm_study)
-    scRNA.noise_adm_study$pred <- NULL
-    scRNA.noise_adm_study$reference <- NULL
-    rownames(scRNA.noise_adm_study) <- NULL
-    scRNA.noise_adm_result <- rbind(scRNA.noise_adm_result, scRNA.noise_adm_study)
-}
-colnames(scRNA.noise_adm_result)[2] <- "error"
-scRNA.noise_adm_result <- as.data.frame(scRNA.noise_adm_result %>%
-  group_by(Continent) %>%
-  summarise(error = mean(error, na.rm = TRUE)))
-scRNA.noise_adm_result$Method <- "ADMIXTURE"
-
-scRNA.noise <- rbind(scRNA.noise_pca_result, scRNA.noise_rf_result, scRNA.noise_adm_result)
-scRNA.noise$Genotype <- "sc-SNPs-8%error"
-
-result <- rbind(allSNPs, scRNA, scRNA.noise)
-mapping = c("eur" = "Europe", 
-            "eas" = "East Asia", 
-            "amr" = "America", 
-            "sas" = "South Asia", 
-            "afr" = "Africa", 
-            "mid" = "Middle-East")
-result$Continent = mapping[result$Continent]
-result$error <- result$error / 100
-continent_counts <- data.frame(
-  Continent = c("Europe", "East Asia", "America", "South Asia", "Africa", "Middle-East"),
-  n
-)
-result <- result %>%
-  left_join(continent_counts, by = "Continent") %>%
-  mutate(
-    se = sqrt((error * (1 - error)) / (n*4))
+recode_dataset <- function(x) {
+  dplyr::recode(
+    x,
+    "Breast_Mammary_Tissue"      = "Breast Mammary Tissue",
+    "Esophagus_Mucosa"           = "Esophagus Mucosa",
+    "Esophagus_Muscularis"       = "Esophagus Muscularis",
+    "Heart_Left_Ventricle"       = "Heart Left Ventricle",
+    "Muscle_Skeletal"            = "Muscle Skeletal",
+    "Skin_Sun_Exposed_Lower_leg" = "Skin Sun Exposed Lower leg",
+    .default = x
   )
-result$Genotype <- factor(result$Genotype, 
-                              levels = c("all-SNPs", "sc-SNPs", "sc-SNPs-8%error"))
-result$Method <- factor(result$Method,
-                    levels = c("PCA-Distance", "PCA-RandomForest", "ADMIXTURE"))
-
-
-my_labeller <- function(labels) {
-  labels$Continent <- sapply(labels$Continent, function(x) {
-    n_val <- continent_counts$n[match(x, continent_counts$Continent)]
-    paste0(x, " (n = ", n_val, ")")
-  })
-  return(labels)
 }
 
+strip_x_labels <- function(p) {
+  p + theme(
+    axis.text.x  = element_blank(),
+    axis.title.x = element_blank(),
+    plot.margin  = margin(t = 5, r = 5, b = 0, l = 5)
+  )
+}
+keep_x_labels <- function(p) {
+  p + theme(
+    axis.text.x  = element_text(angle = 45, hjust = 1),
+    axis.title.x = element_text(),
+    plot.margin  = margin(t = 0, r = 5, b = 5, l = 5)
+  )
+}
 
+#############################################
+## PANEL A DATA (Variant-level error rate)
+#############################################
+summary_df <- read.csv("../Supp_Table_3/genotype_error_summary.csv", header = TRUE)
 
-p <- ggplot(result, aes(x = Genotype, y = 100*error, fill = Method)) +
-  geom_bar(stat = "identity", position = position_dodge(width = 0.9)) +
-  geom_errorbar(
-    aes(ymin = 100*(error - 1.96*se), ymax = 100*(error + 1.96*se)),
-    width = 0.2,
-    position = position_dodge(width = 0.9)
+summary_df$Reference <- NULL
+summary_df$n_scSNPs_ref <- NULL
+summary_df$n_scSNPs_ref_CDS_UTRs <- NULL
+
+plot_df_A <- summary_df %>%
+  filter(Dataset != "Average") %>%
+  pivot_longer(-Dataset, names_to = "Variant", values_to = "Error") %>%
+  mutate(
+    Variant = recode(
+      as.character(Variant),
+      "error_rate_scSNPs_ref"          = "scSNPs in ref.",
+      "error_rate_scSNPs_ref_CDS_UTRs" = "scSNPs in ref. and CDS+UTRs",
+      .default = as.character(Variant)
+    ),
+    Dataset = recode_dataset(as.character(Dataset))
+  )
+
+lvl_A <- sort(unique(plot_df_A$Dataset))
+lvl_A <- c(setdiff(lvl_A, "PBMCs"), "PBMCs")
+plot_df_A <- plot_df_A %>%
+  mutate(
+    Dataset = factor(Dataset, levels = lvl_A),
+    Variant = factor(
+      Variant,
+      levels = c("scSNPs in ref.", "scSNPs in ref. and CDS+UTRs")
+    )
+  )
+
+#############################################
+## PANEL B DATA (Pair-level error rate)
+#############################################
+pairs_raw <- read.csv("../Supp_Table_3/genotype_error_pair.csv", header = TRUE)
+
+num_cols_pairs <- setdiff(names(pairs_raw), "Dataset")
+avg_row_pairs <- data.frame(
+  Dataset = "Average",
+  t(colMeans(pairs_raw[, num_cols_pairs, drop = FALSE], na.rm = TRUE)),
+  check.names = FALSE
+)
+pairs_out <- rbind(pairs_raw, avg_row_pairs)
+write.csv(pairs_out, "../Supp_Table_3/genotype_error_pair.csv", row.names = FALSE)
+
+plot_df_B <- pairs_raw %>%
+  filter(Dataset != "Average") %>%
+  pivot_longer(-Dataset, names_to = "Pair", values_to = "Error") %>%
+  mutate(
+    Dataset = recode_dataset(as.character(Dataset))
+  )
+
+lvl_B <- sort(unique(plot_df_B$Dataset))
+lvl_B <- c(setdiff(lvl_B, "PBMCs"), "PBMCs")
+plot_df_B <- plot_df_B %>%
+  mutate(
+    Dataset = factor(Dataset, levels = lvl_B)
+  )
+
+#############################################
+## PANEL C DATA (Allele-level error rate)
+#############################################
+alleles_raw <- read.csv("../Supp_Table_3/genotype_error_allele.csv", header = TRUE)
+
+num_cols_alleles <- setdiff(names(alleles_raw), "Dataset")
+avg_row_alleles <- data.frame(
+  Dataset = "Average",
+  t(colMeans(alleles_raw[, num_cols_alleles, drop = FALSE], na.rm = TRUE)),
+  check.names = FALSE
+)
+alleles_out <- rbind(alleles_raw, avg_row_alleles)
+write.csv(alleles_out, "../Supp_Table_3/genotype_error_allele.csv", row.names = FALSE)
+
+plot_df_C <- alleles_raw %>%
+  filter(Dataset != "Average") %>%
+  pivot_longer(-Dataset, names_to = "Allele", values_to = "Error") %>%
+  mutate(
+    Allele = recode(
+      as.character(Allele),
+      "A_to_C" = "A to C", "A_to_G" = "A to G",
+      "C_to_A" = "C to A", "C_to_T" = "C to T",
+      "G_to_A" = "G to A", "G_to_T" = "G to T",
+      "T_to_C" = "T to C", "T_to_G" = "T to G",
+      .default = as.character(Allele)
+    ),
+    Dataset = recode_dataset(as.character(Dataset))
+  )
+
+lvl_C <- sort(unique(plot_df_C$Dataset))
+lvl_C <- c(setdiff(lvl_C, "PBMCs"), "PBMCs")
+plot_df_C <- plot_df_C %>%
+  mutate(
+    Dataset = factor(Dataset, levels = lvl_C)
+  )
+
+## PANEL A with "Average" group
+avg_rows_A <- plot_df_A %>%
+  group_by(Variant) %>%
+  summarize(Error = mean(Error, na.rm = TRUE), .groups = "drop") %>%
+  mutate(Dataset = "Average")
+
+plot_df_A_bar <- bind_rows(
+  plot_df_A %>% mutate(Dataset = as.character(Dataset)),
+  avg_rows_A
+) %>%
+  mutate(
+    Dataset = recode_dataset(Dataset),
+    Dataset = factor(
+      Dataset,
+      levels = c(levels(plot_df_A$Dataset), "Average")
+    ),
+    Variant = factor(Variant, levels = levels(plot_df_A$Variant))
+  )
+
+p1B <- ggplot(
+  plot_df_A_bar,
+  aes(x = Dataset, y = Error, fill = Variant)
+) +
+  geom_col(position = position_dodge(width = 0.75), width = 0.7) +
+  labs(
+    x = NULL,
+    y = "Error rate",
+    fill = "Variant",
+    subtitle = "Genotype error rate summary (Variants)"
   ) +
-  facet_wrap(~ Continent, labeller = my_labeller) +              
-  scale_fill_brewer(palette = "Dark2") +  
-  labs(x = NULL, y = "Genetic-ancestry inference error rate (%)", fill = "Method") +
-  theme_bw() +                        
+  scale_fill_brewer(palette = "Set2") +
+  theme_minimal(base_size = 12) +
   theme(
     panel.grid.major.x = element_blank(),
-    axis.text.x = element_text(angle = 90, hjust = 1)
+    legend.position = "right"
+  )
+p1B <- strip_x_labels(p1B)
+
+## PANEL B with "Average" group
+avg_rows_B <- plot_df_B %>%
+  group_by(Pair) %>%
+  summarize(Error = mean(Error, na.rm = TRUE), .groups = "drop") %>%
+  mutate(Dataset = "Average")
+
+plot_df_B_bar <- bind_rows(
+  plot_df_B %>% mutate(Dataset = as.character(Dataset)),
+  avg_rows_B
+) %>%
+  mutate(
+    Dataset = recode_dataset(Dataset),
+    Dataset = factor(
+      Dataset,
+      levels = c(levels(plot_df_B$Dataset), "Average")
+    )
   )
 
-ggsave("Supp_Figure_1.png", plot = p)
+p2B <- ggplot(
+  plot_df_B_bar,
+  aes(x = Dataset, y = Error, fill = Pair)
+) +
+  geom_col(position = position_dodge(width = 0.75), width = 0.7) +
+  labs(
+    x = NULL,
+    y = "Error rate",
+    fill = "Pair",
+    subtitle = "Genotype error rate per polymorphism pair"
+  ) +
+  scale_fill_brewer(palette = "Set2") +
+  theme_minimal(base_size = 12) +
+  theme(
+    panel.grid.major.x = element_blank(),
+    legend.position = "right"
+  )
+p2B <- strip_x_labels(p2B)
 
+## PANEL C with "Average" group
+avg_rows_C <- plot_df_C %>%
+  group_by(Allele) %>%
+  summarize(Error = mean(Error, na.rm = TRUE), .groups = "drop") %>%
+  mutate(Dataset = "Average")
+
+plot_df_C_bar <- bind_rows(
+  plot_df_C %>% mutate(Dataset = as.character(Dataset)),
+  avg_rows_C
+) %>%
+  mutate(
+    Dataset = recode_dataset(Dataset),
+    Dataset = factor(
+      Dataset,
+      levels = c(levels(plot_df_C$Dataset), "Average")
+    )
+  )
+
+p3B <- ggplot(
+  plot_df_C_bar,
+  aes(x = Dataset, y = Error, fill = Allele)
+) +
+  geom_col(position = position_dodge(width = 0.75), width = 0.7) +
+  labs(
+    x = "Tissue",
+    y = "Error rate",
+    fill = "Allele",
+    subtitle = "Genotype error rate per allele"
+  ) +
+  scale_fill_brewer(palette = "Set2") +
+  theme_minimal(base_size = 12) +
+  theme(
+    panel.grid.major.x = element_blank(),
+    legend.position = "right"
+  )
+p3B <- keep_x_labels(p3B)
+
+fig_avgbars <- (p1B / p2B / p3B) +
+  plot_annotation(tag_levels = 'A') &
+  theme(legend.position = "right")
+
+ggsave(
+  "Supp_Figure_1.png",
+  plot = fig_avgbars,
+  width = 10,
+  height = 14,
+  dpi = 300
+)

@@ -29,3 +29,4 @@ for MAF in 05 02 01; do
 done
 
 echo "[$(date '+%F %T')] All done."
+

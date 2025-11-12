@@ -1,7 +1,8 @@
 param <- commandArgs(trailingOnly=T)
-
 STUDY = eval(paste(text=param[1])) 
-DATA_DIR="/project/gazal_569/jianing/sc-RNA_ancestry/scripts/Analysis/01_Ancestry/Results/"
+DIR_NAME = eval(paste(text=param[2])) 
+
+DATA_DIR=paste0("/project/gazal_569/jianing/sc-RNA_ancestry/scripts/Analysis/01_Ancestry/", DIR_NAME)
 INFO_DIR="/project/gazal_569/jianing/sc-RNA_ancestry/scripts/Analysis/00_TGP/"
 
 bed=read.table(paste0(DATA_DIR,"/", STUDY,"/",STUDY,".TGP.fam"),h=F)[,1:2]

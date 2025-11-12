@@ -5,8 +5,8 @@ SNPset = eval(paste(text=param[2]))
 
 data=read.table(paste0("TGP_PLINK.",SNPset,"_pca.no",POP,".eigenvec"),h=F)
 rownames(data) = data$V2
-INFO_DIR="/project/gazal_569/jianing/sc-RNA_ancestry/scripts/Analysis/02_Power_Analysis_noise"
-info=read.table(paste0(INFO_DIR, "/sorted_info.txt"),h=T,sep="\t")
+INFO_DIR="/project2/gazal_569/jianing/sc-RNA_ancestry/scripts/Analysis/05_latin/power_analysis_noise"
+info=read.table(paste0(INFO_DIR, "/info_", POP, ".txt"),h=T,sep="\t")
 mypop   = which(info$POP==POP)
 mydata  = data[ mypop,]
 dataTGP = data[-mypop,]
@@ -43,7 +43,6 @@ dataRF = cbind(ancestry,dataTGP[,3:tokeep])
 model <- randomForest(as.factor(ancestry) ~ ., data=dataRF)
 pred  <- predict(model, mydata[,3:tokeep], type="prob")
 write.table(pred,file=paste0("pcaRF_results/",SNPset,".no",POP,".txt"),col.names=T,row.names=F,quote=F,sep="\t")
-
 
 
 

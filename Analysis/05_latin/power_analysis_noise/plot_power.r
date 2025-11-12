@@ -5,12 +5,10 @@ SNPset = eval(paste(text=param[2]))
 error = as.character(eval(paste(text=param[3]))) 
 DIR_NAME = eval(paste(text=param[4]))
 
-BASE_DIR="/project/gazal_569/jianing/sc-RNA_ancestry/scripts/Analysis/02_Power_Analysis_noise"
+BASE_DIR="/project/gazal_569/jianing/sc-RNA_ancestry/scripts/Analysis/05_PUR/power_analysis_noise"
 POWER_DIR=paste0(BASE_DIR, "/", DIR_NAME)
 setwd(paste0(POWER_DIR, "/Results_", error, "/", STUDY))
-INFO_DIR="/project/gazal_569/jianing/sc-RNA_ancestry/scripts/Analysis/00_TGP/"
-info=read.table(paste0(BASE_DIR, "/sorted_info.txt"),h=T,sep="\t")[,3:4]
-# info=read.table(paste0(BASE_DIR, "/info.txt"),h=T,sep="\t")[,3:4]
+info=read.table(paste0(BASE_DIR, "/info.txt"),h=T,sep="\t")[,3:4]
 if (length(which(duplicated(info))) > 0) {
   info = info[-which(duplicated(info)),]
 }
@@ -35,7 +33,7 @@ for (i in (1:nrow(info))){
     #
     adm = read.table(paste0(POWER_DIR, "/Results_", error, "/", STUDY, "/admixture_results/", SNPset, ".no",pop,".txt"),h=F)
     # colnames(adm) = unique(info$REG[-i])
-    colnames(adm) = c("afr", "amr", "eas", "eur", "mid", "sas")
+    colnames(adm) = unique(info$REG[info$POP != "pur"])
     mymax = apply(adm,1,max)
     adm = adm[,as.character(reg)]
     adm.popres = rbind(adm.popres,c(sum(adm==mymax),length(adm)))

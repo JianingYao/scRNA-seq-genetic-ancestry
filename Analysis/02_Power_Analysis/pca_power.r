@@ -37,11 +37,13 @@ write.table(out,file=paste0("pca_results/",SNPset,".no",POP,".txt"),col.names=T,
 
 #
 library(randomForest)
+set.seed(123)
 ancestry=as.character(info$myREG)
 dataRF = cbind(ancestry,dataTGP[,3:tokeep])
 model <- randomForest(as.factor(ancestry) ~ ., data=dataRF)
 pred  <- predict(model, mydata[,3:tokeep], type="prob")
 write.table(pred,file=paste0("pcaRF_results/",SNPset,".no",POP,".txt"),col.names=T,row.names=F,quote=F,sep="\t")
+
 
 
 

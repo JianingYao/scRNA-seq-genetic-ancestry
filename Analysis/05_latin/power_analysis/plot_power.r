@@ -2,15 +2,11 @@ param <- commandArgs(trailingOnly=T)
 
 STUDY = eval(paste(text=param[1]))
 SNPset = eval(paste(text=param[2]))
-error = as.character(eval(paste(text=param[3]))) 
-DIR_NAME = eval(paste(text=param[4]))
+DIR_NAME = eval(paste(text=param[3]))
 
-BASE_DIR="/project/gazal_569/jianing/sc-RNA_ancestry/scripts/Analysis/02_Power_Analysis_noise"
-POWER_DIR=paste0(BASE_DIR, "/", DIR_NAME)
-setwd(paste0(POWER_DIR, "/Results_", error, "/", STUDY))
-INFO_DIR="/project/gazal_569/jianing/sc-RNA_ancestry/scripts/Analysis/00_TGP/"
-info=read.table(paste0(BASE_DIR, "/sorted_info.txt"),h=T,sep="\t")[,3:4]
-# info=read.table(paste0(BASE_DIR, "/info.txt"),h=T,sep="\t")[,3:4]
+POWER_DIR="/project/gazal_569/jianing/sc-RNA_ancestry/scripts/Analysis/05_PUR/power_analysis/"
+setwd(paste0(POWER_DIR, "/", DIR_NAME, "/", STUDY))
+info=read.table(paste0(POWER_DIR, "info.txt"),h=T,sep="\t")[,3:4]
 if (length(which(duplicated(info))) > 0) {
   info = info[-which(duplicated(info)),]
 }
@@ -22,20 +18,20 @@ for (i in (1:nrow(info))){
     pop = info$POP[i]
     reg = info$REG[i]
     #
-    pca = read.table(paste0(POWER_DIR, "/Results_", error, "/", STUDY, "/pca_results/", SNPset, ".no",pop,".txt"),h=T)
+    pca = read.table(paste0(POWER_DIR, "/", DIR_NAME, "/", STUDY, "/pca_results/", SNPset, ".no",pop,".txt"),h=T)
     colnames(pca) = c("afr", "amr", "eas", "eur", "mid", "sas")
     pca = pca[,as.character(reg)]
     pca.popres = rbind(pca.popres,c(sum(pca),length(pca)))
     #
-    pcaRF = read.table(paste0(POWER_DIR, "/Results_", error, "/", STUDY, "/pcaRF_results/", SNPset, ".no",pop,".txt"),h=F, skip=1)
+    pcaRF = read.table(paste0(POWER_DIR, "/", DIR_NAME, "/", STUDY, "/pcaRF_results/", SNPset, ".no",pop,".txt"),h=F, skip=1)
     colnames(pcaRF) = c("afr", "amr", "eas", "eur", "mid", "sas")
     mymax = apply(pcaRF,1,max)
     pcaRF = pcaRF[,as.character(reg)]
     pcaRF.popres = rbind(pcaRF.popres,c(sum(pcaRF==mymax),length(pcaRF)))
     #
-    adm = read.table(paste0(POWER_DIR, "/Results_", error, "/", STUDY, "/admixture_results/", SNPset, ".no",pop,".txt"),h=F)
+    adm = read.table(paste0(POWER_DIR, "/", DIR_NAME, "/", STUDY, "/admixture_results/", SNPset, ".no",pop,".txt"),h=F)
     # colnames(adm) = unique(info$REG[-i])
-    colnames(adm) = c("afr", "amr", "eas", "eur", "mid", "sas")
+    colnames(adm) = unique(info$REG[info$POP != "pur"])
     mymax = apply(adm,1,max)
     adm = adm[,as.character(reg)]
     adm.popres = rbind(adm.popres,c(sum(adm==mymax),length(adm)))
@@ -49,7 +45,7 @@ rf_accuracy = round(100*(1 - sum(pcaRF.popres[,3])/sum(pcaRF.popres[,4])),4)
 adm_accuracy = round(100*(1 - sum(adm.popres[,3])/sum(adm.popres[,4])),4)
 accuracy = cbind(pca_accuracy, rf_accuracy, adm_accuracy)
 colnames(accuracy) = c("PCA(%)", "Random Forest(%)", "ADMIXTURE(%)")
-write.table(accuracy,file=paste0(POWER_DIR, "/Results_", error, "/", STUDY, "/", STUDY, "_error.txt"),col.names=T,row.names=F,quote=F,sep="\t")
+write.table(accuracy,file=paste0(POWER_DIR, "/", DIR_NAME, "/", STUDY, "/", STUDY, "_error.txt"),col.names=T,row.names=F,quote=F,sep="\t")
 
 # continent-wise error rate
 pca.regres = NULL
@@ -65,18 +61,18 @@ pca.regres = cbind(pca.regres, round(100*(1 - pca.regres[,1]/pca.regres[,2]),4))
 pca.regres = as.data.frame(pca.regres)
 rownames(pca.regres) = unique(info$REG)
 colnames(pca.regres) = c('pred', 'reference', 'error(%)') 
-write.table(pca.regres,file=paste0(POWER_DIR, "/Results_", error, "/", STUDY, "/", STUDY, "_pca_continent_error.txt"),col.names=T,row.names=T,quote=F,sep="\t")
+write.table(pca.regres,file=paste0(POWER_DIR, "/", DIR_NAME, "/", STUDY, "/", STUDY, "_pca_continent_error.txt"),col.names=T,row.names=T,quote=F,sep="\t")
 
 pcaRF.regres = cbind(pcaRF.regres, round(100*(1 - pcaRF.regres[,1]/pcaRF.regres[,2]),4))
 pcaRF.regres = as.data.frame(pcaRF.regres)
 rownames(pcaRF.regres) = unique(info$REG)
 colnames(pcaRF.regres) = c('pred', 'reference', 'error(%)') 
-write.table(pcaRF.regres,file=paste0(POWER_DIR, "/Results_", error, "/", STUDY, "/", STUDY, "_pcaRF_continent_error.txt"),col.names=T,row.names=T,quote=F,sep="\t")
+write.table(pcaRF.regres,file=paste0(POWER_DIR, "/", DIR_NAME, "/", STUDY, "/", STUDY, "_pcaRF_continent_error.txt"),col.names=T,row.names=T,quote=F,sep="\t")
 
 adm.regres = cbind(adm.regres, round(100*(1 - adm.regres[,1]/adm.regres[,2]),4))
 adm.regres = as.data.frame(adm.regres)
 rownames(adm.regres) = unique(info$REG)
 colnames(adm.regres) = c('pred', 'reference', 'error(%)') 
-write.table(adm.regres,file=paste0(POWER_DIR, "/Results_", error, "/", STUDY, "/", STUDY, "_admixture_continent_error.txt"),col.names=T,row.names=T,quote=F,sep="\t")
+write.table(adm.regres,file=paste0(POWER_DIR, "/", DIR_NAME, "/", STUDY, "/", STUDY, "_admixture_continent_error.txt"),col.names=T,row.names=T,quote=F,sep="\t")
 
 

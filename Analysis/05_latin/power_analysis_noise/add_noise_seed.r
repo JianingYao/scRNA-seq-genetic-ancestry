@@ -35,4 +35,3 @@ for(i in 1:nrow(data)){
 }
 
 write.table(data,file=paste0(file,".tmp2.tped"),quote=F,sep="\t",col.names=F,row.names=F)
-

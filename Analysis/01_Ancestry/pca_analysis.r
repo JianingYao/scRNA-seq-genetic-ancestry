@@ -1,10 +1,10 @@
 param <- commandArgs(trailingOnly=T)
-
 STUDY = eval(paste(text=param[1])) 
+DIR_NAME = eval(paste(text=param[2]))
 
 library(RColorBrewer)
 
-DATA_DIR="/project/gazal_569/jianing/sc-RNA_ancestry/scripts/Analysis/01_Ancestry/Results/"
+DATA_DIR=paste0("/project/gazal_569/jianing/sc-RNA_ancestry/scripts/Analysis/01_Ancestry/", DIR_NAME)
 INFO_DIR="/project/gazal_569/jianing/sc-RNA_ancestry/scripts/Analysis/00_TGP/"
 data=read.table(paste0(DATA_DIR,"/", STUDY,"/",STUDY,".TGP_HGDP.pca.eigenvec"),h=F)
 rownames(data) = data$V2
@@ -78,5 +78,4 @@ rf_ancestry <- pred_df %>%
   mutate(ancestry = names(.)[which.max(c_across(everything()))])
 rownames(rf_ancestry) = rownames(pred)
 write.table(rf_ancestry,file=paste0(DATA_DIR,"/", STUDY,"/rf_results/",STUDY,".pca_rf.txt"),col.names=T,row.names=T,quote=F,sep="\t")
-
 
