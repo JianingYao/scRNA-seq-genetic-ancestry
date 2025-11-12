@@ -2,18 +2,37 @@
 Jianing Yao
 
 - [<span class="toc-section-number">0.1</span> QC](#qc)
-- [<span class="toc-section-number">0.2</span> PCA
-  analysis](#pca-analysis)
+- [<span class="toc-section-number">0.2</span> PCA-Distance
+  analysis](#pca-distance-analysis)
 - [<span class="toc-section-number">0.3</span> ADMIXTURE
   analysis](#admixture-analysis)
 
-#### This tutorial will showcase genetic-ancestry inference on a specific HCA study after obtaining SNPs from the scRNA data following steps described in `Stage1_preprocessing`.
+#### This tutorial demonstrates genetic-ancestry inference for a specific HCA study (Bone marrow), using SNPs derived from scRNA-seq following the steps in `Stage1_preprocessing`.
+
+Software requirements: - PLINK (1.9):
+https://www.cog-genomics.org/plink/ - ADMIXTURE (1.3.0):
+https://dalexander.github.io/admixture/download.html
 
 ### QC
 
+In the tutorial, we consider the harmonized HGDP+1kGP dataset as a
+reference population dataset for genetic-ancestry inference and select
+six genetic-ancestry groups (Africa, America, Europe, Middle East, East
+Asia, and South Asia). We provided the reference dataset retaining only
+variants located in exonic and untranslated regions (UTRs) in
+`Tutorial/Stage2_ancestry_inference/HGDP_1kGP.exon_UTRS.tar.xz`. First,
+we convert the VCF file from Stage 1 into PLINK format, perform data
+quality control, restrict to common SNPs present in both the scRNA-seq
+and reference datasets, and performing genetic pruning. Here, we analyze
+the [bone marrow HCA
+dataset](https://explore.data.humancellatlas.org/projects/2a72a4e5-66b2-405a-bb7c-1e463e8febb0)
+as demonstration.
+
 ``` bash
+# This block is command lines. 
 # Set up
 PLINK2="../../bin/plink1.9/plink"
+# Note: Our recommended reference file is available at HGDP_1kGP.exon_UTRS.tar.xz. It contains 3,481 HGDP+1kGP individuals, and 302,006 common SNPs in coding exons and untranslated regions.
 PCA_FILE="HGDP_1kGP.exon_UTRS"
 tar -xJvf ../Stage2_ancestry_inference/$PCA_FILE.tar.xz
 STUDY='StemCellsInChronicMyeloidLeukemia'
@@ -41,15 +60,110 @@ $PLINK2 --bfile $DIR/$STUDY.tmp1  --bmerge $DIR/$STUDY.tmp2 --make-bed --allow-n
 $PLINK2 --bfile $DIR/$STUDY.HGDP_1kGP   --indep-pairwise 50 10 0.1 --out $DIR/$STUDY.HGDP_1kGP.pca
 $PLINK2 --bfile $DIR/$STUDY.HGDP_1kGP   --extract $DIR/$STUDY.HGDP_1kGP.pca.prune.in --make-bed --out $DIR/$STUDY.HGDP_1kGP.pca
 rm $DIR/$STUDY.tmp*
+```
 
+### PCA-Distance analysis
 
-#### Step 4: Run PCA
+Next, we rely on a principal component analysis (PCA) performed on
+HGDP+1kGP with the projection of donors on the five first principal
+components (PCs). We assign each donor to the genetic-ancestry group
+with the smallest Euclidean distance to its centroid (method labeled
+PCA-Distance).
+
+``` bash
+# This block is command lines. 
+# Set up
+PLINK2="../../bin/plink1.9/plink"
+PCA_FILE="HGDP_1kGP.exon_UTRS"
+STUDY='StemCellsInChronicMyeloidLeukemia'
+DIR=$STUDY
 awk '{print $1, $2, "MYID"}' $DIR/$STUDY.plink.fam > $DIR/$STUDY.HGDP_1kGP.cluster
 awk '{print $1, $2, "HGDP_1kGP"}' $PCA_FILE.fam >> $DIR/$STUDY.HGDP_1kGP.cluster
 $PLINK2 --bfile $DIR/$STUDY.HGDP_1kGP.pca --pca --within $DIR/$STUDY.HGDP_1kGP.cluster --pca-cluster-names HGDP_1kGP --out $DIR/$STUDY.HGDP_1kGP.pca
 ```
 
-### PCA analysis
+    PLINK v1.90b6.24 64-bit (6 Jun 2021)           www.cog-genomics.org/plink/1.9/
+    (C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+    Logging to StemCellsInChronicMyeloidLeukemia/StemCellsInChronicMyeloidLeukemia.HGDP_1kGP.pca.log.
+    Options in effect:
+      --bfile StemCellsInChronicMyeloidLeukemia/StemCellsInChronicMyeloidLeukemia.HGDP_1kGP.pca
+      --out StemCellsInChronicMyeloidLeukemia/StemCellsInChronicMyeloidLeukemia.HGDP_1kGP.pca
+      --pca
+      --pca-cluster-names HGDP_1kGP
+      --within StemCellsInChronicMyeloidLeukemia/StemCellsInChronicMyeloidLeukemia.HGDP_1kGP.cluster
+
+    257405 MB RAM detected; reserving 128702 MB for main workspace.
+    2968 variants loaded from .bim file.
+    3518 people (0 males, 0 females, 3518 ambiguous) loaded from .fam.
+    Ambiguous sex IDs written to
+    StemCellsInChronicMyeloidLeukemia/StemCellsInChronicMyeloidLeukemia.HGDP_1kGP.pca.nosex
+    .
+    --within: 2 clusters loaded, covering a total of 3518 people.
+    Using up to 63 threads (change this with --threads).
+    Before main variant filters, 3518 founders and 0 nonfounders present.
+    Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+    Total genotyping rate is 0.999321.
+    2968 variants and 3518 people pass filters and QC.
+    Note: No phenotypes present.
+    --pca-cluster-names/--pca-clusters: 3481 samples specified.
+
+    60 markers complete.
+    120 markers complete.
+    180 markers complete.
+    240 markers complete.
+    300 markers complete.
+    360 markers complete.
+    420 markers complete.
+    480 markers complete.
+    540 markers complete.
+    600 markers complete.
+    660 markers complete.
+    720 markers complete.
+    780 markers complete.
+    840 markers complete.
+    900 markers complete.
+    960 markers complete.
+    1020 markers complete.
+    1080 markers complete.
+    1140 markers complete.
+    1200 markers complete.
+    1260 markers complete.
+    1320 markers complete.
+    1380 markers complete.
+    1440 markers complete.
+    1500 markers complete.
+    1560 markers complete.
+    1620 markers complete.
+    1680 markers complete.
+    1740 markers complete.
+    1800 markers complete.
+    1860 markers complete.
+    1920 markers complete.
+    1980 markers complete.
+    2040 markers complete.
+    2100 markers complete.
+    2160 markers complete.
+    2220 markers complete.
+    2280 markers complete.
+    2340 markers complete.
+    2400 markers complete.
+    2460 markers complete.
+    2520 markers complete.
+    2580 markers complete.
+    2640 markers complete.
+    2700 markers complete.
+    2760 markers complete.
+    2820 markers complete.
+    2880 markers complete.
+    2940 markers complete.
+    2968 markers complete.
+    Relationship matrix calculation complete.
+    [extracting eigenvalues and eigenvectors]
+    --pca: Results saved to
+    StemCellsInChronicMyeloidLeukemia/StemCellsInChronicMyeloidLeukemia.HGDP_1kGP.pca.eigenval
+    and
+    StemCellsInChronicMyeloidLeukemia/StemCellsInChronicMyeloidLeukemia.HGDP_1kGP.pca.eigenvec
+    .
 
 ``` r
 library(RColorBrewer)
@@ -145,6 +259,10 @@ p34 <- p34 + legend_row + theme(legend.position = "top")
 
 ### ADMIXTURE analysis
 
+We also apply ADMIXTURE in supervised mode using the HGDP+1kGP
+genetic-ancestry groups as reference (K=6) to estimate the proportions
+of ancestral populations for each donor.
+
 ``` r
 STUDY = "StemCellsInChronicMyeloidLeukemia"
 
@@ -160,6 +278,7 @@ write.table(pop,file=paste0(STUDY,"/",STUDY,".HGDP_1kGP.pca.pop"),sep="\t",quote
 ```
 
 ``` bash
+# This block is command lines. 
 STUDY='StemCellsInChronicMyeloidLeukemia'
 DIR=$STUDY
 cd $DIR
@@ -182,22 +301,22 @@ cd $DIR
     Supervised analysis mode.  Examining .pop file...
     Size of G: 3518x2968
     Performing five EM steps to prime main algorithm
-    1 (EM)  Elapsed: 0.679  Loglikelihood: -9.42888e+06 (delta): 1.15548e+07
-    2 (EM)  Elapsed: 0.679  Loglikelihood: -9.42747e+06 (delta): 1413.29
-    3 (EM)  Elapsed: 0.679  Loglikelihood: -9.42721e+06 (delta): 253.83
-    4 (EM)  Elapsed: 0.679  Loglikelihood: -9.42697e+06 (delta): 237.982
-    5 (EM)  Elapsed: 0.68   Loglikelihood: -9.42675e+06 (delta): 224.917
+    1 (EM)  Elapsed: 0.698  Loglikelihood: -9.42888e+06 (delta): 1.15548e+07
+    2 (EM)  Elapsed: 0.698  Loglikelihood: -9.42747e+06 (delta): 1413.29
+    3 (EM)  Elapsed: 0.698  Loglikelihood: -9.42721e+06 (delta): 253.83
+    4 (EM)  Elapsed: 0.698  Loglikelihood: -9.42697e+06 (delta): 237.982
+    5 (EM)  Elapsed: 0.698  Loglikelihood: -9.42675e+06 (delta): 224.917
     Initial loglikelihood: -9.42675e+06
     Starting main algorithm
-    1 (QN/Block)    Elapsed: 0.996  Loglikelihood: -9.42174e+06 (delta): 5009.35
-    2 (QN/Block)    Elapsed: 1.027  Loglikelihood: -9.4217e+06  (delta): 40.3882
-    3 (QN/Block)    Elapsed: 2.37   Loglikelihood: -9.42169e+06 (delta): 6.80939
-    4 (QN/Block)    Elapsed: 1.604  Loglikelihood: -9.42169e+06 (delta): 4.30699
-    5 (QN/Block)    Elapsed: 1.602  Loglikelihood: -9.42169e+06 (delta): 1.1896
-    6 (QN/Block)    Elapsed: 1.603  Loglikelihood: -9.42169e+06 (delta): 0.0206683
-    7 (QN/Block)    Elapsed: 1.603  Loglikelihood: -9.42169e+06 (delta): 9.36352e-06
+    1 (QN/Block)    Elapsed: 1.023  Loglikelihood: -9.42174e+06 (delta): 5009.35
+    2 (QN/Block)    Elapsed: 1.022  Loglikelihood: -9.4217e+06  (delta): 40.3882
+    3 (QN/Block)    Elapsed: 1.229  Loglikelihood: -9.42169e+06 (delta): 6.80939
+    4 (QN/Block)    Elapsed: 1.526  Loglikelihood: -9.42169e+06 (delta): 4.30699
+    5 (QN/Block)    Elapsed: 1.525  Loglikelihood: -9.42169e+06 (delta): 1.1896
+    6 (QN/Block)    Elapsed: 1.525  Loglikelihood: -9.42169e+06 (delta): 0.0206683
+    7 (QN/Block)    Elapsed: 1.534  Loglikelihood: -9.42169e+06 (delta): 9.36352e-06
     Summary: 
-    Converged in 7 iterations (15.668 sec)
+    Converged in 7 iterations (14.375 sec)
     Loglikelihood: -9421687.257330
     Fst divergences between estimated populations: 
         Pop0    Pop1    Pop2    Pop3    Pop4    

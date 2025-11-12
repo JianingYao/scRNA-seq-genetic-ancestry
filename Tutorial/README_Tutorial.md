@@ -6,6 +6,8 @@ In [stage 1](https://github.com/JianingYao/scRNA-seq-genetic-ancestry/tree/main/
 
 In [stage 2](https://github.com/JianingYao/scRNA-seq-genetic-ancestry/tree/main/Tutorial/Stage2_ancestry_inference), we infer the genetic ancestry of donors using SNPs identified from scRNA-seq reads. In the tutorial, we consider the harmonized HGDP+1kGP dataset as a reference population dataset for genetic-ancestry inference and select six genetic-ancestry groups (Africa, America, Europe, Middle East, East Asia, and South Asia). We provided the reference dataset retaining only variants located in exonic and untranslated regions (UTRs) in `Tutorial/Stage2_ancestry_inference/HGDP_1kGP.exon_UTRS.tar.xz`. First, we convert the VCF file from Stage 1 into PLINK format and perform data quality control. After restricting to common SNPs present in both the scRNA-seq and reference datasets and performing genetic pruning, we use the three approaches PCA-Distance, PC-RandomForest, and ADMIXTURE to infer genetic-ancestry of donors. 
 
+We provided an [example tutorial](https://github.com/JianingYao/scRNA-seq-genetic-ancestry/blob/main/Tutorial/example/tutorial_ancestry.md) that demonstrates genetic-ancestry inference for a specific HCA study (Bone marrow), using SNPs derived from scRNA-seq following the steps in `Stage1_preprocessing`.
+
 ### Requirements in the tutorial:
 - STARsolo (v2.7.11a)
 - picard (2.26.2)

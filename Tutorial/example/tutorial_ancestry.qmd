@@ -11,14 +11,21 @@ execute:
   freeze: auto
 --- 
 
-#### This tutorial will showcase genetic-ancestry inference on a specific HCA study after obtaining SNPs from the scRNA data following steps described in `Stage1_preprocessing`.
-
+#### This tutorial demonstrates genetic-ancestry inference for a specific HCA study (Bone marrow), using SNPs derived from scRNA-seq following the steps in `Stage1_preprocessing`.
+Software requirements: 
+- PLINK (1.9): https://www.cog-genomics.org/plink/
+- ADMIXTURE (1.3.0): https://dalexander.github.io/admixture/download.html
 
 ### QC
 
+In the tutorial, we consider the harmonized HGDP+1kGP dataset as a reference population dataset for genetic-ancestry inference and select six genetic-ancestry groups (Africa, America, Europe, Middle East, East Asia, and South Asia). We provided the reference dataset retaining only variants located in exonic and untranslated regions (UTRs) in `Tutorial/Stage2_ancestry_inference/HGDP_1kGP.exon_UTRS.tar.xz`. 
+First, we convert the VCF file from Stage 1 into PLINK format, perform data quality control, restrict to common SNPs present in both the scRNA-seq and reference datasets, and performing genetic pruning. Here, we analyze the [bone marrow HCA dataset](https://explore.data.humancellatlas.org/projects/2a72a4e5-66b2-405a-bb7c-1e463e8febb0) as demonstration. 
+
 ```{bash qc, results='hide', message=FALSE, warning=FALSE}
+# This block is command lines. 
 # Set up
 PLINK2="../../bin/plink1.9/plink"
+# Note: Our recommended reference file is available at HGDP_1kGP.exon_UTRS.tar.xz. It contains 3,481 HGDP+1kGP individuals, and 302,006 common SNPs in coding exons and untranslated regions.
 PCA_FILE="HGDP_1kGP.exon_UTRS"
 tar -xJvf ../Stage2_ancestry_inference/$PCA_FILE.tar.xz
 STUDY='StemCellsInChronicMyeloidLeukemia'
@@ -46,15 +53,23 @@ $PLINK2 --bfile $DIR/$STUDY.tmp1  --bmerge $DIR/$STUDY.tmp2 --make-bed --allow-n
 $PLINK2 --bfile $DIR/$STUDY.HGDP_1kGP   --indep-pairwise 50 10 0.1 --out $DIR/$STUDY.HGDP_1kGP.pca
 $PLINK2 --bfile $DIR/$STUDY.HGDP_1kGP   --extract $DIR/$STUDY.HGDP_1kGP.pca.prune.in --make-bed --out $DIR/$STUDY.HGDP_1kGP.pca
 rm $DIR/$STUDY.tmp*
+```
 
+### PCA-Distance analysis
 
-#### Step 4: Run PCA
+Next, we rely on a principal component analysis (PCA) performed on HGDP+1kGP with the projection of donors on the five first principal components (PCs). We assign each donor to the genetic-ancestry group with the smallest Euclidean distance to its centroid (method labeled PCA-Distance).
+
+```{bash plink pca}
+# This block is command lines. 
+# Set up
+PLINK2="../../bin/plink1.9/plink"
+PCA_FILE="HGDP_1kGP.exon_UTRS"
+STUDY='StemCellsInChronicMyeloidLeukemia'
+DIR=$STUDY
 awk '{print $1, $2, "MYID"}' $DIR/$STUDY.plink.fam > $DIR/$STUDY.HGDP_1kGP.cluster
 awk '{print $1, $2, "HGDP_1kGP"}' $PCA_FILE.fam >> $DIR/$STUDY.HGDP_1kGP.cluster
 $PLINK2 --bfile $DIR/$STUDY.HGDP_1kGP.pca --pca --within $DIR/$STUDY.HGDP_1kGP.cluster --pca-cluster-names HGDP_1kGP --out $DIR/$STUDY.HGDP_1kGP.pca
 ```
-
-### PCA analysis
 
 ```{r pca, fig.width=8, fig.height=4, dev="png"}
 library(RColorBrewer)
@@ -147,6 +162,9 @@ p34 <- p34 + legend_row + theme(legend.position = "top")
 ```
 
 ### ADMIXTURE analysis
+
+We also apply ADMIXTURE in supervised mode using the HGDP+1kGP genetic-ancestry groups as reference (K=6) to estimate the proportions of ancestral populations for each donor.
+
 ```{r ADM pop}
 STUDY = "StemCellsInChronicMyeloidLeukemia"
 
@@ -162,6 +180,7 @@ write.table(pop,file=paste0(STUDY,"/",STUDY,".HGDP_1kGP.pca.pop"),sep="\t",quote
 ```
 
 ```{bash run ADM}
+# This block is command lines. 
 STUDY='StemCellsInChronicMyeloidLeukemia'
 DIR=$STUDY
 cd $DIR
