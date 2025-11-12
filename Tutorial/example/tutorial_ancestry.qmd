@@ -13,8 +13,9 @@ execute:
 
 #### This tutorial demonstrates genetic-ancestry inference for a specific HCA study (Bone marrow), using SNPs derived from scRNA-seq following the steps in `Stage1_preprocessing`.
 Software requirements: 
-- PLINK (1.9): https://www.cog-genomics.org/plink/
-- ADMIXTURE (1.3.0): https://dalexander.github.io/admixture/download.html
+
+* PLINK (1.9): https://www.cog-genomics.org/plink/
+* ADMIXTURE (1.3.0): https://dalexander.github.io/admixture/download.html
 
 ### QC
 

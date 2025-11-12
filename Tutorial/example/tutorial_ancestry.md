@@ -9,9 +9,11 @@ Jianing Yao
 
 #### This tutorial demonstrates genetic-ancestry inference for a specific HCA study (Bone marrow), using SNPs derived from scRNA-seq following the steps in `Stage1_preprocessing`.
 
-Software requirements: - PLINK (1.9):
-https://www.cog-genomics.org/plink/ - ADMIXTURE (1.3.0):
-https://dalexander.github.io/admixture/download.html
+Software requirements:
+
+- PLINK (1.9): https://www.cog-genomics.org/plink/
+- ADMIXTURE (1.3.0):
+  https://dalexander.github.io/admixture/download.html
 
 ### QC
 
@@ -301,22 +303,22 @@ cd $DIR
     Supervised analysis mode.  Examining .pop file...
     Size of G: 3518x2968
     Performing five EM steps to prime main algorithm
-    1 (EM)  Elapsed: 0.698  Loglikelihood: -9.42888e+06 (delta): 1.15548e+07
-    2 (EM)  Elapsed: 0.698  Loglikelihood: -9.42747e+06 (delta): 1413.29
-    3 (EM)  Elapsed: 0.698  Loglikelihood: -9.42721e+06 (delta): 253.83
-    4 (EM)  Elapsed: 0.698  Loglikelihood: -9.42697e+06 (delta): 237.982
-    5 (EM)  Elapsed: 0.698  Loglikelihood: -9.42675e+06 (delta): 224.917
+    1 (EM)  Elapsed: 0.739  Loglikelihood: -9.42888e+06 (delta): 1.15548e+07
+    2 (EM)  Elapsed: 0.744  Loglikelihood: -9.42747e+06 (delta): 1413.29
+    3 (EM)  Elapsed: 0.74   Loglikelihood: -9.42721e+06 (delta): 253.83
+    4 (EM)  Elapsed: 0.743  Loglikelihood: -9.42697e+06 (delta): 237.982
+    5 (EM)  Elapsed: 0.74   Loglikelihood: -9.42675e+06 (delta): 224.917
     Initial loglikelihood: -9.42675e+06
     Starting main algorithm
-    1 (QN/Block)    Elapsed: 1.023  Loglikelihood: -9.42174e+06 (delta): 5009.35
-    2 (QN/Block)    Elapsed: 1.022  Loglikelihood: -9.4217e+06  (delta): 40.3882
-    3 (QN/Block)    Elapsed: 1.229  Loglikelihood: -9.42169e+06 (delta): 6.80939
-    4 (QN/Block)    Elapsed: 1.526  Loglikelihood: -9.42169e+06 (delta): 4.30699
-    5 (QN/Block)    Elapsed: 1.525  Loglikelihood: -9.42169e+06 (delta): 1.1896
-    6 (QN/Block)    Elapsed: 1.525  Loglikelihood: -9.42169e+06 (delta): 0.0206683
-    7 (QN/Block)    Elapsed: 1.534  Loglikelihood: -9.42169e+06 (delta): 9.36352e-06
+    1 (QN/Block)    Elapsed: 1.09   Loglikelihood: -9.42174e+06 (delta): 5009.35
+    2 (QN/Block)    Elapsed: 1.085  Loglikelihood: -9.4217e+06  (delta): 40.3882
+    3 (QN/Block)    Elapsed: 1.304  Loglikelihood: -9.42169e+06 (delta): 6.80939
+    4 (QN/Block)    Elapsed: 1.622  Loglikelihood: -9.42169e+06 (delta): 4.30699
+    5 (QN/Block)    Elapsed: 1.62   Loglikelihood: -9.42169e+06 (delta): 1.1896
+    6 (QN/Block)    Elapsed: 1.619  Loglikelihood: -9.42169e+06 (delta): 0.0206683
+    7 (QN/Block)    Elapsed: 1.619  Loglikelihood: -9.42169e+06 (delta): 9.36352e-06
     Summary: 
-    Converged in 7 iterations (14.375 sec)
+    Converged in 7 iterations (15.261 sec)
     Loglikelihood: -9421687.257330
     Fst divergences between estimated populations: 
         Pop0    Pop1    Pop2    Pop3    Pop4    
