@@ -85,17 +85,17 @@ for (i in 1:length(study_names)){
 
 write.csv(result, "supp_table_5.csv", row.names = FALSE)
 
-admixture_mean = mean(result$`ADM Europe`) # 0.8789769                                0.7121655
-admixture_median = median(result$`ADM Europe`) # 0.9653775                            0.949321
-admixture_50 = sum(result$`ADM Europe` > 0.5)/nrow(result) # 0.9183673                0.7381546
-admixture_80 = sum(result$`ADM Europe` > 0.8)/nrow(result) # 0.8418367                0.6683292
-admixture_europe = sum(result$`ADM Europe` > 0.5) # 180                               296
-admixture_africa = sum(result$`ADM Africa` > 0.5) # 2                                 26
-admixture_america = sum(result$`ADM America` > 0.5) # 3                               9
-admixture_eastasia = sum(result$`ADM East Asia` > 0.5) # 4                            56
-admixture_mideast = sum(result$`ADM Middle-East` > 0.5) # 3                           4
-admixture_southasia = sum(result$`ADM South Asia` > 0.5) # 2                          4
-pca_europe = sum(result$`PCA prediction` == "Europe")/nrow(result) # 0.9234694        0.7381546
-rf_50 = sum(result$`RF Europe` > 0.5)/nrow(result) # 0.9132653                        0.7356608
-rf_80 = sum(result$`RF Europe` > 0.8)/nrow(result) # 0.8673469                        0.7032419
-rf_90 = sum(result$`RF Europe` > 0.9)/nrow(result) # 0.8571429                        0.6957606
+admixture_mean = mean(result$`ADM Europe`)
+admixture_median = median(result$`ADM Europe`) 
+admixture_50 = sum(result$`ADM Europe` > 0.5)/nrow(result) 
+admixture_80 = sum(result$`ADM Europe` > 0.8)/nrow(result) 
+admixture_europe = sum(result$`ADM Europe` > 0.5) 
+admixture_africa = sum(result$`ADM Africa` > 0.5) 
+admixture_america = sum(result$`ADM America` > 0.5)
+admixture_eastasia = sum(result$`ADM East Asia` > 0.5) 
+admixture_mideast = sum(result$`ADM Middle-East` > 0.5) 
+admixture_southasia = sum(result$`ADM South Asia` > 0.5) 
+pca_europe = sum(result$`PCA prediction` == "Europe")/nrow(result) 
+rf_50 = sum(result$`RF Europe` > 0.5)/nrow(result) 
+rf_80 = sum(result$`RF Europe` > 0.8)/nrow(result) 
+rf_90 = sum(result$`RF Europe` > 0.9)/nrow(result) 
